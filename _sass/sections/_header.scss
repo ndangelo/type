@@ -86,8 +86,7 @@
     @media #{$medium-down} { text-align: center; }
 
     .icon {
-      vertical-align: -moz-middle-with-baseline;
-      vertical-align: -webkit-baseline-middle;
+      vertical-align: middle;
     }
 
     li {
