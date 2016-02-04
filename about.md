@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+It's nice to meet you!
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Aspire Themes is a place for clean and minimal themes for WordPress and Ghost platforms. I care about design and clean interface that can change the way people achieve their goals.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+All the themes are responsive, hand coded and designed for performance. If you have any questions, please don't hesitate to contact at: (aspirethemes [at] gmail.com).
+
+**Who is behind Aspire Themes?**
+
+[Ahmad Ajmi](http://ahmadajmi.com/): A developer from Egypt, creator of [oktob.io](https://oktob.io/). I love creating simple, minimal and functional websites.
+
+Feel free to contact me on Twitter [@ahmadajmi](https://twitter.com/ahmadajmi)

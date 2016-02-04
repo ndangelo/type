@@ -1,0 +1,20 @@
+//---------------------------
+//
+// Hero
+//
+//---------------------------
+
+.hero {
+  padding: double($line-height__base) 0;
+  text-align: center;
+
+  @media #{$large-up} {
+    padding: quadruple($line-height__base) 0;
+  }
+
+  &__tagline {
+    margin: 0;
+    font-size: $font-size__base;
+    font-weight: $font-weight__light;
+  }
+}

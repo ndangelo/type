@@ -1,0 +1,24 @@
+//---------------------------
+//
+// Footer
+//
+//---------------------------
+
+.site-footer {
+  padding: $line-height__base 0;
+  background-color: $grey-bg;
+  text-align: center;
+}
+
+.site-footer__bottom {
+  .poweredby { text-align: right; }
+
+  @media #{$medium-down} {
+    text-align: center;
+
+    .poweredby {
+      padding-top: $line-height__base / 4;
+      text-align: center;
+    }
+  }
+}

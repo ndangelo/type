@@ -2,19 +2,47 @@
 layout: default
 ---
 
-<div class="home">
+<div class="grey-bg hero">
+  <div class="row">
+    <div class="column large-12">
+      <h3 class="hero__tagline">{{ site.description }}</h3>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper">
+
+  <div class="row">
+    <div class="column large-12">
+      <h5 class="separator">
+        <span class="separator-title">Themes</span>
+      </h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="themes-list">
+      {% for post in site.categories.theme %}
+      {% include theme-card.html %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+
+<div class="home hide">
 
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
     {% endfor %}
   </ul>
 

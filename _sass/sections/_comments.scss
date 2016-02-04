@@ -1,0 +1,128 @@
+//---------------------------
+//
+// Comment
+//
+//---------------------------
+
+.comments-title {
+  padding-bottom: $line-height__medium;
+  margin-top: $line-height__medium;
+  margin-bottom: 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.comment-list,
+.children {
+  @extend .list-bare;
+}
+
+.comment-body {
+  padding-top: $line-height__medium;
+  padding-bottom: $line-height__medium;
+  overflow: hidden;
+
+  border-bottom: 1px solid $border-color;
+}
+
+.comment .children {
+  margin-left: $line-height__medium;
+
+  .depth-3 { margin-left: $line-height__medium; }
+  .depth-4 { margin-left: $line-height__medium; }
+  .depth-5 { margin-left: $line-height__medium; }
+  .depth-6 { margin-left: $line-height__medium; }
+}
+
+.comment-meta {
+  font-size: $font-size__medium;
+  line-height: $line-height__medium;
+  margin-bottom: half($line-height__medium);
+}
+
+.comment-author {
+  .avatar {
+    float: left;
+    height: $line-height__base;
+    width: $line-height__base;
+    margin-right: half($line-height__base);
+    position: relative;
+    top: 5px;
+  }
+
+  .says { display: none; }
+}
+
+.bypostauthor .fn:after {
+  content: " ✯";
+}
+
+.comment-metadata,
+.pingback .edit-link {
+  color: $color__type--hover;
+  @extend .font-tiny;
+}
+
+.comment-metadata .edit-link,
+.pingback .edit-link {
+  display: inline-block;
+}
+
+.comment-content,
+.pingback .comment-body {
+  font-size: $font-size__medium;
+  line-height: $line-height__medium;
+}
+
+.comment-content {
+  p,
+  ul,
+  ol,
+  dl {
+    margin-bottom: $line-height__medium;
+  }
+}
+
+.comment-form label {
+  display: block;
+  font-size: $font-size__small;
+  line-height: $line-height__small;
+  margin-bottom: quarter($line-height__small);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.form-allowed-tags {
+  code {
+    font-family: $font__monospace;
+  }
+}
+
+.comment-reply-title {
+  margin-top: $line-height__medium;
+  margin-bottom: $line-height__medium;
+}
+
+.logged-in-as,
+.comment-notes {
+  font-size: $font-size__small;
+  line-height: $line-height__medium;
+}
+
+.required {
+  color: #007acc;
+}
+
+.comment-awaiting-moderation {
+  margin-top: half($line-height__medium);
+  font-size: $font-size__small;
+  line-height: $line-height__medium;
+}
+
+.no-comments {
+  margin: 0;
+  padding-top: $line-height__medium;
+
+  @media #{$large-up} {
+    padding-top: $line-height__base;
+  }
+}

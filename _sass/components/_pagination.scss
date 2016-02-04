@@ -1,0 +1,154 @@
+//---------------------------
+//
+// Pagination
+//
+//---------------------------
+
+// Next & Previous Posts
+
+.posts-navigation {
+  @extend %clearfix;
+
+  font-size: $font-size__tiny;
+  line-height: $line-height__medium;
+
+  .posts-navigation__text {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    transition: $base-transition-speed;
+  }
+
+  .posts-navigation__text,
+  .icon {
+    position: relative;
+  }
+
+  .nav-previous {
+    float: left;
+    text-align: left;
+
+    .posts-navigation__text {
+      left: -$line-height__medium / 2;
+    }
+
+    .icon {
+      left: -$line-height__medium / 3;
+    }
+  }
+
+  .nav-next {
+    float: right;
+    text-align: right;
+
+    .posts-navigation__text {
+      right: -$line-height__medium / 2;
+    }
+
+    .icon {
+      right: -$line-height__medium / 3;
+    }
+  }
+}
+
+// Next & previous posts in single post page
+
+// .post-navigation {
+
+//   // Make the post card to grow to full width if there is one post
+//   // this will happen if we are in the first post of last post
+
+//   flex-grow: 1;
+
+//   .post-card {
+//     border-bottom: 0;
+//     margin-bottom: 0;
+//   }
+
+//   &:before {
+//     position: absolute;
+//     z-index: 1;
+//     content: "";
+//     top: $line-height__base / 2;
+//     padding: 0 ($line-height__base / 2);
+
+//     font-size: $font-size__small;
+
+//     color: $color__type--hover;
+//     background-color: rgba(255, 255, 255, .9);
+
+//     transition: $base-transition-speed;
+//   }
+
+//   &.prev:before {
+//     left: $line-height__base;
+//     content: "Previous Story";
+//   }
+
+//   &.next:before {
+//     right: $line-height__base;
+//     content: "Next Story";
+//   }
+
+//   &:hover {
+//     &:before { background-color: rgba(255, 255, 255, 1); }
+//   }
+// }
+
+.post-navigation {
+  @extend %clearfix;
+
+  padding-bottom: $line-height__medium;
+  border-bottom: 1px solid $border-color;
+
+  @media #{$large-up} {
+    padding-bottom: $line-height__base;
+  }
+
+  .nav-previous,
+  .nav-next {
+    max-width: 50%;
+  }
+
+  .nav-previous {
+    float: left;
+
+    .meta-nav {
+      left: -$line-height__medium / 3;
+    }
+  }
+
+  .nav-next {
+    float: right;
+    text-align: right;
+
+    .meta-nav {
+      right: -$line-height__medium / 3;
+    }
+  }
+
+  .post-navigation__text {
+    font-size: $font-size__tiny;
+    line-height: $line-height__medium;
+    text-transform: uppercase;
+    color: $color__type--hover;
+    letter-spacing: .2em;
+    transition: $base-transition-speed;
+  }
+
+  .meta-nav {
+    display: block;
+    position: relative;
+    padding-bottom: quarter($line-height__medium);
+  }
+
+  .meta-nav,
+  .post-title {
+    font-size: $font-size__small;
+    line-height: $line-height__medium;
+  }
+
+  .post-title {
+    display: block;
+    font-weight: $font-weight__bold;
+  }
+}

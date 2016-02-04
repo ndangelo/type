@@ -1,0 +1,29 @@
+//---------------------------
+//
+// Post Page
+//
+//---------------------------
+
+.post {
+  &__header {
+    margin-bottom: $line-height__medium / 2;
+  }
+
+  &__title {
+    margin-bottom: $line-height__medium / 2;
+    font-size: $font-size__medium * 2;
+    line-height: $line-height__medium * 2;
+
+    @media #{$medium-down} {
+      font-size: $font-size__base;
+      line-height: $line-height__base;
+    }
+  }
+
+  &__date {
+    font-size: $font-size__small;
+    line-height: $line-height__small;
+
+    color: $color__type--hover;
+  }
+}

@@ -1,0 +1,68 @@
+//---------------------------
+//
+// Sidebar
+//
+//---------------------------
+
+
+.button {
+  display: inline-block;
+  text-align: center;
+  padding: ($line-height__base / 4) ($line-height__base / 2);
+  font-family: $font__serif;
+  font-size: $font-size__tiny;
+  line-height: $line-height__medium;
+  letter-spacing: 1px;
+  border: 0;
+
+  text-decoration: none;
+  color: #fff;
+  background-color: $color__type;
+  transition: $base-transition-speed;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: #fff;
+    background-color: $color__type--hover;
+  }
+
+  &:visited {
+    color: #fff;
+  }
+
+  &--success {
+    background-color: rgb(34, 183, 89);
+  }
+
+  &--expand {
+    width: 100%;
+  }
+
+  &--twitter {
+    color: #fff;
+    background-color: $twitter-brand;
+
+    .icon {
+      margin-right: 5px;
+      vertical-align: middle;
+      fill: #fff;
+    }
+
+    &:hover {
+      color: #fff;
+      background-color: $twitter-brand--hover;
+    }
+  }
+
+  &--outline {
+    border: 1px solid $color__type;
+    background-color: #fff;
+    color: $color__type;
+  }
+
+  &--small {
+    padding: ($line-height__small / 4) ($line-height__small / 2);
+    line-height: $line-height__small;
+  }
+}
