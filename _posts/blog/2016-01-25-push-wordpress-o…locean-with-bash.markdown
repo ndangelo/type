@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "Push WordPress and Ghost themes to DigitalOcean with bash script"
-date:   2016-01-25 09:50:41 +0200
-permalink: push-wordpress-or-ghost-themes-to-digitalocean-with-bash
+title:  Push WordPress and Ghost themes to DigitalOcean with bash script
 categories: post
 ---
 

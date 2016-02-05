@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Aspire – Magazine Ghost Theme"
-date:   2016-02-04 09:50:41 +0200
+title:  Aspire – Magazine Ghost Theme
 image: 'images/aspire-ghost-preview.jpg'
 permalink: aspire-magazine-ghost-theme
 free: false

@@ -1,0 +1,12 @@
+<article class="post-card-wrap column medium-6 large-12" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <div class="post-card">
+    <h2 class="post-card__title">
+      <a itemprop="name" title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">
+        <span itemprop="headline">{{ post.title }}</span>
+      </a>
+    </h2>
+    <div class="post-card__meta">
+      <time class="post-card__meta__date" datetime="<?php the_time( 'c' ) ?>">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </div>
+  </div>
+</article>
