@@ -3,7 +3,6 @@ layout: post
 title:  "TypeWriter - Simple Ghost Theme"
 date:   2016-02-01 09:50:41 +0200
 image: 'images/typewriter-preview.jpg'
-permalink: typewriter-simple-ghost-theme
 free: true
 categories: theme
 ---

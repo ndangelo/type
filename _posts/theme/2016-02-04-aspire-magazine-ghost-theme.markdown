@@ -2,7 +2,6 @@
 layout: post
 title:  Aspire – Magazine Ghost Theme
 image: 'images/aspire-ghost-preview.jpg'
-permalink: aspire-magazine-ghost-theme
 free: false
 categories: theme
 ---

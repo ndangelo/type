@@ -8,7 +8,7 @@ Today I have discovered a very productive way to push a theme to DigitalOcean wi
 
 This is the script I did to push a WordPress theme from local machine to a remote server
 
-<pre>
+{% highlight bash %}
 #!/bin/bash
 
 IP_ADDRESS='104.236.15.3'
@@ -38,13 +38,13 @@ echo '===>> Ghost Restarted'
 exit 1
 
 EOT
-</pre>
+{% endhighlight %}
 
-<a href="https://gist.github.com/ahmadajmi/2a15e1ed8ea5e984d437" target="_blank">Check the script on GitHub</a>
+[Check the script on GitHub](https://gist.github.com/ahmadajmi/2a15e1ed8ea5e984d437)
 
-<strong>For Ghost</strong>
+**For Ghost**
 
-<pre>
+{% highlight bash %}
 #!/bin/bash
 
 IP_ADDRESS='104.23.15.33'
@@ -74,8 +74,8 @@ echo '===>> Ghost Restarted'
 exit 1
 
 EOT
-</pre>
+{% endhighlight %}
 
-<a href="https://gist.github.com/ahmadajmi/4700819ad2707fbe0813" target="_blank">Check the script on GitHub</a>
+[Check the script on GitHub](https://gist.github.com/ahmadajmi/4700819ad2707fbe0813)
 
 I hope you find it useful.

@@ -8,7 +8,7 @@
 # Site settings
 title: Aspire Themes
 email: aspirethemes@gmail.com
-description: Premium WordPress and Ghost themes
+description: Premium WordPress and Ghost Themes
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aspirethemes.com" # the base hostname & protocol for your site
 twitter_username: aspirethemes
@@ -17,4 +17,4 @@ github_username:  aspirethemes
 # Build settings
 markdown: kramdown
 
-permalink: /blog/:title.html
+permalink: none
