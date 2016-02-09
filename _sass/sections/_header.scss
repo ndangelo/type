@@ -6,8 +6,12 @@
 
 .logo {
   line-height: $line-height__base;
+  font-size: $font-size__medium;
 
-  a { letter-spacing: 1px; }
+  a {
+    font-weight: $font-weight__light;
+    letter-spacing: 1px;
+  }
 }
 
 .site-header {
@@ -41,6 +45,7 @@
     }
 
     a {
+      font-weight: $font-weight__light;
       transition: $base-transition-speed;
       text-decoration: none;
 

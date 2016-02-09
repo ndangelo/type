@@ -3,6 +3,7 @@ layout: post
 title:  East - Blog and Multipurpose Clean Ghost Theme
 image: 'images/east-ghost-preview.jpg'
 free: false
+price: 19
 categories: theme
 ---
 

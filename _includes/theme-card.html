@@ -5,6 +5,10 @@
     <span class="theme-card__label">Free</span>
     {% endif %}
 
+    {% if post.price %}
+    <span class="theme-card__label">${{ post.price }}</span>
+    {% endif %}
+
     <a href="{{ post.url | prepend: site.baseurl }}" class="block" title="{{ post.title }}">
       <div class="grey-bg theme-card__image theme-card__image--has-outline CoverImage FlexEmbed FlexEmbed--16by9 " style="background-image: url({{ post.image }})">
         <span title="Featured Post">

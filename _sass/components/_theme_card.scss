@@ -54,16 +54,17 @@
   &__label {
     position: absolute;
     top: - half($line-height__base);
-    right: - half($line-height__base);
+    right: - half(quarter($line-height__base));
     z-index: 999;
     height: 60px;
     width: 60px;
     line-height: 50px;
     border: 5px solid #fff;
-    background: $color__type;
+    background: $grey-bg;
     border-radius: 100%;
-    color: #fff;
+    color: $color__type;
     font-size: $font-size__tiny;
+    font-weight: $font-weight__light;
     text-align: center;
   }
 

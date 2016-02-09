@@ -3,6 +3,7 @@ layout: post
 title:  Aspire – Magazine Ghost Theme
 image: 'images/aspire-ghost-preview.jpg'
 free: false
+price: 19
 categories: theme
 ---
 
