@@ -37,4 +37,5 @@ Aspire is a modern, clean, and content and image focus theme for Ghost blogging 
 - Next &amp; Previous Post Navigation
 - Easy setup with easy to follow instructions
 
-<strong><a class="button button--success" href="http://themeforest.net/item/aspire-news-magazine-clean-ghost-theme/14230254" target="_blank">Buy on ThemeForest</a></strong>
+<a class="button" href="http://aspire.aspirethemes.com/" target="_blank">Live Demo</a>
+<a class="button button--success" href="http://themeforest.net/item/aspire-news-magazine-clean-ghost-theme/14230254" target="_blank">Buy on ThemeForest</a>

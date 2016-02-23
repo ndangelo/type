@@ -11,29 +11,25 @@ This is the script I did to push a WordPress theme from local machine to a remot
 {% highlight bash %}
 #!/bin/bash
 
-IP_ADDRESS='104.236.15.3'
+IP_ADDRESS='192.241.2.10'
 
-cd /Users/ahmadajmi/www/ghost/content/themes/
+cd /Users/ahmadajmi/www/aspirethemes/wp-content/themes/
 
-zip -r aspire.zip aspire -x *node_modules* *git* *.DS_Store*
+zip -r theme_name.zip theme_name -x *node_modules* *git* *.DS_Store*
 
 echo '===>> Zipped'
 
-scp aspire.zip root@$IP_ADDRESS:/var/www/ghost/content/themes/
+scp theme_name.zip root@$IP_ADDRESS:/var/www/html/wp-content/themes/
 
 echo '===>> Pushed'
 
 ssh -t -t root@$IP_ADDRESS << EOT
 
-cd /var/www/ghost/content/themes/
+cd /var/www/html/wp-content/themes/
 
-unzip -o aspire.zip
+unzip -o theme_name.zip
 
 echo '===>> Un Zipped'
-
-sudo service ghost restart
-
-echo '===>> Ghost Restarted'
 
 exit 1
 

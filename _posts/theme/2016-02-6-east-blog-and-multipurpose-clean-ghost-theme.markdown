@@ -34,4 +34,5 @@ categories: theme
 - Next & Previous Post Navigation
 - Easy setup with easy to follow instructions
 
-<strong><a class="button button--success" href="http://themeforest.net/item/east-blog-and-multipurpose-clean-ghost-theme/14714255" target="_blank">Buy on ThemeForest</a></strong>
+<a class="button" href="http://east.aspirethemes.com/" target="_blank">Live Demo</a>
+<a class="button button--success" href="http://themeforest.net/item/east-blog-and-multipurpose-clean-ghost-theme/14714255" target="_blank">Buy on ThemeForest</a>
