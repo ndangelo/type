@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>East - Blog and Multipurpose Clean Ghost Theme</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600" type="text/css" media="all">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
+
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header" role="banner">
+      <h1 class="site-title">East</h1>
+      <p class="site-description">Theme Documentation</p>
+    </header><!-- .site-header -->
+    <div id="main">
+      <div class="intro">
+        <p>First of all a huge thanks for purchasing this theme! If you have any questions that are not answered here, please feel free to email via our user page <a href="http://themeforest.net/user/aspirethemes">here</a>.</p>
+        <ul class="byline">
+          <li><em>Email:</em> <a href="mailto:aspirethemes@gmail.com">aspirethemes@gmail.com</a></li>
+          <li><em>Twitter:</em> <a href="https://twitter.com/aspirethemes">@aspirethemes</a></li>
+        </ul>
+      </div><!-- .intro -->
+      <div id="content" role="main">
+        <section>
+          <h2 id="toc">Table of Contents</h2>
+          <ol>
+            <li><a href="#theme-info"><strong>Theme Information</strong></a>
+              <ol>
+                <li><a href="#keyfeatures">Key Features</a></li>
+                <li><a href="#themestructure">Theme Structure</a></li>
+              </ol>
+            </li>
+            <li><a href="#gettingStarted"><strong>How to Upload a Theme to Your Ghost Blog</strong></a>
+              <ol>
+                <li><a href="#SelfHosted">Upload a Theme to Self Hosted Ghost</a></li>
+                <li><a href="#Ghost.io">Upload a Theme to Ghost.io</a></li>
+              </ol>
+            </li>
+            <li><a href="#themeFeatures"><strong>Theme Features</strong></a>
+              <ol>
+                <li><a href="#StaticPages">Static Pages</a></li>
+                <li><a href="#Navigation">Navigation</a></li>
+                <li><a href="#DisqusComments">Disqus Comments</a></li>
+                <li><a href="#GoogleAnalytics">Google Analytics</a></li>
+                <li><a href="#MailChimp">MailChimp</a></li>
+                <li><a href="#SocialMediaLinks">Social Media Links</a></li>
+                <li><a href="#CopyrightInformation">Copyright Information (Footer)</a></li>
+                <li><a href="#ThemeDevelopment">Theme Development</a></li>
+              </ol>
+            </li>
+            <li><a href="#Support"><strong>Support</strong></a></li>
+            <li><a href="#Updates"><strong>Updates</strong></a></li>
+            <li><a href="#Credits"><strong>Credits</strong></a></li>
+          </ol>
+          <hr />
+        </section>
+        <section>
+
+          <h2 id="theme-info">A. Theme Information</h2>
+          <ul>
+            <li>Name: <strong>East</strong> - Ghost Theme</li>
+            <li>Description: Blog and Multipurpose Clean <a href="https://ghost.org/">Ghost</a> Theme</li>
+            <li>Current Version: 1.1</li>
+            <li>Released: 2/28/2016</li>
+            <li>Creator: <a href="http://aspirethemes.com">aspirethemes.com</a></li>
+            <li><a href="https://ghost.org/">Ghost</a> version: 0.7.x.</li>
+          </ul>
+
+          <h3 id="keyfeatures">1. Key Features</h3>
+          <ul>
+            <li>Clean and minimal design</li>
+            <li>Ready for Ghost latest version</li>
+            <li>Instant Search with GhostHunter</li>
+            <li>MailChimp newsletter subscription form</li>
+            <li>Custom CSS (Sass Source Files)</li>
+            <li>Clean well commented code, easy to customize</li>
+            <li>HTML5 / CSS3 valid code</li>
+            <li>Mobile first &amp; 100% Responsive layout</li>
+            <li>Multi author support</li>
+            <li>Author page</li>
+            <li>Google fonts (Merriweather)</li>
+            <li>Evil Icons</li>
+            <li>Tag page support</li>
+            <li>Disqus comment system</li>
+            <li>Static page support</li>
+            <li>Post sharing</li>
+            <li>404 custom page</li>
+            <li>SEO Friendly with <a href="http://Schema.org">Schema.org</a> Structured Data</li>
+            <li>Next &amp; Previous Post Navigation</li>
+            <li>Easy setup with easy to follow instructions</li>
+          </ul>
+
+          <h3 id="themestructure">2. Theme Structure</h3>
+          <p>Here's an overview of the theme file structure.</p>
+          <pre><code>
+            ├── .editorconfig
+            ├── .gitignore
+            ├── README.md
+            ├── assets
+            │   ├── css
+            │   │   └── main.min.css
+            │   ├── favicon.ico
+            │   ├── js
+            │   │   ├── app.min.js
+            │   │   └── scripts
+            │   │       ├── evil-icons.min.js
+            │   │       ├── jquery-2.1.4.min.js
+            │   │       ├── jquery.fitvids.js
+            │   │       ├── jquery.ghostHunter.min.js
+            │   │       └── script.js
+            │   └── sass
+            │       ├── base
+            │       │   ├── __all.scss
+            │       │   ├── _base.scss
+            │       │   ├── _typography.scss
+            │       │   └── normalize.css
+            │       ├── components
+            │       │   ├── __all.scss
+            │       │   ├── _box.scss
+            │       │   ├── _buttons.scss
+            │       │   ├── _code.scss
+            │       │   ├── _evil-icons.min.css
+            │       │   ├── _flex_embed.scss
+            │       │   ├── _forms.scss
+            │       │   ├── _grid.scss
+            │       │   ├── _headings.scss
+            │       │   ├── _media.scss
+            │       │   ├── _meta.scss
+            │       │   ├── _pagination.scss
+            │       │   ├── _post_card.scss
+            │       │   └── _share.scss
+            │       ├── functions
+            │       │   ├── __all.scss
+            │       │   └── _maths.scss
+            │       ├── helpers
+            │       │   ├── __all.scss
+            │       │   ├── _align.scss
+            │       │   ├── _clearfix.scss
+            │       │   ├── _colors.scss
+            │       │   ├── _layout.scss
+            │       │   ├── _lists.scss
+            │       │   └── _typography.scss
+            │       ├── main.scss
+            │       ├── sections
+            │       │   ├── __all.scss
+            │       │   ├── _author.scss
+            │       │   ├── _post.scss
+            │       │   ├── _search.scss
+            │       │   └── _sidebar.scss
+            │       └── variables
+            │           ├── __all.scss
+            │           ├── _breakpoints.scss
+            │           ├── _colors.scss
+            │           ├── _misc.scss
+            │           └── _typography.scss
+            ├── author.hbs
+            ├── default.hbs
+            ├── error.hbs
+            ├── gulpfile.js
+            ├── index.hbs
+            ├── package.json
+            ├── page.hbs
+            ├── partials
+            │   ├── author.hbs
+            │   ├── disqus.hbs
+            │   ├── loop.hbs
+            │   ├── navigation.hbs
+            │   ├── pagination.hbs
+            │   ├── post-card.hbs
+            │   ├── post-prev-next-pagination.hbs
+            │   ├── search-form.hbs
+            │   ├── share.hbs
+            │   ├── sidebar.hbs
+            │   └── subscribe-form.hbs
+            ├── post.hbs
+            └── tag.hbs
+          </code></pre>
+          <hr />
+        </section>
+
+        <section>
+          <h2 id="gettingStarted">B. How to Upload a Theme to Your Ghost Blog - <a href="#toc">top</a></h2>
+
+          <h3 id="SelfHosted">1. Upload a Theme to Self Hosted Ghost</h3>
+          <ol>
+            <li>Locate the theme directory within the download files. It can be found at <strong>theme/east</strong>.</li>
+            <li>Login to FTP/SFTP of your blog, or the file browser of your provided hosting service.</li>
+            <li>Navigate to the <strong>/content/themes</strong> directory within your Ghost installation.</li>
+            <li>Upload the <strong>East</strong> directory found in step one into the remote <strong>/content/theme</strong> directory.</li>
+            <li>Restart your Ghost service. The process for this will change dependent on your provider. If you are unaware how to restart the service please raise a support issue with your host.</li>
+            <li>Login to your Ghost admin panel. This can be found at <strong>yourdomain.com/ghost</strong>.</li>
+            <li>Navigate to the <strong>Settings > General</strong> tab.</li>
+            <li>In the <strong>Theme</strong> drop down, select the newly installed East Theme. Click <strong>Save</strong> to save the theme changes.</li>
+          </ol>
+
+          <p>Here is another guide that you may find useful.</p>
+
+          <ul>
+            <li><a href="https://www.ghostforbeginners.com/how-to-upload-a-theme/" target="_blank">How to Upload a Theme</a></li>
+          </ul>
+
+          <h3 id="Ghost.io">2. Upload a Theme to Ghost.org</h3>
+          <ol>
+            <li>Visit <a href="https://ghost.org/">Ghost.org</a> and log in enter your login credentials.</li>
+            <li>From your Ghost(Pro) dashboard, select the <strong>Settings</strong> (“gear”) icon to the <i>right</i> of the “Write a Post” button.</li>
+            <li>In your blog’s control panel, you can either “drag &amp; drop” East theme zip file into the <strong>“Add a Theme”</strong> drop zone, or click on the drag &amp; drop zone to launch the traditional file upload prompt.</li>
+            <li>Upload the theme, and once uploaded, click on the <strong>Save All Blog Settings</strong> button. Your blog will automatically update with the new theme.</li>
+          </ol>
+
+        </section>
+
+        <section>
+          <h2 id="themeFeatures">C. Theme Features - <a href="#toc">top</a></h2>
+
+          <h3 id="StaticPages">1. Static Pages</h3>
+
+          <p>In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.</p>
+          <p><img src="assets/images/staticpage.png" width="858" height="490" alt="static page"/></p>
+
+          <h3 id="Navigation">2. Navigation</h3>
+
+          <p>You can add, edit, delete and reorder menu links on your Ghost blog, directly from the navigation tool within the blog admin area, located at <strong>/ghost/settings/navigation/</strong>.</p>
+
+          <p><img src="assets/images/navigation-edit.png" alt="navigation menu"/></p>
+
+          <p>To include a static page on your navigation menu, first type the name of the page as you’d like it to appear on your menu in the label field.</p>
+
+          <p><img src="assets/images/label-field.png" alt="label field"/></p>
+
+          <p>Next, click inside the <strong>URL field</strong> of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final <strong>/</strong>. Once satisfied with your page link, click the blue <strong>Save button</strong> to add the page to the navigation menu.</p>
+
+          <h3 id="DisqusComments">3. Disqus Comments</h3>
+
+          <p>East Theme comes with Disqus commenting built-in, you just need to have a <strong>Disqus</strong> account (you can create it at <a href="https://disqus.com/">Disqus.com</a>). To enable commenting, open up partials folder <strong>(Ghost/content/themes/east/partials)</strong> and find the file <code>disqus.hbs</code>. Alter the line <code>"disqus_shortname = 'my_disqus_shortname';"</code> to match your Disqus account shortname.</p>
+          <p>If you wish to disable commenting, just remove all code from the file and save it. </p>
+
+
+          <h3 id="GoogleAnalytics">4. Google Analytics</h3>
+          <p>To integrate Google Analytics, I would recommend reading <a href="http://support.ghost.org/add-google-analytics-blog/" target="_blank">How do I add Google Analytics to my blog?</a> by Ghost.</p>
+
+
+          <h3 id="MailChimp">5. MailChimp</h3>
+          <p>To integrate MailChimp newsletter subscription form</p>
+
+          <ul>
+            <li>
+              Create a mailing list from your MailChimp account, fill all the fields required and save it.
+            </li>
+            <li>
+              From the list page, select <strong>Signup forms</strong>, then select <strong>Embeded forms</strong>.
+            </li>
+            <li>
+              You may want to change or edit the form fields, or customize the form in general, after you have done and everything is OK, you will be provided by HTML code,
+              what we need to integrate with East theme is the code in the action element, like the highlighted code in the image blow.
+            </li>
+            <li>
+              Copy that code and paste it in the form element in <code>partials/subscribe-form.hbs</code> where you can find the newsletter form.
+            </li>
+            <li>
+              Save your files and upload your theme.
+            </li>
+          </ul>
+
+          <img src="assets/images/mailchimp-code.png" alt="mailchimp-code">
+
+          <h3 id="SocialMediaLinks">6. Social Media Links</h3>
+          <p>Social media icons are placed in:</p>
+
+          <ul>
+            <li><code>'partials/sidebar.hbs'</code></li>
+          </ul>
+
+          <p>
+            Here you can find a list of the social media icons:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Twitter:</strong> <code>&lt;span data-icon=&quot;ei-sc-twitter&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Facebook:</strong> <code>&lt;span data-icon=&quot;ei-sc-facebook&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Instagram:</strong> <code>&lt;span data-icon=&quot;ei-sc-instagram&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Pinterest:</strong> <code>&lt;span data-icon=&quot;ei-sc-pinterest&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Vimeo:</strong> <code>&lt;span data-icon=&quot;ei-sc-vimeo&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Google-plus:</strong> <code>&lt;span data-icon=&quot;ei-sc-google-plus&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Soundcloud:</strong> <code>&lt;span data-icon=&quot;ei-sc-soundcloud&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Tumblr:</strong> <code>&lt;span data-icon=&quot;ei-sc-tumblr&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Youtube:</strong> <code>&lt;span data-icon=&quot;ei-sc-youtube&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+          </ul>
+
+          <p>
+            To add your URl to the links, just replace the <code>{{! Add Twitter handle }}</code>, for example with your username, and so on for other networks.
+          </p>
+
+          <p>
+            East is using <a href="http://evil-icons.io/">Evil Icons</a>, which are very simple and clean icons, and ther are different icons for different social networks.
+          </p>
+
+          <h3 id="CopyrightInformation">7. Copyright Information (Footer)</h3>
+          <p>You will find all copyright information in the bottom of the <code>partials/footer.hbs</code> file within the partials folder of the theme.</p>
+
+
+          <h3 id="ThemeDevelopment">8. Theme Development</h3>
+          <p>East is using <a href="https://github.com/gulpjs/gulp" target="_blank">Gulp</a> to compile <a href="http://sass-lang.com/" target="_blank">Sass</a> and JavaScript code. This improved the development flow, and making it faster </p>
+
+          <p>First make sure you have <a href="https://nodejs.org/en/" target="_blank">Node.js</a> and <a href="https://www.npmjs.com/" target="_blank">npm</a> installed then run the the following commands in the East theme directory to install npm dependencies.</p>
+          <p><code>npm install</code></p>
+          <p>To start Gulp, run:</p>
+          <p><code>gulp</code></p>
+          <p>This will compile Sass and JavaScript files, and start watching changes as you edit files.</p>
+
+          <hr />
+        </section>
+
+        <section>
+          <h2 id="Support">D. Support - <a href="#toc">top</a></h2>
+          <p>
+            We tried to include all the information needed to install and customize the East theme. If you have any question, please don't hesitate to contact us at aspirethemes@gmail.com.
+          </p>
+          <hr />
+        </section>
+
+
+        <section>
+          <h2 id="Updates">E. Updates - <a href="#toc">top</a></h2>
+          <p>As Ghost platform grows, so will this theme. We’re dedicated to keeping our <strong>East</strong> up to date.</p>
+          <hr />
+        </section>
+
+
+        <section>
+          <h2 id="Credits">F. Credits - <a href="#toc">top</a></h2>
+          <p>We have used the following scripts, fonts or other files as listed.</p>
+          <ul>
+            <li><a href="https://www.google.com/fonts/specimen/Merriweather">Merriweather Font</a></li>
+            <li><a href="http://evil-icons.io/">Evil Icons</a></li>
+            <li><a href="http://fitvidsjs.com/">FitVids.js</a></li>
+            <li><a href="https://github.com/jamalneufeld/ghostHunter">GhostHunter</a></li>
+            <li>Preview Images form <a href="https://unsplash.com/">unsplash.com</a> & <a href="https://www.pexels.com/">pexels.com</a></li>
+          </ul>
+          <hr />
+        </section>
+
+        <p><a href="#toc">Go To Table of Contents</a></p>
+      </div><!-- #content -->
+    </div><!-- #main -->
+    <footer class="site-info" role="contentinfo">
+      <p>© 2015 Aspire Themes. All rights reserved.</p>
+    </footer><!-- .site-info -->
+  </div><!-- .wrap -->
+</body>
+</html>
