@@ -9,7 +9,7 @@ categories: theme
 
 Aspire is a modern, clean, minimal, content and image focus theme for WordPress. Aspire is created for those who want to create a minimal and beautiful online magazine, or news website. Aspire it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
-![aspire-ghost-full-preview](/images/aspire-wordpress-full-preview.png)
+![aspire-wordpress-full-preview](/images/aspire-wordpress-full-preview.png)
 
 **Aspire Features**
 
