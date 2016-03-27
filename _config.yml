@@ -18,3 +18,5 @@ github_username:  aspirethemes
 markdown: kramdown
 
 permalink: none
+
+disqus: aspirethemes

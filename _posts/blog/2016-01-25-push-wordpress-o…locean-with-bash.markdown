@@ -2,6 +2,7 @@
 layout: post
 title:  Push WordPress and Ghost themes to DigitalOcean with bash script
 categories: post
+comments: true
 ---
 
 Today I have discovered a very productive way to push a theme to DigitalOcean with a simple command added to a bash file, all of theses commands I was doing one by one and it may require loging to WordPress to activate or upload a theme, and the same case with Ghost. But I have searched on how I can automate the creation of pushing a theme to a remote server, then we can do anything we do on the server, for example we can restart the Ghost server so the new changes will take affect, and so on.
