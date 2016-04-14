@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "TypeWriter - Simple Ghost Theme"
-date:   2016-02-01 09:50:41 +0200
-image: 'images/typewriter-preview.jpg'
+title: TypeWriter - Simple Ghost Theme
+date: 2016-02-01 09:50:41 +0200
+image: 'images/themes/ghost/typewriter/typewriter-preview.jpg'
 free: true
 categories: theme
 ---
 
 TypeWriter is a minimalism Ghost theme. TypeWriter focus on typography, white space, and gives your readers a better reading experience.
 
-![typewriter-ghost-full-preview](/images/typewriter-ghost-full-preview.png)
+![typewriter-ghost-full-preview](/images/themes/ghost/typewriter/typewriter-ghost-full-preview.png)
 
 **Typewriter Features**
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  East - Blog and Multipurpose Clean Ghost Theme
-image: 'images/east-ghost-preview.jpg'
+image: 'images/themes/ghost/east/east-ghost-preview.jpg'
 free: false
 price: 19
 categories: theme
@@ -9,17 +9,17 @@ categories: theme
 
 **East** is a clean, minimal, modern theme that focus on content for Ghost blogging platform. **East** is created for those who want to create a simple and beautiful online blog, or multipurpose clean website. **East** it is 100% responsive, that means it fits with all different kind of devices in different sizes. **East** is compatible with Ghost version 0.7.x.
 
-![east-ghost-full-preview](/images/east-ghost-full-preview.png)
+![east-ghost-full-preview](/images/themes/ghost/east/east-ghost-full-preview.png)
 
 **East Features**
 
 - Clean and minimal design
-- Ready for Ghost latest version – 0.7.x.
+- Ready for Ghost latest version – 0.7.3
 - Instant Search with GhostHunter
 - MailChimp newsletter subscription form
 - Custom CSS (Sass Source Files)
-- HTML5 / CSS3 valid code
 - Clean well commented code, easy to customize
+- <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Feast.aspirethemes.com%2F">Valid HTML5 code<a/>
 - Mobile first &amp; 100% Responsive layout
 - Multi author support
 - Author page
@@ -30,9 +30,9 @@ categories: theme
 - Static page support
 - Post sharing
 - 404 custom page
-- SEO Friendly with Schema.org Structured Data
-- Next & Previous Post Navigation
-- Easy setup with easy to follow instructions
+- SEO Friendly with <a href="http://Schema.org">Schema.org</a> Structured Data
+- Next &amp; Previous Post Navigation
+- Easy setup with easy to follow documentation
 
 <a class="button" href="http://east.aspirethemes.com/" target="_blank">Live Demo</a>
 <a class="button button--success" href="http://themeforest.net/item/east-blog-and-multipurpose-clean-ghost-theme/14714255" target="_blank">Buy on ThemeForest</a>
