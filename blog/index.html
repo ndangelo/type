@@ -7,7 +7,9 @@ layout: default
   <div class="row">
     <div class="post-list">
       {% for post in site.categories.post %}
-      {% include post-card.html %}
+        {% unless post.draft %}
+          {% include post-card.html %}
+        {% endunless %}
       {% endfor %}
     </div>
   </div>
