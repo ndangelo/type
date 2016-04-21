@@ -6,6 +6,7 @@
 
 pre,
 code {
+  padding: half(quarter($line-height__medium)) quarter($line-height__medium);
   font-family: $font__monospace;
   background-color: $grey-bg;
 }

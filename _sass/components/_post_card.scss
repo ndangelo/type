@@ -35,3 +35,37 @@
     border-bottom: 0;
   }
 }
+
+.docs-card {
+  background-repeat: no-repeat;
+  background-size: $line-height__medium;
+  background-position: half($line-height__medium) center;
+
+  @media #{$large-up} {
+    background-size: $line-height__base;
+    background-position: half($line-height__base) center;
+    background-position: half($line-height__medium) center;
+  }
+
+  .post-card {
+    padding-left: double($line-height__tiny);
+
+    @media #{$large-up} {
+      padding: $line-height__medium;
+      padding-left: double($line-height__medium);
+    }
+
+    &:hover {
+      background-color: transparent;
+      border-color: $border-color;
+    }
+  }
+
+  &.ghost {
+    background-image: url('/images/assets/ghost-logo.png');
+  }
+
+  &.wordpress {
+    background-image: url('/images/assets/wordpress-logo.png');
+  }
+}
