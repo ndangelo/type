@@ -16,6 +16,4 @@ If you have any questions, please don't hesitate to contact at: aspirethemes@gma
 
 [Ahmad Ajmi](http://ahmadajmi.com/): A developer from Egypt. Creator of the Arabic blogging platform [oktob.io](https://oktob.io/). Minimalist. I love creating clean and minimal websites. I [read](https://www.goodreads.com/user/show/5387651-ahmad-ajmi) and [write](https://oktob.io/ahmadajmi). I also [write for SitePoint](http://www.sitepoint.com/author/aajmi/).
 
-And I love what I do!
-
 Feel free to contact me on Twitter [@ahmadajmi](https://twitter.com/ahmadajmi)

@@ -34,10 +34,13 @@ Aspire is a modern, clean, minimal, content and image focus theme for WordPress.
 - Easy setup with easy to follow instructions
 
 <div class="row">
-  <div class="column medium-6 large-6">
+  <div class="column medium-4 large-4">
     <a class="button button--large button--expand" href="hhttp://aspire-wordpress.aspirethemes.com/" target="_blank">Live Demo</a>
   </div>
-  <div class="column medium-6 large-6">
-    <a class="button button--expand button--large button--success" href="http://themeforest.net/item/-aspire-news-magazine-clean-wordpress-theme/15086977" target="_blank">Buy on ThemeForest</a>
+  <div class="column medium-4 large-4">
+    <a class="button button--expand button--large button--success" href="http://themeforest.net/item/-aspire-news-magazine-clean-wordpress-theme/15086977" target="_blank">Purchase</a>
+  </div>
+  <div class="column medium-4 large-4">
+    <a class="button button--large button--expand" href="http://aspirethemes.com/docs/aspire-wordpress.html" target="_blank">Documentation</a>
   </div>
 </div>
