@@ -5,13 +5,11 @@ layout: default
 <div class="wrapper">
 
   <div class="row">
-    <div class="post-list">
-      {% for post in site.categories.docs %}
-        {% unless post.draft %}
-          {% include docs-card.html %}
-        {% endunless %}
-      {% endfor %}
-    </div>
+    {% for post in site.categories.docs %}
+      {% unless post.draft %}
+        {% include docs-card.html %}
+      {% endunless %}
+    {% endfor %}
   </div>
 
 </div>

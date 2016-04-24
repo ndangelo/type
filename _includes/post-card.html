@@ -1,12 +1,21 @@
-<article class="post-card-wrap column medium-6 large-12" itemscope="" itemtype="http://schema.org/BlogPosting">
+<article class="post-card-wrap column medium-6 large-6">
+
   <div class="post-card">
-    <h2 class="post-card__title">
-      <a itemprop="name" title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">
-        <span itemprop="headline">{{ post.title }}</span>
-      </a>
-    </h2>
-    <div class="post-card__meta">
-      <time class="post-card__meta__date" datetime="<?php the_time( 'c' ) ?>">{{ post.date | date: "%b %-d, %Y" }}</time>
+
+    <a href="{{ post.url | prepend: site.baseurl }}" class="block" title="{{title}}">
+      <div class="grey-bg post-card__image CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url({{ post.image }})">
+      </div>
+    </a>
+
+    <div class="post-card__info">
+      <div class="post-card__meta">
+        <time class="post-card__meta__date" datetime="{{ post.date | date: '%b %-d, %Y' }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      </div>
+
+      <h2 class="post-card__title {{title_class}}">
+        <a title="{{title}}" href="{{url}}">{{ post.title }}</a>
+      </h2>
     </div>
+
   </div>
 </article>

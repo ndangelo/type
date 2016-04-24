@@ -5,9 +5,19 @@
 //---------------------------
 
 .post-card {
-  padding: half($line-height__medium);
+  margin-bottom: $line-height__medium;
+  padding-bottom: $line-height__medium;
+
   border-bottom: 1px solid $border-color;
-  transition: $base-transition-speed;
+
+  &__image {
+    margin-bottom: $line-height__base / 2;
+    transition: $base-transition-speed;
+
+    @media #{$medium-down} {
+      margin-bottom: $line-height__medium / 2;
+    }
+  }
 
   &__title {
     font-size: $font-size__base;
@@ -21,18 +31,8 @@
   &__meta {
     margin-bottom: $line-height__base / 4;
     font-size: $font-size__tiny;
-    font-style: italic;
     line-height: $line-height__small;
     color: $color__type--hover;
-  }
-
-  &:hover {
-    background-color: $grey-bg;
-    border-color: #fff;
-  }
-
-  .post-card-wrap:last-child & {
-    border-bottom: 0;
   }
 }
 
@@ -48,6 +48,7 @@
   }
 
   .post-card {
+    margin: 0;
     padding-left: double($line-height__tiny);
 
     @media #{$large-up} {
@@ -67,5 +68,20 @@
 
   &.wordpress {
     background-image: url('/images/assets/wordpress-logo.png');
+  }
+}
+
+// Make post cards the same height
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  .post-card-wrap {
+    display: flex;
+  }
+
+  .post-card {
+    width: 100%;
   }
 }

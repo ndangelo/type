@@ -2,6 +2,9 @@
 layout: post
 title:  Welcome to Aspire Themes
 categories: post
+image: '/images/posts/aspirethemes.jpg'
 ---
 
-Welcome to Aspire Themes.  A place for clean and minimal WordPress and Ghost Themes, we care alot about the design and to keep is simple and functional.
+Welcome to Aspire Themes. A place for clean, minimal WordPress and Ghost Themes. With a huge attention for design details, speed and great support.
+
+For more information, please checkout the [About page](/about).
