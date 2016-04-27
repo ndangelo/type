@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  Magaz - Magazine/News Minimal WordPress Theme
+title: Magaz - WordPress
+tagline: Magaz - Magazine/News Minimal WordPress Theme
 image: 'images/themes/wordpress/magaz/magaz-preview.jpg'
 free: false
 price: 44
@@ -34,7 +35,7 @@ Magaz is a modern, clean, minimal, content and image focus theme for WordPress. 
 
 <div class="row">
   <div class="column medium-4 large-4">
-    <a class="button button--large button--expand" href="http://magaz-wordpress.aspirethemes.com/" target="_blank">Live Demo</a>
+    <a class="button button--large button--expand" href="http://magaz-wordpress.aspirethemes.com/" target="_blank">Live Preview</a>
   </div>
   <div class="column medium-4 large-4">
     <a class="button button--expand button--large button--success" href="https://gumroad.com/l/mknZg" target="_blank">Purchase</a>

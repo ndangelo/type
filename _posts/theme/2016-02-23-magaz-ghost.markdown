@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  Magaz - Magazine and Multipurpose Clean Ghost Theme
+title: Magaz - Ghost
+tagline: Magaz - Magazine and Multipurpose Clean Ghost Theme
 image: 'images/themes/ghost/magaz/magazfull-preview.jpg'
 free: false
 price: 19
@@ -39,7 +40,7 @@ Magaz is a modern, clean, and content and image focus theme for Ghost blogging p
 
 <div class="row">
   <div class="column medium-4 large-4">
-    <a class="button button--large button--expand" href="http://magaz.aspirethemes.com/" target="_blank">Live Demo</a>
+    <a class="button button--large button--expand" href="http://magaz.aspirethemes.com/" target="_blank">Live Preview</a>
   </div>
   <div class="column medium-4 large-4">
     <a class="button button--expand button--large button--success" href="http://themeforest.net/item/magaz-magazine-and-multipurpose-clean-ghost-theme/14907507" target="_blank">Purchase</a>

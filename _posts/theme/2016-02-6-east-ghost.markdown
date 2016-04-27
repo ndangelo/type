@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  East - Blog and Multipurpose Clean Ghost Theme
+title: East - Ghost
+tagline: East - Blog and Multipurpose Clean Ghost Theme
 image: 'images/themes/ghost/east/east-ghost-preview.jpg'
 free: false
 price: 19
@@ -36,7 +37,7 @@ categories: theme
 
 <div class="row">
   <div class="column medium-4 large-4">
-    <a class="button button--large button--expand" href="http://east.aspirethemes.com/" target="_blank">Live Demo</a>
+    <a class="button button--large button--expand" href="http://east.aspirethemes.com/" target="_blank">Live Preview</a>
   </div>
   <div class="column medium-4 large-4">
     <a class="button button--expand button--large button--success" href="http://themeforest.net/item/east-blog-and-multipurpose-clean-ghost-theme/14714255" target="_blank">Purchase</a>

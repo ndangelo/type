@@ -9,7 +9,6 @@
   padding: $line-height__medium;
   margin-bottom: $line-height__base;
   background-color: $grey-bg;
-  text-align: center;
 
   @media #{$medium-down} {
     padding: half($line-height__medium);
@@ -53,19 +52,25 @@
 
   &__label {
     position: absolute;
-    top: - half($line-height__base);
-    right: - half(quarter($line-height__base));
-    z-index: 999;
-    height: 60px;
-    width: 60px;
-    line-height: 50px;
-    border: 5px solid #fff;
-    background: $grey-bg;
-    border-radius: 100%;
-    color: $color__type;
+    bottom: $line-height__medium;
+    right: $line-height__medium;
+
+    line-height: $line-height__medium;
+    min-width: double($line-height__medium);
+    padding: 0 5px;
+
     font-size: $font-size__tiny;
     font-weight: $font-weight__light;
+    font-family: $font__monospace;
+
+    color: #fff;
+    background: #009DF4;
     text-align: center;
+
+    @media #{$medium-down} {
+      bottom: half($line-height__medium);
+      right: half($line-height__medium);
+    }
   }
 
   &:hover {

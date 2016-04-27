@@ -8,7 +8,13 @@ layout: default
       <article>
 
         <header class="post__header">
-          <h2 class="post__title">{{ page.title }}</h2>
+          <h2 class="post__title">
+            {% if page.tagline %}
+              {{ page.tagline }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </h2>
           <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
         </header>
 

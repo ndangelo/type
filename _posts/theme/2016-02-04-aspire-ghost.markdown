@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  Aspire – Magazine Ghost Theme
+title: Aspire – Ghost
+tagline: Aspire – Magazine Ghost Theme
 image: 'images/themes/ghost/aspire/aspire-ghost-preview.jpg'
 free: false
 price: 19
@@ -40,7 +41,7 @@ Aspire is a modern, clean, and content and image focus theme for Ghost blogging 
 
 <div class="row">
   <div class="column medium-4 large-4">
-    <a class="button button--large button--expand" href="http://aspire.aspirethemes.com/" target="_blank">Live Demo</a>
+    <a class="button button--large button--expand" href="http://aspire.aspirethemes.com/" target="_blank">Live Preview</a>
   </div>
   <div class="column medium-4 large-4">
     <a class="button button--expand button--large button--success" href="http://themeforest.net/item/aspire-news-magazine-clean-ghost-theme/14230254" target="_blank">Purchase</a>

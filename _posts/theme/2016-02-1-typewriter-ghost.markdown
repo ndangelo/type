@@ -1,6 +1,7 @@
 ---
 layout: post
-title: TypeWriter - Free Simple Ghost Theme
+title: TypeWriter - Ghost
+tagline: TypeWriter - Free Simple Ghost Theme
 date: 2016-02-01 09:50:41 +0200
 image: 'images/themes/ghost/typewriter/typewriter-preview.jpg'
 free: true
