@@ -22,6 +22,7 @@ comments: false
   - [Google Analytics](#google-analytics)
   - [MailChimp](#mailchimp)
   - [Social Media Links](#social-media-links)
+  - [Update favicon](#update-favicon)
   - [Copyright Information (Footer)](#copyright-information-footer)
   - [Theme Development](#theme-development)
 4. [Support](#support)
@@ -55,12 +56,16 @@ Here is another guide that you may find useful.
 
 * [How to Upload a Theme](https://www.ghostforbeginners.com/how-to-upload-a-theme/)
 
+* * *
+
 ### Upload the Theme to Ghost.org
 
 1. Visit [Ghost.org](https://ghost.org/) and log in enter your login credentials.
 2. From your Ghost(Pro) dashboard, select the **Settings** (“gear”) icon to the _right_ of the “Write a Post” button.
 3. In your blog’s control panel, you can either "drag & drop" Aspire theme zip file into the **“Add a Theme”** drop zone, or click on the drag & drop zone to launch the traditional file upload prompt.
 4. Upload the theme, and once uploaded, click on the **Save All Blog Settings** button. Your blog will automatically update with the new theme.
+
+* * *
 
 ## Theme Features
 
@@ -69,6 +74,8 @@ Here is another guide that you may find useful.
 In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
 ![static page](/images/docs/ghost/aspire/staticpage.png)
+
+* * *
 
 ### Navigation
 
@@ -81,6 +88,8 @@ To include a static page on your navigation menu, first type the name of the pag
 ![label field](/images/docs/ghost/aspire/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
+
+* * *
 
 ### Disqus Comments
 
@@ -102,6 +111,8 @@ That's all what you need to setup Disqus from the theme side. If you get any iss
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
+* * *
+
 ### Twitter
 
 To setup the Twitter feed:
@@ -112,19 +123,27 @@ To setup the Twitter feed:
 - When you create a widget, Twitter will show you a box containing source code, from this code you will see a long number like: `678277339646664704`.
 - Just copy and paste it in `assets/js/script.js` file, in the "Twitter widget" section for `twitterWidgetID` variable with it.
 
+* * *
+
 ### Instagram
 
 To generate a new Instagram feed for your account, please visit [Instansive](http://instansive.com/).
 
 Customize the widget based on a username or hashtag, then you will get a code for the widget, open `partials/instagram.hbs` file and paste the code. That's it.
 
+* * *
+
 ### RelatedPosts
 
 Related posts will be visible on the single post page when there are similar posts with similar tags, and will be hidden otherwise.
 
+* * *
+
 ### Google Analytics
 
 To integrate Google Analytics, I would recommend reading [How do I add Google Analytics to my blog?](http://support.ghost.org/add-google-analytics-blog/) by Ghost.
+
+* * *
 
 ### MailChimp
 
@@ -137,6 +156,8 @@ Steps to integrate MailChimp newsletter subscription form:
 - Save your files and upload your theme.
 
 ![mailchimp-code](/images/docs/ghost/aspire/mailchimp-code.png)
+
+* * *
 
 ### Social Media Links
 
@@ -162,9 +183,21 @@ To add your URl to the links, just replace the `{{! Add Twitter handle }}`, for 
 
 Aspire is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons.
 
+* * *
+
+### Update favicon
+
+You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
+
+![Update favicon](/images/docs/ghost/aspire/update-favicon.png)
+
+* * *
+
 ### Copyright Information (Footer)
 
 You will find all copyright information at the bottom of `partials/footer.hbs` file.
+
+* * *
 
 ### Theme Development
 
