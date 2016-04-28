@@ -33,8 +33,8 @@ comments: false
 
 * Name: **Aspire** - Ghost Theme
 * Description: Clean News & Magazine Ghost Theme [Ghost](https://ghost.org/) theme
-* Current Version: 1.2.3
-* Released: 21/4/2016
+* Current Version: 1.2.4
+* Released: 28/4/2016
 * [Ghost](https://ghost.org/) version: 0.7.x.
 
 * * *
