@@ -139,13 +139,12 @@ Related posts will be visible on the single post page when there are similar pos
 
 ### Social Media Links
 
-Social media icons are placed in different files:
+Social media links are placed in different files:
 
 - `partials/footer.hbs`
 - `partials/header.hbs`
-- `partials/sidebar.hbs`
 
-Here you can find a list of the social media icons:
+Here you can find a list of the social media icons to use:
 
 - **Twitter:** `<span data-icon="ei-sc-twitter" data-size="s"></span>`
 - **Facebook:** `<span data-icon="ei-sc-facebook" data-size="s"></span>`
@@ -156,8 +155,6 @@ Here you can find a list of the social media icons:
 - **Soundcloud:** `<span data-icon="ei-sc-soundcloud" data-size="s"></span>`
 - **Tumblr:** `<span data-icon="ei-sc-tumblr" data-size="s"></span>`
 - **Youtube:** `<span data-icon="ei-sc-youtube" data-size="s"></span>`
-
-To add your URl to the links, just replace the `{{! Add Twitter handle }}`, for example with your username, and so on for other networks.
 
 Magaz is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons.
 
