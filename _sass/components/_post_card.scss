@@ -49,6 +49,7 @@
 
   .post-card {
     margin: 0;
+    padding: half($line-height__base);
     padding-left: double($line-height__tiny);
 
     @media #{$large-up} {
