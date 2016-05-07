@@ -4,7 +4,7 @@ title: Magaz - WordPress
 tagline: Magaz - Magazine/News Minimal WordPress Theme
 image: 'images/themes/wordpress/magaz/magaz-preview.jpg'
 free: false
-price: 44
+price: 49
 draft: false
 categories: theme
 ---
