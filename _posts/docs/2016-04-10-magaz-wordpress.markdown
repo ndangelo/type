@@ -201,7 +201,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ## Support
 
-I tried to include all the information needed to install and customize the theme. If you have any question, please don't hesitate to contact at:
+If you have any questions, I'd be happy to answer them. Please don't hesitate to contact at:
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)

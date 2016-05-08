@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Magaz - Ghost
+date: 8 May 2016
 categories: docs
 type: ghost
 comments: false
@@ -10,8 +11,8 @@ comments: false
 
 1. [Theme Information](#theme-information)
 2. [Upload the Theme](#upload-the-theme)
-  - [Upload a Theme to Self Hosted Ghost](#upload-the-theme-to-self-hosted-ghost)
-  - [Upload a Theme to Ghost.io](#upload-the-theme-to-ghostorg)
+  - [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
+  - [Upload to Ghost.io](#upload-to-ghostorg)
 3. [Theme Features](#theme-features)
   - [Static Pages](#static-pages)
   - [Navigation](#navigation)
@@ -21,7 +22,7 @@ comments: false
   - [Related Posts](#relatedposts)
   - [Social Media Links](#social-media-links)
   - [Update favicon](#update-favicon)
-  - [Copyright Information (Footer)](#copyright-information-footer)
+  - [Copyright Information](#copyright-information)
   - [Theme Development](#theme-development)
 4. [Support](#support)
 
@@ -31,15 +32,14 @@ comments: false
 
 * Name: **Magaz** - Ghost Theme
 * Description: Magazine and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.1
-* Released: 25 Mars 2016
-* [Ghost](https://ghost.org/) version: 0.7.x.
+* Current Version: 1.1.3
+* Released: 8 May 2016
 
 * * *
 
 ## Upload the Theme
 
-### Upload the Theme to Self Hosted Ghost
+### Upload to Self Hosted Ghost
 
 1. Locate the theme directory within the download files. It can be found at **Theme/magaz**.
 2. Login to FTP/SFTP of your blog, or the file browser of your provided hosting service.
@@ -52,7 +52,7 @@ comments: false
 
 Here is another guide that you may find useful.
 
-* [How to Upload a Theme](https://www.ghostforbeginners.com/how-to-upload-a-theme/)
+* [How to Upload and Install a Ghost Theme](https://www.ghostforbeginners.com/how-to-upload-a-theme/)
 
 * * *
 
@@ -123,6 +123,15 @@ Steps to integrate MailChimp newsletter subscription form:
 
 ![mailchimp-code](/images/docs/ghost/magaz/mailchimp-code.png)
 
+#### Disable MailChimp
+
+If you don't want to use the MailChimp news-letter feature, you can hide the subscription forms from two files:
+
+- `post.hbs` (line 34)
+- `partials/footer.hbs` (line 51 to 69)
+
+You can delete or comment these lines, then upload the files to the server.
+
 * * *
 
 ### Google Analytics
@@ -144,19 +153,61 @@ Social media links are placed in different files:
 - `partials/footer.hbs`
 - `partials/header.hbs`
 
-Here you can find a list of the social media icons to use:
+The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
-- **Twitter:** `<span data-icon="ei-sc-twitter" data-size="s"></span>`
-- **Facebook:** `<span data-icon="ei-sc-facebook" data-size="s"></span>`
-- **Instagram:** `<span data-icon="ei-sc-instagram" data-size="s"></span>`
-- **Pinterest:** `<span data-icon="ei-sc-pinterest" data-size="s"></span>`
-- **Vimeo:** `<span data-icon="ei-sc-vimeo" data-size="s"></span>`
-- **Google-plus:** `<span data-icon="ei-sc-google-plus" data-size="s"></span>`
-- **Soundcloud:** `<span data-icon="ei-sc-soundcloud" data-size="s"></span>`
-- **Tumblr:** `<span data-icon="ei-sc-tumblr" data-size="s"></span>`
-- **Youtube:** `<span data-icon="ei-sc-youtube" data-size="s"></span>`
+**Twitter:**
 
-Magaz is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons.
+```html
+<span data-icon="ei-sc-twitter" data-size="s"></span>
+```
+
+**Facebook:**
+
+```html
+<span data-icon="ei-sc-facebook" data-size="s"></span>
+```
+
+**Instagram:**
+
+```html
+<span data-icon="ei-sc-instagram" data-size="s"></span>
+```
+
+**Pinterest:**
+
+```html
+<span data-icon="ei-sc-pinterest" data-size="s"></span>
+```
+
+**Vimeo:**
+
+```html
+<span data-icon="ei-sc-vimeo" data-size="s"></span>
+```
+
+**Google-plus:**
+
+```html
+<span data-icon="ei-sc-google-plus" data-size="s"></span>
+```
+
+**Soundcloud:**
+
+```html
+<span data-icon="ei-sc-soundcloud" data-size="s"></span>
+```
+
+**Tumblr:**
+
+```html
+<span data-icon="ei-sc-tumblr" data-size="s"></span>
+```
+
+**Youtube:**
+
+```html
+<span data-icon="ei-sc-youtube" data-size="s"></span>
+```
 
 * * *
 
@@ -168,17 +219,17 @@ You can find the current favicon inside the theme **assets** directory, just rep
 
 * * *
 
-### Copyright Information (Footer)
+### Copyright Information
 
-You will find all copyright information at the bottom of `partials/footer.hbs` file.
+You will find copyright information at the bottom of `partials/footer.hbs` file.
 
 * * *
 
 ### Theme Development
 
-If you are a developer and need to work with the theme Sass and Compiled JavaScript files, Magaz is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript code. This improve the development flow, and making it much faster.
+If you are a developer and need to do a customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improve the development flow, and making it much faster.
 
-First make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed then run the the following commands in the Magaz theme directory to install npm dependencies.
+First make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the the following commands in the theme root directory to install npm dependencies.
 
 ```
 npm install
@@ -196,7 +247,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ## Support
 
-I tried to include all the information needed to install and customize the theme. If you have any question, please don't hesitate to contact at:
+If you have any questions, I'd be happy to answer them. Please don't hesitate to contact at:
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
