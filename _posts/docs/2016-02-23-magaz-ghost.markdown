@@ -118,7 +118,7 @@ Steps to integrate MailChimp newsletter subscription form:
 - Create a mailing list from your MailChimp account, fill all the fields required and save it.
 - From the list page, select **Signup forms**, then select **Embeded forms**.
 - You may want to change or edit the form fields, or customize the form in general, after you have done and everything is ok, you will be provided by HTML code, what we need to integrate with Magaz theme is the code in the action element, like the highlighted code in the image blow.
-- Copy that code and paste it in the form element in the two places in the theme, one in the `partials/footer.hbs`, and the other in `partials/sidebar.hbs`, where you can find the newsletter form.
+  + Copy that code and paste it in the form element in the two places in the theme, one in the `partials/footer.hbs`, and the other in `partials/subscribe-form.hbs`, where you can find the newsletter form.
 - Save your files and upload your theme.
 
 ![mailchimp-code](/images/docs/ghost/magaz/mailchimp-code.png)
