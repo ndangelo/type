@@ -22,7 +22,7 @@ comments: false
 
 ## Theme Information
 
-* Name: **Magaz** - WordPress Theme
+* Name: Magaz
 * Description: Magazine/News Minimal [WordPress](http://www.wordpress.org/) theme
 * Current Version: 1.1
 * Released: 4/10/2016
@@ -55,7 +55,7 @@ Then click **Activate** to activate the Aspire theme.
 
 * * *
 
-## Theme Customizer - [top](#toc)
+## Theme Customizer
 
 WordPress customizer is a tool which allows you to edit all the style options from a theme and visualize changes live, as you edit them. To open it go to Appearance > Customize.
 
@@ -89,7 +89,7 @@ The footer section have four registered widget sections you can drag widgets in.
 
 ![footer-widgets](/images/docs/wordpress/magaz/footer-widgets.png)
 
-## Menus [top](#toc)
+## Menus
 
 Magaz theme supports two custom menus:
 

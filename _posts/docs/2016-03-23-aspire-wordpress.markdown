@@ -21,7 +21,7 @@ comments: false
 
 ## Theme Information
 
-* Name: **Aspire** - WordPress Theme
+* Name: Aspire
 * Description: Clean News & Magazine [WordPress](http://www.wordpress.org/) theme
 * Current Version: 1.2.1
 * Released: 16 April 2016

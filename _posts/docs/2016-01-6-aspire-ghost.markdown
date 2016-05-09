@@ -12,7 +12,7 @@ comments: false
 1. [Theme Information](#theme-information)
 2. [Upload the Theme](#upload-the-theme)
   - [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
-  - [Upload to Ghost.io](#upload-to-ghostorg)
+  - [Upload to Ghost.io](#upload-to-ghostio)
 3. [Theme Features](#theme-features)
   - [Static Pages](#static-pages)
   - [Navigation](#navigation)
@@ -32,7 +32,7 @@ comments: false
 
 ## Theme Information
 
-* Name: **Aspire** - Ghost Theme
+* Name: Aspire
 * Description: Clean News & Magazine Ghost Theme [Ghost](https://ghost.org/) theme
 * Current Version: 1.2.5
 * Released: 8/May/2016
@@ -58,7 +58,7 @@ Here is another guide that you may find useful.
 
 * * *
 
-### Upload the Theme to Ghost.org
+### Upload to Ghost.io
 
 1. Visit [Ghost.org](https://ghost.org/) and log in enter your login credentials.
 2. From your Ghost(Pro) dashboard, select the **Settings** (“gear”) icon to the _right_ of the “Write a Post” button.

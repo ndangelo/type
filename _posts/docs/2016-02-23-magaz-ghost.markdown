@@ -12,7 +12,7 @@ comments: false
 1. [Theme Information](#theme-information)
 2. [Upload the Theme](#upload-the-theme)
   - [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
-  - [Upload to Ghost.io](#upload-to-ghostorg)
+  - [Upload to Ghost.io](#upload-to-ghostio)
 3. [Theme Features](#theme-features)
   - [Static Pages](#static-pages)
   - [Navigation](#navigation)
@@ -30,7 +30,7 @@ comments: false
 
 ## Theme Information
 
-* Name: **Magaz** - Ghost Theme
+* Name: Magaz
 * Description: Magazine and Multipurpose Clean [Ghost](https://ghost.org/) Theme
 * Current Version: 1.1.3
 * Released: 8 May 2016
@@ -56,7 +56,7 @@ Here is another guide that you may find useful.
 
 * * *
 
-### Upload the Theme to Ghost.org
+### Upload to Ghost.io
 
 1. Visit [Ghost.org](https://ghost.org/) and log in enter your login credentials.
 2. From your Ghost(Pro) dashboard, select the **Settings** (“gear”) icon to the _right_ of the “Write a Post” button.
