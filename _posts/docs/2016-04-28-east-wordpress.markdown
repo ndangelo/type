@@ -158,7 +158,7 @@ The following are the social media sites and services where you can find an icon
 
 East theme is full ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
 
-The theme contains the main translation file east.pot inside the language directory which will be used by poedit application.
+The theme contains the main translation file `east.pot` inside the languages directory which will be used by poedit application.
 
 **Here are a simple steps:**
 
@@ -172,9 +172,9 @@ The theme contains the main translation file east.pot inside the language direct
 
 ## Theme Development
 
-If you are a developer and need to work with the theme Sass and Compiled JavaScript files. East is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript code. This improve the development flow, and making it much faster.
+If you are a developer and need to do a customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improve the development flow, and making it much faster.
 
-First make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed then run the the following commands in the East theme directory to install npm dependencies.
+First make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the the following commands in the theme root directory to install npm dependencies.
 
 ```
 npm install
