@@ -47,7 +47,7 @@ Then click **Activate** to activate the Aspire theme.
 
 ### Installation via FTP
 
-1. Login to the SFTP/FTP account for your site. You can also use any file explorer with upload capability, if your host provides one.
+1. Login to the SFTP/FTP account for your site.
 2. Navigate the to the WordPress directory, and follow the path **wp-content/themes**.
 3. Upload the **magaz** (Unzipped) directory found in the downloaded Theme folder into the directory above.
 4. Login to the admin panel of your WordPress site, which will be found at **yoursite.com/wp-admin** by default.

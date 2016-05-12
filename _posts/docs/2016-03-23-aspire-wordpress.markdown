@@ -23,34 +23,32 @@ comments: false
 
 * Name: Aspire
 * Description: Clean News & Magazine [WordPress](http://www.wordpress.org/) theme
-* Current Version: 1.2.1
-* Released: 16 April 2016
+* Current Version: 1.2.2
+* Released: 12 May 2016
 
 * * *
 
 ## Theme Activation & Installation
 
-Locate the theme directory within the download files. It can be found at **Theme/aspire.zip**
+Login to your WordPress website, go to **Appearance/Themes**, click **Add New**, then click **Upload Theme**.
 
-Login to your WordPress website, go to **Appearance/Themes**, click **Add New**, then click **Upload Theme** to upload the Aspire theme
+![Upload Theme](/images/docs/wordpress/aspire/upload-theme.png)
 
-![Theme Activation](/images/docs/wordpress/aspire/upload-theme.png)
+Upload **aspire.zip** file (it’s in the zip file you downloaded), then click **Install Now**
 
-Upload **aspire.zip**, then click **Install Now**
+![Choose Theme](/images/docs/wordpress/aspire/choose-theme-file.png)
 
-![Theme Activation](/images/docs/wordpress/aspire/choose-theme-file.png)
+Then click **Activate** to activate the East theme.
 
-Then click **Activate** to activate the Aspire theme.
-
-![Theme Activation](/images/docs/wordpress/aspire/activate-theme.png)
+![Activate Theme](/images/docs/wordpress/aspire/activate-theme.png)
 
 ### Installation via FTP
 
-1. Login to the SFTP/FTP account for your site. You can also use any file explorer with upload capability, if your host provides one.
-2. Navigate the to the WordPress directory, and follow the path **wp-content/themes**.
-3. Upload the **aspire** (Unzipped) directory found in the downloaded Theme folder into the directory above.
-4. Login to the admin panel of your WordPress site, which will be found at **yoursite.com/wp-admin** by default.
-5. Once the theme upload has completed, navigate to the **Appearance -> Themes** section in the admin panel and activate the theme.
+1. Login to the SFTP/FTP account for your site.
+2. Navigate the to the WordPress directory, and follow the path **wp-content/themes.**
+3. Extract **aspire.zip** file (it’s in the zip file you downloaded) and upload the aspire folder.
+4. Once it’s uploaded, go to your WordPress Admin, browse to **Appearance > Themes.**
+5. Click the **Activate** link.
 
 * * *
 
@@ -230,7 +228,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ## Support
 
-If you have any questions, I'd be happy to answer them. Please don't hesitate to contact at:
+If you have any questions, I'd be happy to answer them.
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
