@@ -27,11 +27,20 @@ Magaz is a modern, clean, minimal, content and image focus theme for WordPress. 
 - Custom CSS (Sass Source Files)
 - Clean well commented code, easy to customize
 - Valid HTML5 code
-- Google fonts (Merriweather)
+- Google font
 - Customizable Footer with 4 widget areas
 - Social Media Share
-- <a href="http://magaz-wp.aspirethemes.com/404">404 custom page</a>
-- Easy setup with easy to follow instructions
+- [404 custom page](http://magaz-wordpress.aspirethemes.com/404)
+- [Online documentation](http://aspirethemes.com/docs/magaz-wordpress.html)
+
+## What’s inside the package
+
+1. Ready to install magaz.zip
+2. Ready-to-extend magaz-child.zip (Child Theme)
+
+## Support
+
+You can check the full [Online documentation](http://aspirethemes.com/docs/magaz-wordpress.html), and I'm here to help, and ready to answer your questions – so please get in touch.
 
 <div class="row">
   <div class="column medium-4 large-4">
