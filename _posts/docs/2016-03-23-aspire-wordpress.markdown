@@ -22,7 +22,7 @@ comments: false
 ## Theme Information
 
 * Name: Aspire
-* Description: Clean News & Magazine [WordPress](http://www.wordpress.org/) theme
+* Description: Clean News & Magazine WordPress theme
 * Current Version: 1.2.2
 * Released: 12 May 2016
 
@@ -38,7 +38,7 @@ Upload **aspire.zip** file (it’s in the zip file you downloaded), then click *
 
 ![Choose Theme](/images/docs/wordpress/aspire/choose-theme-file.png)
 
-Then click **Activate** to activate the East theme.
+Then click **Activate** to activate the Aspire theme.
 
 ![Activate Theme](/images/docs/wordpress/aspire/activate-theme.png)
 
