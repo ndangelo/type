@@ -2,11 +2,12 @@
 layout: post
 title:  Aspire - WordPress
 categories: docs
+date: 12 May 2016
 type: wordpress
 comments: false
 ---
 
-## Table of Contents
+* * *
 
 1. [Theme Information](#theme-information)
 2. [Theme Activation & Installation](#theme-activation--installation)

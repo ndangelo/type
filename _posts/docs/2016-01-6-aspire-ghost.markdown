@@ -7,7 +7,7 @@ type: ghost
 comments: false
 ---
 
-## Table of Contents
+* * *
 
 1. [Theme Information](#theme-information)
 2. [Upload the Theme](#upload-the-theme)
