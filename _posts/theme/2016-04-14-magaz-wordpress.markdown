@@ -47,7 +47,7 @@ You can check the full [Online documentation](http://aspirethemes.com/docs/magaz
     <a class="button button--large button--expand" href="http://magaz-wordpress.aspirethemes.com/" target="_blank">Live Preview</a>
   </div>
   <div class="column medium-4 large-4">
-    <a class="button button--expand button--large button--success" href="https://creativemarket.com/aspirethemes/692237-Minimal-Magazine-WordPress-Theme" target="_blank">Purchase</a>
+    <a class="button button--expand button--large button--success" href="https://gumroad.com/l/mknZg" target="_blank">Purchase</a>
   </div>
   <div class="column medium-4 large-4">
     <a class="button button--large button--expand" href="http://aspirethemes.com/docs/magaz-wordpress.html" target="_blank">Documentation</a>
