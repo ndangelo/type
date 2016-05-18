@@ -6,74 +6,109 @@ comments: true
 image: '/images/posts/digitalocean.png'
 ---
 
-Today I have discovered a very productive way to push a theme to DigitalOcean with a simple command added to a bash file, all of theses commands I was doing one by one and it may require loging to WordPress to activate or upload a theme, and the same case with Ghost. But I have searched on how I can automate the creation of pushing a theme to a remote server, then we can do anything we do on the server, for example we can restart the Ghost server so the new changes will take affect, and so on.
+While we develop themes as developers, we need to test them with a remote server, and this test happen a lot of times a day while working. This require to move to the themes directory, zip the theme file, login to the server using **ssh*, then push the zip file to the remove server, then login to WordPress to activate the theme, or in the Ghost case, we need to restart the Ghost server for changes to reflect. All of these process will take a lot of time and they are boring to do again and again.
 
-This is the script I did to push a WordPress theme from local machine to a remote server
+I have searched on how I can automate compressing a theme, pushing a theme to a remote server, then I can do anything I want on the server, for example I can restart the Ghost server so the new changes will take affect, and so on. All of this could be done using a simple bash script file.
+
+This is the script I did to push a WordPress theme from local machine to a remote server running on DigitalOcean.
 
 {% highlight bash %}
 #!/bin/bash
 
-IP_ADDRESS='192.241.2.10'
+IP_ADDRESS=107.170.4.132
+THEMES_DIR=$HOME/www/aspire/wp-content/themes/
+REMOTE_THEMES_DIR=/var/www/html/wp-content/themes/
 
-cd /Users/ahmadajmi/www/aspirethemes/wp-content/themes/
+cd $THEMES_DIR
+rm -rf aspire.zip
+echo '===>> Removed aspire.zip'
 
-zip -r theme_name.zip theme_name -x *node_modules* *git* *.DS_Store*
+zip -r aspire.zip aspire -x *git* *node_modules* *bower_components* *.DS_Store* *.ds_store* *.editorconfig*
+echo '===>> Zipped to aspire.zip'
 
-echo '===>> Zipped'
-
-scp theme_name.zip root@$IP_ADDRESS:/var/www/html/wp-content/themes/
-
-echo '===>> Pushed'
+scp $THEMES_DIR/aspire.zip root@$IP_ADDRESS:$REMOTE_THEMES_DIR
+echo '===>> Pushed to the server 🚀'
 
 ssh -t -t root@$IP_ADDRESS << EOT
 
-cd /var/www/html/wp-content/themes/
+cd $REMOTE_THEMES_DIR
+rm -rf aspire
+echo '===>> Removed aspire'
 
-unzip -o theme_name.zip
-
+unzip -o aspire.zip
 echo '===>> Un Zipped'
+
+rm -rf aspire.zip
+echo '===>> Removed aspire.zip'
+echo '===>> Done 👍'
 
 exit 1
 
 EOT
 {% endhighlight %}
 
-[Check the script on GitHub](https://gist.github.com/ahmadajmi/2a15e1ed8ea5e984d437)
+**To run the script**
+
+From the above script, you have to change some variables:
+
+**IP_ADDRESS**: The droplet IP Address
+
+**THEMES_DIR**: The local WordPress themes directory
+
+**REMOTE_THEMES_DIR**: The remote server WordPress themes directory (this is the default path)
+
+**Theme name**: in my case is *aspire*
+
+The script is also do a zip file and ignore some folder and files, for example it ignores the *git* *node_modules* directories, you may want to edit this line as your needs.
+
+Next, you need to give a permission to the file aspire.sh*, and then execute the file in the command line.
+
+{% highlight bash %}
+chmod +x aspire.sh
+
+./aspire.sh
+{% endhighlight %}
 
 **For Ghost**
 
 {% highlight bash %}
 #!/bin/bash
 
-IP_ADDRESS='104.23.15.33'
+IP_ADDRESS=162.243.123.208
+THEMES_DIR=$HOME/www/ghost/apps/ghost/htdocs/content/themes
+REMOTE_THEMES_DIR=/srv/users/serverpilot/apps/aspire/public/wp-content/themes/
 
-cd /Users/ahmadajmi/www/ghost/content/themes/
+cd $THEMES_DIR
+rm -rf aspire.zip
+echo '===>> Removed aspire.zip'
 
-zip -r theme_name.zip theme_name -x *node_modules* *git* *.DS_Store*
+zip -r aspire.zip aspire -x *node_modules* *git* *.DS_Store* *.ds_store*
+echo '===>> Zipped to aspire.zip'
 
-echo '===>> Zipped'
-
-scp theme_name.zip root@$IP_ADDRESS:/var/www/ghost/content/themes/
-
-echo '===>> Pushed'
+scp aspire.zip root@$IP_ADDRESS:$REMOTE_THEMES_DIR
+echo '===>> Pushed to the server 🚀'
 
 ssh -t -t root@$IP_ADDRESS << EOT
 
-cd /var/www/ghost/content/themes/
+cd $REMOTE_THEMES_DIR
+rm -rf aspire
+echo '===>> Removed aspire'
 
-unzip -o theme_name.zip
-
+unzip -o aspire.zip
 echo '===>> Un Zipped'
 
-sudo service ghost restart
+rm -rf aspire.zip
+echo '===>> Removed aspire.zip'
 
-echo '===>> Ghost Restarted'
+sudo service aspire restart
+echo '===>> aspire Restarted'
+echo '===>> Done 👍'
 
 exit 1
 
 EOT
 {% endhighlight %}
 
-[Check the script on GitHub](https://gist.github.com/ahmadajmi/4700819ad2707fbe0813)
+This is very similar to the WordPress one, and you will notice that at the bottom  we did a sever restart. You can give permission to the file, change variables, ... as you need.
 
-I hope you find it useful.
+So, this saves me a lot of time doing repetitive tasks every time I need to update and test a theme, you can try it and let me know what do you think, and if you have any questions or thought for making this script better.
