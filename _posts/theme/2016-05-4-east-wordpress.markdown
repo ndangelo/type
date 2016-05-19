@@ -22,6 +22,8 @@ East is a modern, clean, and minimal WordPress theme for your next blog. East is
 
 [![support-docs](http://aspirethemes.github.io/images/envato/wordpress/east/support-docs.png)](http://aspirethemes.com/docs/east-wordpress.html)
 
+* * *
+
 **East Features**
 
 - Clean and minimal design
@@ -41,6 +43,8 @@ East is a modern, clean, and minimal WordPress theme for your next blog. East is
 - [404 custom page](http://east-wordpress.aspirethemes.com/404)
 - [Online documentation](http://aspirethemes.com/docs/east-wordpress.html)
 
+* * *
+
 <div class="row">
   <div class="column medium-4 large-4">
     <a class="button button--large button--expand" href="http://east-wordpress.aspirethemes.com/" target="_blank">Live Preview</a>
@@ -52,3 +56,5 @@ East is a modern, clean, and minimal WordPress theme for your next blog. East is
     <a class="button button--large button--expand" href="http://east-wordpress.aspirethemes.com/" target="_blank">Documentation</a>
   </div>
 </div>
+
+* * *

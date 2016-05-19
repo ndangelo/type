@@ -12,6 +12,8 @@ TypeWriter is a minimalism Ghost theme. TypeWriter focus on typography, white sp
 
 ![typewriter-ghost-full-preview](/images/themes/ghost/typewriter/typewriter-ghost-full-preview.png)
 
+* * *
+
 **Typewriter Features**
 
 - Minimal design
@@ -34,8 +36,12 @@ TypeWriter is a minimalism Ghost theme. TypeWriter focus on typography, white sp
 - Syntax Highlighting
 - Gulp &amp; Uncompressed SASS Source Files
 
+* * *
+
 <div class="row">
   <div class="column large-12">
     <a class="button button--expand button--large button--success" href="https://github.com/aspirethemes/typewriter" target="_blank">Download TypeWriter for Free</a>
   </div>
 </div>
+
+* * *

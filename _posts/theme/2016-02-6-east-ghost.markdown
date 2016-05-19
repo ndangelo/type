@@ -12,10 +12,12 @@ categories: theme
 
 ![east-ghost-full-preview](/images/themes/ghost/east/east-ghost-full-preview.png)
 
-**East Features**
+* * *
+
+**Features**
 
 - Clean and minimal design
-- Ready for Ghost latest version – 0.7.3
+- Ready for Ghost latest version
 - Instant Search with GhostHunter
 - MailChimp newsletter subscription form
 - Custom CSS (Sass Source Files)
@@ -35,6 +37,8 @@ categories: theme
 - Next &amp; Previous Post Navigation
 - Easy setup with easy to follow documentation
 
+* * *
+
 <div class="row">
   <div class="column medium-4 large-4">
     <a class="button button--large button--expand" href="http://east.aspirethemes.com/" target="_blank">Live Preview</a>
@@ -46,3 +50,5 @@ categories: theme
     <a class="button button--large button--expand" href="http://aspirethemes.com/docs/east-ghost.html" target="_blank">Documentation</a>
   </div>
 </div>
+
+* * *

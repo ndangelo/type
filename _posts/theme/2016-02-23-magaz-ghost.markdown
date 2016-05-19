@@ -12,10 +12,12 @@ Magaz is a modern, clean, and content and image focus theme for Ghost blogging p
 
 ![aspire-ghost-full-preview](/images/themes/ghost/magaz/magaz-ghost-full-preview.png)
 
-**Magaz Features**
+* * *
+
+**Features**
 
 - Clean and minimal design
-- Ready for Ghost latest version – 0.7.3
+- Ready for Ghost latest version
 - Instant Search with GhostHunter
 - Related Posts
 - MailChimp newsletter subscription form
@@ -37,6 +39,7 @@ Magaz is a modern, clean, and content and image focus theme for Ghost blogging p
 - Next &amp; Previous Post Navigation
 - Easy setup with easy to follow instructions
 
+* * *
 
 <div class="row">
   <div class="column medium-4 large-4">
@@ -49,3 +52,5 @@ Magaz is a modern, clean, and content and image focus theme for Ghost blogging p
     <a class="button button--large button--expand" href="http://aspirethemes.com/docs/magaz-ghost.html" target="_blank">Documentation</a>
   </div>
 </div>
+
+* * *

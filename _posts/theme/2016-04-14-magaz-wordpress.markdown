@@ -15,7 +15,9 @@ Magaz is a modern, clean, minimal, content and image focus theme for WordPress. 
 
 ![aspire-wordpress-full-preview](/images/themes/wordpress/magaz/magaz-full-preview.png)
 
-**Magaz Features**
+* * *
+
+**Features**
 
 - Clean and minimal design
 - Mobile first &amp; 100% responsive design
@@ -37,19 +39,26 @@ Magaz is a modern, clean, minimal, content and image focus theme for WordPress. 
 
 1. Ready to install magaz.zip
 2. Ready-to-extend magaz-child.zip (Child Theme)
+3. Detailed documentation
+
+* * *
 
 ## Support
 
 You can check the full [Online documentation](http://aspirethemes.com/docs/magaz-wordpress.html), and I'm here to help, and ready to answer your questions – so please get in touch.
+
+* * *
 
 <div class="row">
   <div class="column medium-4 large-4">
     <a class="button button--large button--expand" href="http://magaz-wordpress.aspirethemes.com/" target="_blank">Live Preview</a>
   </div>
   <div class="column medium-4 large-4">
-    <a class="button button--expand button--large button--success" href="https://gumroad.com/l/mknZg" target="_blank">Purchase</a>
+    <a class="button button--expand button--large button--success" href="https://creativemarket.com/aspirethemes/692237-Minimal-Magazine-WordPress-Theme" target="_blank">Purchase</a>
   </div>
   <div class="column medium-4 large-4">
     <a class="button button--large button--expand" href="http://aspirethemes.com/docs/magaz-wordpress.html" target="_blank">Documentation</a>
   </div>
 </div>
+
+* * *

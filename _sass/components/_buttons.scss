@@ -5,10 +5,10 @@
 //---------------------------
 
 
-.button {
+a.button {
   display: inline-block;
   text-align: center;
-  padding: ($line-height__base / 4) ($line-height__base / 2);
+  padding: quarter($line-height__base) half($line-height__base);
   font-family: $font__serif;
   font-size: $font-size__tiny;
   line-height: $line-height__medium;
@@ -16,23 +16,30 @@
   border: 0;
 
   text-decoration: none;
-  color: #fff;
-  background-color: $color__type;
+  color: $color__type;
+  background-color: #fff;
+  border: 1px solid $border-color;
   transition: $base-transition-speed;
 
   &:active,
   &:focus,
   &:hover {
-    color: #fff;
-    background-color: $color__type--hover;
-  }
-
-  &:visited {
-    color: #fff;
+    color: $color__type;
+    background-color: $grey-bg;
   }
 
   &--success {
-    background-color: rgb(34, 183, 89);
+    color: #fff;
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: #fff;
+      background-color: #16a085;
+      border: 1px solid #16a085;
+    }
   }
 
   &--expand {
@@ -62,12 +69,12 @@
   }
 
   &--small {
-    padding: ($line-height__small / 4) ($line-height__small / 2);
+    padding: quarter($line-height__small) half($line-height__small);
     line-height: $line-height__small;
   }
 
   &--large {
-    padding: ($line-height__base / 2) ($line-height__base);
+    padding: half($line-height__base) ($line-height__base);
     font-size: $font-size__small;
     line-height: $line-height__medium;
   }

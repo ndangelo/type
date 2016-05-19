@@ -74,10 +74,10 @@ hr {
   border: 0;
   height: 1px;
   background-color: $border-color;
-  margin: 0 0 $line-height__base;
+  margin: $line-height__base 0 $line-height__base;
 
   @media #{$medium-down} {
-    margin: 0 0 ($line-height__medium);
+    margin: $line-height__medium 0 $line-height__medium;
   }
 }
 

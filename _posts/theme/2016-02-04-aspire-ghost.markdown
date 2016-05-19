@@ -12,6 +12,8 @@ Aspire is a modern, clean, and content and image focus theme for Ghost blogging 
 
 ![aspire-ghost-full-preview](/images/themes/ghost/aspire/aspire-ghost-full-preview.png)
 
+* * *
+
 **Aspire Features**
 
 - Clean and minimal design
@@ -39,6 +41,8 @@ Aspire is a modern, clean, and content and image focus theme for Ghost blogging 
 - Next &amp; Previous Post Navigation
 - Easy setup with easy to follow documentation
 
+* * *
+
 <div class="row">
   <div class="column medium-4 large-4">
     <a class="button button--large button--expand" href="http://aspire.aspirethemes.com/" target="_blank">Live Preview</a>
@@ -50,3 +54,5 @@ Aspire is a modern, clean, and content and image focus theme for Ghost blogging 
     <a class="button button--large button--expand" href="http://aspirethemes.com/docs/aspire-ghost.html" target="_blank">Documentation</a>
   </div>
 </div>
+
+* * *
