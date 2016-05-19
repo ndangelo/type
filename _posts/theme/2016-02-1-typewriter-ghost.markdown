@@ -2,7 +2,6 @@
 layout: post
 title: TypeWriter - Ghost
 tagline: TypeWriter - Free Simple Ghost Theme
-date: 2016-02-01 09:50:41 +0200
 image: 'images/themes/ghost/typewriter/typewriter-preview.jpg'
 free: true
 categories: theme
@@ -18,8 +17,7 @@ TypeWriter is a minimalism Ghost theme. TypeWriter focus on typography, white sp
 
 - Minimal design
 - Beautiful Typography
-- Ready for Ghost latest version – 0.7.1
-- Custom CSS (Sass Source Files)
+- Ready for Ghost latest version
 - HTML5 / CSS3 valid code
 - 100% Responsive layout
 - Multi author support
@@ -27,14 +25,14 @@ TypeWriter is a minimalism Ghost theme. TypeWriter focus on typography, white sp
 - Google font
 - Evil Icons
 - Tag page support
-- Code syntax highlighter
 - Disqus comments
 - Post sharing
 - 404 Page
-- Next &amp; Previous Post Navigation
+- Next & Previous Post Navigation
 - Social media icons
+- Easy setup with easy to follow instructions
 - Syntax Highlighting
-- Gulp &amp; Uncompressed SASS Source Files
+- Gulp & Uncompressed SASS Source Files
 
 * * *
 
