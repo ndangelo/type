@@ -6,7 +6,7 @@ comments: true
 image: '/images/posts/digitalocean.png'
 ---
 
-While we develop themes as developers, we need to test them with a remote server, and this test happen a lot of times a day while working. This require to move to the themes directory, zip the theme file, login to the server using **ssh*, then push the zip file to the remove server, then login to WordPress to activate the theme, or in the Ghost case, we need to restart the Ghost server for changes to reflect. All of these process will take a lot of time and they are boring to do again and again.
+While we develop themes as developers, we need to test them with a remote server, and this test happen a lot of times a day while working. This require to move to the themes directory, zip the theme file, login to the server using *ssh*, then push the zip file to the remove server, then login to WordPress to activate the theme, or in the Ghost case, we need to restart the Ghost server for changes to reflect. All of these process will take a lot of time and they are boring to do again and again.
 
 I have searched on how I can automate compressing a theme, pushing a theme to a remote server, then I can do anything I want on the server, for example I can restart the Ghost server so the new changes will take affect, and so on. All of this could be done using a simple bash script file.
 
@@ -74,9 +74,9 @@ chmod +x aspire.sh
 {% highlight bash %}
 #!/bin/bash
 
-IP_ADDRESS=162.243.123.208
+IP_ADDRESS=162.243.123.249
 THEMES_DIR=$HOME/www/ghost/apps/ghost/htdocs/content/themes
-REMOTE_THEMES_DIR=/srv/users/serverpilot/apps/aspire/public/wp-content/themes/
+REMOTE_THEMES_DIR=/var/www/aspire/content/themes/
 
 cd $THEMES_DIR
 rm -rf aspire.zip
@@ -101,7 +101,7 @@ rm -rf aspire.zip
 echo '===>> Removed aspire.zip'
 
 sudo service aspire restart
-echo '===>> aspire Restarted'
+echo '===>> Aspire Restarted'
 echo '===>> Done 👍'
 
 exit 1
@@ -111,4 +111,6 @@ EOT
 
 This is very similar to the WordPress one, and you will notice that at the bottom  we did a sever restart. You can give permission to the file, change variables, ... as you need.
 
-So, this saves me a lot of time doing repetitive tasks every time I need to update and test a theme, you can try it and let me know what do you think, and if you have any questions or thought for making this script better.
+So, this saves me a lot of time doing repetitive tasks every time I need to update and test a theme. Another point is that this type of script will work with any server that you have access to with ssh, I have tried it with AWS and it worked fine too. 
+
+You can try it and let me know what do you think, and if you have any questions or thought for making this script better.
