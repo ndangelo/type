@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Magaz - Ghost
-date: 8 May 2016
+title: Magaz - Ghost
+date: 8 June 16
 categories: docs
 type: ghost
 comments: false
@@ -32,8 +32,8 @@ comments: false
 
 * Name: Magaz
 * Description: Magazine and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.3
-* Released: 8 May 2016
+* Current Version: 1.1.4
+* Released: 8 June 16
 
 * * *
 
