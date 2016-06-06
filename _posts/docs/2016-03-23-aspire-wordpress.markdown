@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Aspire - WordPress
+title: Aspire - WordPress
 categories: docs
 date: 12 May 2016
 type: wordpress
@@ -24,8 +24,8 @@ comments: false
 
 * Name: Aspire
 * Description: Clean News & Magazine WordPress theme
-* Current Version: 1.2.2
-* Released: 12 May 2016
+* Current Version: 1.2.3
+* Released: 6 June 2016
 
 * * *
 
