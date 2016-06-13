@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  East - WordPress
+title: East - WordPress
 categories: docs
 date: 12 May 2016
 type: wordpress
@@ -24,8 +24,8 @@ comments: false
 
 * Name: East
 * Description: Clean and Minimal WordPress Blog Theme
-* Current Version: 1.1.0
-* Released: 12 May 2016
+* Current Version: 1.1.1
+* Released: 13 June 2016
 
 * * *
 
