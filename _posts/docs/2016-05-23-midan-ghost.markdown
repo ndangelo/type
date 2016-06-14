@@ -29,9 +29,9 @@ comments: false
 ## Theme Information
 
 * Name: Midan
-* Description: A Responsive [Ghost](https://ghost.org/) Blog Theme
+* Description: Clean & Fast [Ghost](https://ghost.org/) Theme
 * Current Version: 1.0.0
-* Released: 23 May 2016
+* Released: 13 June 2016
 
 * * *
 
@@ -39,7 +39,7 @@ comments: false
 
 ### Upload to Self Hosted Ghost
 
-1. Locate the theme directory within the download files. It can be found at **Theme/midan**.
+1. Locate the **midan** theme directory within the download files.
 2. Login to FTP/SFTP of your blog, or the file browser of your provided hosting service.
 3. Navigate to the **/content/themes** directory within your Ghost installation.
 4. Upload the **midan** file found in step one into the remote **/content/themes** directory.
@@ -58,7 +58,7 @@ Here is another guide that you may find useful.
 
 1. Visit [Ghost.org](https://ghost.org/) and log in enter your login credentials.
 2. From your Ghost(Pro) dashboard, select the **Settings** (“gear”) icon to the _right_ of the “Write a Post” button.
-3. In your blog’s control panel, you can either "drag & drop" midan theme zip file into the **“Add a Theme”** drop zone, or click on the drag & drop zone to launch the traditional file upload prompt.
+3. In your blog’s control panel, you can either "drag & drop" **midan** theme zip file into the **“Add a Theme”** drop zone, or click on the drag & drop zone to launch the traditional file upload prompt.
 4. Upload the theme, and once uploaded, click on the **Save All Blog Settings** button. Your blog will automatically update with the new theme.
 
 * * *
