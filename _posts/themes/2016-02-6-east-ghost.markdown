@@ -5,7 +5,7 @@ tagline: East - Blog and Multipurpose Clean Ghost Theme
 image: 'images/themes/ghost/east/east-ghost-preview.jpg'
 free: false
 price: 19
-categories: theme
+categories: themes
 ---
 
 **East** is a clean, minimal, modern theme that focus on content for Ghost blogging platform. **East** is created for those who want to create a simple and beautiful online blog, or multipurpose clean website. **East** it is 100% responsive, that means it fits with all different kind of devices in different sizes. **East** is compatible with Ghost version 0.7.x.

@@ -5,7 +5,7 @@ tagline: East - Clean and Minimal WordPress Blog Theme
 image: 'images/themes/wordpress/east/east-preview.png'
 free: false
 price: 49
-categories: theme
+categories: themes
 ---
 
 East is a modern, clean, and minimal WordPress theme for your next blog. East is created for those who want to create a minimal and beautiful online content site or a personal blog. Every element is designed with simplicity and details in mind, and well-tailored to match your own taste elegance. East it is 100% responsive, that means it fits with all different kind of devices in different sizes.

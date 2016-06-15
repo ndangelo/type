@@ -15,15 +15,10 @@
       <div class="column medium-6 large-6">
         <nav class="site-header__navigation">
           <ul class="list-bare text-center">
-            {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li>
-              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/themes">Themes</a></li>
             <li><a href="/docs">Documentation</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </nav>
       </div>

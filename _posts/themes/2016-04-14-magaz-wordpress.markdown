@@ -6,7 +6,7 @@ image: 'images/themes/wordpress/magaz/magaz-preview.jpg'
 free: false
 price: 49
 draft: false
-categories: theme
+categories: themes
 ---
 
 Magaz is a modern, clean, minimal, content and image focus theme for WordPress. Magaz is created for those who want to create a minimal and beautiful online magazine, news website, or personal blog that focus on the content and to show images in a beautiful and elegant way. Magaz is designed to be minimal from the start and every element of the website is well-tailored to focus on simplicity and the content and to remove all kind of distractions. Magaz it is 100% responsive, that means it fits with all different kind of devices in different sizes.

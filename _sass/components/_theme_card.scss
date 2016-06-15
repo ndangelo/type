@@ -7,12 +7,12 @@
 .theme-card {
   position: relative;
   padding: $line-height__medium;
-  margin-bottom: $line-height__base;
+  margin-bottom: $line-height__medium;
   background-color: $grey-bg;
 
-  @media #{$medium-down} {
-    padding: half($line-height__medium);
-    margin-bottom: half($line-height__base);
+  @media #{$medium-up} {
+    padding: $line-height__base;
+    margin-bottom: $line-height__base;
   }
 
   &__image {
@@ -67,9 +67,9 @@
     background: #009DF4;
     text-align: center;
 
-    @media #{$medium-down} {
-      bottom: half($line-height__medium);
-      right: half($line-height__medium);
+    @media #{$medium-up} {
+      bottom: $line-height__base;
+      right: $line-height__base;
     }
   }
 

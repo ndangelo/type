@@ -5,7 +5,7 @@ tagline: Midan - Clean & Fast Ghost Theme
 image: 'images/themes/ghost/midan/midan-ghost-preview.jpg'
 free: false
 price: 19
-categories: theme
+categories: themes
 ---
 
 Midan is a clean, minimal, modern theme that focus on content for Ghost blogging platform. Midan is created for those who want to create a simple and beautiful online blog. Midan it is 100% responsive, that means it fits with all different kind of devices in different sizes. Midan is compatible with Ghost version 0.7.x.

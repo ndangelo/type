@@ -15,10 +15,11 @@
 }
 
 .site-header {
-  padding: ($line-height__medium / 2) 0;
-  border-bottom: 1px solid $border-color;
+  padding: half($line-height__medium) 0;
   background-color: $grey-bg;
   line-height: $line-height__medium;
+
+  .home & { border-bottom: 1px solid $border-color; }
 
   &__logo {
     margin-bottom: 0;

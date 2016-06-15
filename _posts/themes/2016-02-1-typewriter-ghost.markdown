@@ -4,7 +4,7 @@ title: TypeWriter - Ghost
 tagline: TypeWriter - Free Simple Ghost Theme
 image: 'images/themes/ghost/typewriter/typewriter-preview.jpg'
 free: true
-categories: theme
+categories: themes
 ---
 
 TypeWriter is a minimalism Ghost theme. TypeWriter focus on typography, white space, and gives your readers a better reading experience.

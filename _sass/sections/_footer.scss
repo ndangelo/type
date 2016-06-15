@@ -5,20 +5,40 @@
 //---------------------------
 
 .site-footer {
-  padding: $line-height__base 0;
   background-color: $grey-bg;
-  text-align: center;
+
+  @media #{$medium-down} {
+    .site-footer__section {
+      margin-bottom: half($line-height__base);
+
+      &:last-child { margin-bottom: 0; }
+    }
+  }
+}
+
+.footer-nav-heading {
+  margin-bottom: half($line-height__base);
+  text-transform: uppercase;
+  font-size: $font-size__medium;
+  line-height: $line-height__medium;
+}
+
+.footer-nav-link {
+  display: block;
+  font-size: $font-size__small;
+}
+
+.site-footer__top {
+  padding: $line-height__base 0;
+
+  @media #{$large-up} {
+    padding: double($line-height__base) 0;
+  }
 }
 
 .site-footer__bottom {
-  .poweredby { text-align: right; }
-
-  @media #{$medium-down} {
-    text-align: center;
-
-    .poweredby {
-      padding-top: $line-height__base / 4;
-      text-align: center;
-    }
-  }
+  border-top: 1px dotted $border-color;
+  text-align: center;
+  padding-top: half($line-height__base);
+  padding-bottom: half($line-height__base);
 }

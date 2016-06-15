@@ -9,13 +9,16 @@
 title: Aspire Themes
 email: aspirethemes@gmail.com
 description: Elegant WordPress and Ghost Themes
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://aspirethemes.com" # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'http://aspirethemes.com' # the base hostname & protocol for your site
 twitter_username: aspirethemes
-github_username:  aspirethemes
+github_username: aspirethemes
 
 # Build settings
 markdown: kramdown
+
+include:
+  - _pages
 
 permalink: none
 

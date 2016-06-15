@@ -6,7 +6,7 @@
 
 $total-columns:           12 !default;
 $base-space-unit:        1em !default;
-$row-max-width:         960px !default;
+$row-max-width:         1100px !default;
 
 // gridCalc(1, 12) => 8.33333%
 
@@ -16,45 +16,43 @@ $row-max-width:         960px !default;
 
 .row {
   margin: 0 auto;
-  padding-left: $line-height__medium / 2;
-  padding-right: $line-height__medium / 2;
+  padding-left: half($line-height__medium);
+  padding-right: half($line-height__medium);
   max-width: $row-max-width;
 
-  &:before,
-  &:after {
-    display: table;
-    clear: both;
-    content: " ";
-  }
+  @include clearfix();
 
   .row {
     padding: 0;
-    margin-right: -$line-height__medium / 2;
-    margin-left:  -$line-height__medium / 2;
+    margin-right: - half($line-height__medium);
+    margin-left:  - half($line-height__medium);
 
     @media #{$large-up} {
-      margin-right: -$line-height__base / 2;
-      margin-left:  -$line-height__base / 2;
+      margin-right: - half($line-height__base);
+      margin-left:  - half($line-height__base);
     }
   }
 
   @media #{$large-up} {
-    padding-left: $line-height__base / 2;
-    padding-right: $line-height__base / 2;
+    padding-left: half($line-height__base);
+    padding-right: half($line-height__base);
   }
 
+  &--full {
+    max-width: 100%;
+  }
 }
 
 .column {
   position: relative;
   float: left;
-  padding-right: $line-height__medium / 2;
-  padding-left:  $line-height__medium / 2;
+  padding-right: half($line-height__medium);
+  padding-left: half($line-height__medium);
   width: 100%;
 
   @media #{$large-up} {
-    padding-right: $line-height__base / 2;
-    padding-left:  $line-height__base / 2;
+    padding-right: half($line-height__base);
+    padding-left: half($line-height__base);
   }
 }
 
