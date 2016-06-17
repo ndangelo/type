@@ -14,7 +14,7 @@ Midan is a clean, minimal, modern theme that focus on content for Ghost blogging
 
 * * *
 
-**Aspire Features**
+**Midan Features**
 
 - Clean and minimal design
 - Mobile first &amp; 100% Responsive layout
