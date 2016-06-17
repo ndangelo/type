@@ -13,6 +13,11 @@
   &__tagline {
     margin: 0;
     font-size: $font-size__base;
+    font-family: $font__serif;
     font-weight: $font-weight__light;
+
+    @media #{$large-up} {
+      font-size: double($font-size__tiny);
+    }
   }
 }

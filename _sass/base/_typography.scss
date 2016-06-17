@@ -10,10 +10,8 @@ body {
   line-height: $line-height__base;
   background-color: #fff;
 
-  @media #{$medium-down} {
-    font-size: $font-size__medium;
-    line-height: $line-height__medium;
-  }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -22,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font__serif;
+  font-family: $font__sans-serif;
   font-size: $font-size__base;
   font-weight: $font-weight__light;
   margin: 0 0 $line-height__medium;
@@ -40,8 +38,6 @@ h6 {
   h3 { font-size: 26px; }
   h4 { font-size: 22px; }
   h5 { font-size: 19px; }
-
-  a:not(.button) { text-decoration: underline; }
 }
 
 p {
@@ -83,7 +79,7 @@ p,
 ul,
 ol,
 dl {
-  font-size: $font-size__medium;
+  font-size: $font-size__base;
   margin: 0 0 $line-height__medium 0;
 }
 

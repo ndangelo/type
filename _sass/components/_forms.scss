@@ -16,10 +16,8 @@ select {
   display: inline-block;
   border: 1px solid $input-border-color;
   box-sizing: border-box;
-  // margin-bottom: quarter($line-height__base);
   padding: quarter($line-height__small) half($line-height__small);
-
-  font-family: $font__serif;
+  font-family: $font__sans-serif;
   font-size: $font-size__small;
   line-height: $line-height__medium;
   letter-spacing: 1px;

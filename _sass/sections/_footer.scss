@@ -17,12 +17,15 @@
 .footer-nav-heading {
   margin-bottom: half($line-height__base);
   text-transform: uppercase;
+  font-family: $font__sans-serif;
   font-size: $font-size__medium;
+  letter-spacing: 1px;
   line-height: $line-height__medium;
 }
 
 .footer-nav-link {
   display: block;
+  font-family: $font__sans-serif;
   font-size: $font-size__small;
 }
 
