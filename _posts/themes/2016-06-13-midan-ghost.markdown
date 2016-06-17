@@ -21,7 +21,6 @@ Midan is a clean, minimal, modern theme that focus on content for Ghost blogging
 - Custom CSS (Sass Source Files)
 - Clean well commented code, easy to customize
 - HTML5 / CSS3 valid code
-- Valid HTML5 code
 - Custom Logo support
 - Author page
 - Google fonts
