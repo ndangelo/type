@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Theme Customization
+title: Aspire Custom Services
 permalink: /customization
 ---
 
