@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theme
 title: Midan – Ghost
 tagline: Midan - Clean & Fast Ghost Theme
 image: 'images/themes/ghost/midan/midan-ghost-preview.jpg'
