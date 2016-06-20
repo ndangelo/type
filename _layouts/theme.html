@@ -6,17 +6,17 @@ layout: default
   <div class="row">
     <div class="column column--center medium-8 large-8" itemscope itemtype="http://schema.org/Product">
 
-      <meta itemprop="image" content="/{{page.image}}">
+      <meta itemprop="image" content="{{ site.url }}/{{page.image}}">
 
       <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-        <meta content="{{page.price}}" itemprop="price" />
+        <meta content="{{ page.price }}" itemprop="price" />
         <meta content="USD" itemprop="priceCurrency" />
         <meta content="instock" itemprop="availability" />
       </div>
 
       <header class="post__header">
         <h2 class="post__title" itemprop="name">
-          {{ page.tagline }}
+          {{ page.title }}
         </h2>
         <hr>
       </header>

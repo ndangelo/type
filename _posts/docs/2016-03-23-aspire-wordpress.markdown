@@ -1,31 +1,24 @@
 ---
-layout: post
+layout: doc
 title: Aspire - WordPress
 categories: docs
-date: 12 May 2016
 type: wordpress
-comments: false
 ---
-
-* * *
-
-1. [Theme Information](#theme-information)
-2. [Theme Activation & Installation](#theme-activation--installation)
-3. [Theme Customizer](#theme-customizer)
-4. [Widgets](#widgets)
-5. [Menus](#menus)
-6. [Translation](#translation)
-7. [Theme Development](#theme-development)
-8. [Support](#support)
-
-* * *
-
-## Theme Information
 
 * Name: Aspire
 * Description: Clean News & Magazine WordPress theme
 * Current Version: 1.2.3
 * Released: 6 June 2016
+
+* * *
+
+1. [Theme Activation & Installation](#theme-activation--installation)
+2. [Theme Customizer](#theme-customizer)
+3. [Widgets](#widgets)
+4. [Menus](#menus)
+5. [Translation](#translation)
+6. [Theme Development](#theme-development)
+7. [Support](#support)
 
 * * *
 

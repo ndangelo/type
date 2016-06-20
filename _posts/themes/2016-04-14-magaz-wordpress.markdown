@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Magaz - WordPress
-tagline: Magaz - Magazine/News Minimal WordPress Theme
-image: 'images/themes/wordpress/magaz/magaz-preview.jpg'
+layout: theme
+name: Magaz - WordPress
+title: Magaz - Magazine/News Minimal WordPress Theme
+thumbnail: 'images/themes/wordpress/magaz/magaz-preview.jpg'
 free: false
 price: 49
 draft: false

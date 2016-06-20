@@ -1,8 +1,8 @@
 ---
-layout: post
-title: East - Ghost
-tagline: East - Blog and Multipurpose Clean Ghost Theme
-image: 'images/themes/ghost/east/east-ghost-preview.jpg'
+layout: theme
+name: East - Ghost
+title: East - Blog and Multipurpose Clean Ghost Theme
+thumbnail: 'images/themes/ghost/east/east-ghost-preview.jpg'
 free: false
 price: 19
 categories: themes

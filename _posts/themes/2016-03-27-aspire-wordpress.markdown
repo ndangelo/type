@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Aspire - WordPress
-tagline: Aspire - News & Magazine Clean WordPress Theme
-image: 'images/themes/wordpress/aspire/aspire-wordpress-preview.jpg'
+layout: theme
+name: Aspire - WordPress
+title: Aspire - News & Magazine Clean WordPress Theme
+thumbnail: 'images/themes/wordpress/aspire/aspire-wordpress-preview.jpg'
 free: false
 price: 44
 categories: themes

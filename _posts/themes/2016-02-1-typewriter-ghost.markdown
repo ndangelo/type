@@ -1,8 +1,8 @@
 ---
-layout: post
-title: TypeWriter - Ghost
-tagline: TypeWriter - Free Simple Ghost Theme
-image: 'images/themes/ghost/typewriter/typewriter-preview.jpg'
+layout: theme
+name: TypeWriter - Ghost
+title: TypeWriter - Free Simple Ghost Theme
+thumbnail: 'images/themes/ghost/typewriter/typewriter-preview.jpg'
 free: true
 categories: themes
 ---

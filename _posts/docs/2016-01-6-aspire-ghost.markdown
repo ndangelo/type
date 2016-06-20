@@ -1,11 +1,14 @@
 ---
-layout: post
+layout: doc
 title: Aspire - Ghost
-date: 8 June 16
 categories: docs
 type: ghost
-comments: false
 ---
+
+* Name: Aspire
+* Description: Clean News & Magazine Ghost Theme [Ghost](https://ghost.org/) theme
+* Current Version: 1.2.7
+* Released: 17/June/2016
 
 * * *
 
@@ -27,15 +30,6 @@ comments: false
   - [Copyright Information](#copyright-information)
   - [Theme Development](#theme-development)
 4. [Support](#support)
-
-* * *
-
-## Theme Information
-
-* Name: Aspire
-* Description: Clean News & Magazine Ghost Theme [Ghost](https://ghost.org/) theme
-* Current Version: 1.2.7
-* Released: 17/June/2016
 
 * * *
 

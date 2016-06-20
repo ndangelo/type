@@ -1,8 +1,8 @@
 ---
-layout: post
-title: East - WordPress
-tagline: East - Clean and Minimal WordPress Blog Theme
-image: 'images/themes/wordpress/east/east-preview.png'
+layout: theme
+name: East - WordPress
+title: East - Clean and Minimal WordPress Blog Theme
+thumbnail: 'images/themes/wordpress/east/east-preview.png'
 free: false
 price: 49
 categories: themes

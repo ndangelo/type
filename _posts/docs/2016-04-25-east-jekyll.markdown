@@ -1,29 +1,9 @@
 ---
-layout: post
-title:  East - Jekyll
+layout: doc
+title: East - Jekyll
 categories: docs
 type: jekyll
-draft: false
-comments: false
 ---
-
-## Table of Contents
-
-1. [Theme Information](#theme-information)
-2. [Configurations](#configurations)
-3. [Deployment](#deployment)
-4. [Static Pages](#static-pages)
-5. [Navigation](#navigation)
-6. [Disqus Comments](#disqus-comments)
-7. [MailChimp](#mailchimp)
-8. [Google Analytics](#google-analytics)
-9. [Social Media Links](#social-media-links)
-10. [Update favicon](#update-favicon)
-12. [Support](#support)
-
-* * *
-
-## Theme Information
 
 * Name: East
 * Description: Minimal and Clean Blog Jekyll Theme
@@ -31,6 +11,19 @@ comments: false
 * Released: 25 April 2016
 
 * * *
+
+## Table of Contents
+
+1. [Configurations](#configurations)
+2. [Deployment](#deployment)
+3. [Static Pages](#static-pages)
+4. [Navigation](#navigation)
+5. [Disqus Comments](#disqus-comments)
+6. [MailChimp](#mailchimp)
+7. [Google Analytics](#google-analytics)
+8. [Social Media Links](#social-media-links)
+9. [Update favicon](#update-favicon)
+10. [Support](#support)
 
 ## Configurations
 

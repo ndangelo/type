@@ -1,19 +1,21 @@
 ---
-layout: post
+layout: doc
 title: Midan - Ghost
-date: 23 May 2016
 categories: docs
 type: ghost
-comments: false
 ---
+
+* Name: Midan
+* Description: Clean & Fast [Ghost](https://ghost.org/) Theme
+* Current Version: 1.0.0
+* Released: 13 June 2016
 
 * * *
 
-1. [Theme Information](#theme-information)
-2. [Upload the Theme](#upload-the-theme)
+1. [Upload the Theme](#upload-the-theme)
   - [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
   - [Upload to Ghost.io](#upload-to-ghostio)
-3. [Theme Features](#theme-features)
+2. [Theme Features](#theme-features)
   - [Static Pages](#static-pages)
   - [Navigation](#navigation)
   - [Disqus Comments](#disqus-comments)
@@ -22,16 +24,7 @@ comments: false
   - [Update favicon](#update-favicon)
   - [Copyright Information](#copyright-information)
   - [Theme Development](#theme-development)
-4. [Support](#support)
-
-* * *
-
-## Theme Information
-
-* Name: Midan
-* Description: Clean & Fast [Ghost](https://ghost.org/) Theme
-* Current Version: 1.0.0
-* Released: 13 June 2016
+3. [Support](#support)
 
 * * *
 

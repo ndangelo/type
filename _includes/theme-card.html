@@ -10,12 +10,12 @@
     {% endif %}
 
     <a href="{{ post.url | prepend: site.baseurl }}" class="block" title="{{ post.title }}">
-      <div class="grey-bg theme-card__image CoverImage FlexEmbed FlexEmbed--4by3" style="background-image: url(/{{ post.image }})">
+      <div class="grey-bg theme-card__image CoverImage FlexEmbed FlexEmbed--4by3" style="background-image: url(/{{ post.thumbnail }})">
       </div>
     </a>
 
     <h2 class="theme-card__title">
-      <a title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.name }}</a>
     </h2>
 
   </div>

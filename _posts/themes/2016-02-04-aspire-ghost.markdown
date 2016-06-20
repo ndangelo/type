@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Aspire – Ghost
-tagline: Aspire – Magazine Ghost Theme
-image: 'images/themes/ghost/aspire/aspire-ghost-preview.jpg'
+layout: theme
+name: Aspire – Ghost
+title: Aspire – Magazine Ghost Theme
+thumbnail: 'images/themes/ghost/aspire/aspire-ghost-preview.jpg'
 free: false
 price: 19
 categories: themes

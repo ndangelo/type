@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Magaz - Ghost
-tagline: Magaz - Magazine and Multipurpose Clean Ghost Theme
-image: 'images/themes/ghost/magaz/magazfull-preview.jpg'
+layout: theme
+name: Magaz - Ghost
+title: Magaz - Magazine and Multipurpose Clean Ghost Theme
+thumbnail: 'images/themes/ghost/magaz/magazfull-preview.jpg'
 free: false
 price: 19
 categories: themes

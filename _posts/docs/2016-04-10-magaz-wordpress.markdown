@@ -1,32 +1,25 @@
 ---
-layout: post
-title:  Magaz - WordPress
+layout: doc
+title: Magaz - WordPress
 categories: docs
-date: 17 May 2016
 type: wordpress
-comments: false
 ---
-
-* * *
-
-1. [Theme Information](#theme-information)
-2. [Theme Activation & Installation](#theme-activation--installation)
-3. [Theme Customizer](#theme-customizer)
-4. [Widgets](#widgets)
-5. [Menus](#menus)
-6. [Category page cover image](#category-page-cover-image)
-7. [Translation](#translation)
-8. [Theme Development](#theme-development)
-9. [Support](#Support)
-
-* * *
-
-## Theme Information
 
 * Name: Magaz
 * Description: Magazine/News Minimal WordPress theme
 * Current Version: 1.0.0
 * Released: 17 May 2016
+
+* * *
+
+1. [Theme Activation & Installation](#theme-activation--installation)
+2. [Theme Customizer](#theme-customizer)
+3. [Widgets](#widgets)
+4. [Menus](#menus)
+5. [Category page cover image](#category-page-cover-image)
+6. [Translation](#translation)
+7. [Theme Development](#theme-development)
+8. [Support](#Support)
 
 * * *
 

@@ -1,8 +1,8 @@
 ---
 layout: theme
-title: Midan – Ghost
-tagline: Midan - Clean & Fast Ghost Theme
-image: 'images/themes/ghost/midan/midan-ghost-preview.jpg'
+name: Midan – Ghost
+title: Midan - Clean & Fast Ghost Theme
+thumbnail: 'images/themes/ghost/midan/midan-ghost-preview.jpg'
 free: false
 price: 19
 categories: themes

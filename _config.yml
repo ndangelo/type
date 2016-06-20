@@ -24,5 +24,6 @@ gems:
   - jekyll-sitemap
 
 permalink: none
-
+# permalink: /:categories/:title
+post_dirs: false
 disqus: aspirethemes
