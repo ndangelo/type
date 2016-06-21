@@ -2,7 +2,7 @@
 <meta name="twitter:site" content="@aspirethemes">
 <meta name="twitter:creator" content="@aspirethemes">
 <meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="{{ page.content | strip_html | truncate: 155, ' ...' }}">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 {% if page.thumbnail %}
   <meta name="twitter:image" content="{{ site.url }}/{{page.thumbnail}}">
@@ -14,5 +14,5 @@
 {% if page.thumbnail %}
 <meta property="og:image" content="{{ site.url }}/{{page.thumbnail}}">
 {% endif %}
-<meta property="og:description" content="{{ page.content | strip_html | truncate: 155, ' ...' }}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:site_name" content="Aspire Themes">

@@ -2,9 +2,10 @@
 layout: page
 title: Aspire Custom Services
 permalink: /customization
+excerpt: You have purchased a theme and need to do some customization on it? I will be happy to walk you through every step, from installation to configuration, to customize the code to best fit within your project requirements and more services.
 ---
 
-You have purchased a theme and need to do some customization on it? I will be happy to walk you through every step: from installation to configuration, to customize the code to best fit within your project requirements and more services, including, but not limited to:
+You have purchased a theme and need to do some customization on it? I will be happy to walk you through every step, from installation to configuration, to customize the code to best fit within your project requirements and more services, including, but not limited to:
 
 #### WordPress
 
