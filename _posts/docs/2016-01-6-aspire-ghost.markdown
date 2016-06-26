@@ -10,28 +10,28 @@ type: ghost
 * Current Version: 1.2.7
 * Released: 17/June/2016
 
-* * *
+---
 
 1. [Theme Information](#theme-information)
 2. [Upload the Theme](#upload-the-theme)
-  - [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
-  - [Upload to Ghost.io](#upload-to-ghostio)
+  * [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
+  * [Upload to Ghost.io](#upload-to-ghostio)
 3. [Theme Features](#theme-features)
-  - [Static Pages](#static-pages)
-  - [Navigation](#navigation)
-  - [Disqus Comments](#disqus-comments)
-  - [Twitter](#twitter)
-  - [Instagram](#instagram)
-  - [Related Posts](#relatedposts)
-  - [Google Analytics](#google-analytics)
-  - [MailChimp](#mailchimp)
-  - [Social Media Links](#social-media-links)
-  - [Update favicon](#update-favicon)
-  - [Copyright Information](#copyright-information)
-  - [Theme Development](#theme-development)
+  * [Static Pages](#static-pages)
+  * [Navigation](#navigation)
+  * [Disqus Comments](#disqus-comments)
+  * [Twitter](#twitter)
+  * [Instagram](#instagram)
+  * [Related Posts](#relatedposts)
+  * [Google Analytics](#google-analytics)
+  * [MailChimp](#mailchimp)
+  * [Social Media Links](#social-media-links)
+  * [Update favicon](#update-favicon)
+  * [Copyright Information](#copyright-information)
+  * [Theme Development](#theme-development)
 4. [Support](#support)
 
-* * *
+---
 
 ## Upload the Theme
 
@@ -50,7 +50,7 @@ Here is another guide that you may find useful.
 
 * [How to Upload and Install a Ghost Theme](https://www.ghostforbeginners.com/how-to-upload-a-theme/)
 
-* * *
+---
 
 ### Upload to Ghost.io
 
@@ -59,7 +59,7 @@ Here is another guide that you may find useful.
 3. In your blog’s control panel, you can either "drag & drop" Aspire theme zip file into the **“Add a Theme”** drop zone, or click on the drag & drop zone to launch the traditional file upload prompt.
 4. Upload the theme, and once uploaded, click on the **Save All Blog Settings** button. Your blog will automatically update with the new theme.
 
-* * *
+---
 
 ## Theme Features
 
@@ -69,7 +69,7 @@ In order to create a static page you create a new post, just like you would any 
 
 ![static page](/images/docs/ghost/aspire/staticpage.png)
 
-* * *
+---
 
 ### Navigation
 
@@ -83,7 +83,7 @@ To include a static page on your navigation menu, first type the name of the pag
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
 
-* * *
+---
 
 ### Disqus Comments
 
@@ -105,19 +105,19 @@ That's all what you need to setup Disqus from the theme side. If you get any iss
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
-* * *
+---
 
 ### Twitter
 
 To setup the Twitter feed:
 
-- Go to your [Twitter](https://twitter.com/) settings page.
-- Go to "Widgets" on the left side.
-- Create a new widget and customize it as your requirements.
-- When you create a widget, Twitter will show you a box containing source code, from this code you will see a long number like: `678277339646664704`.
-- Just copy and paste it in `assets/js/script.js` file, in the "Twitter widget" section for `twitterWidgetID` variable with it.
+* Go to your [Twitter](https://twitter.com/) settings page.
+* Go to "Widgets" on the left side.
+* Create a new widget and customize it as your requirements.
+* When you create a widget, Twitter will show you a box containing source code, from this code you will see a long number like: `678277339646664704`.
+* Just copy and paste it in `assets/js/script.js` file, in the "Twitter widget" section for `twitterWidgetID` variable with it.
 
-* * *
+---
 
 ### Instagram
 
@@ -125,29 +125,29 @@ To generate a new Instagram feed for your account, please visit [Instansive](htt
 
 Customize the widget based on a username or hashtag, then you will get a code for the widget, open `partials/instagram.hbs` file and paste the code. That's it.
 
-* * *
+---
 
 ### RelatedPosts
 
 Related posts will be visible on the single post page when there are similar posts with similar tags, and will be hidden otherwise.
 
-* * *
+---
 
 ### Google Analytics
 
 To integrate Google Analytics, I would recommend reading [How do I add Google Analytics to my blog?](http://support.ghost.org/add-google-analytics-blog/) by Ghost.
 
-* * *
+---
 
 ### MailChimp
 
 Steps to integrate MailChimp newsletter subscription form:
 
-- Create a mailing list from your MailChimp account, fill all the fields required and save it.
-- From the list page, select **Signup forms**, then select **Embeded forms**.
-- You may want to change or edit the form fields, or customize the form in general, after you have done and everything is ok, you will be provided by HTML code, what we need to integrate with Aspire theme is the code in the action element, like the highlighted code in the image blow.
-- Copy that code and paste it in the form element in the two places in the theme, one in the `partials/footer.hbs`, and the other in `partials/sidebar.hbs`, where you can find the newsletter form.
-- Save your files and upload your theme.
+* Create a mailing list from your MailChimp account, fill all the fields required and save it.
+* From the list page, select **Signup forms**, then select **Embeded forms**.
+* You may want to change or edit the form fields, or customize the form in general, after you have done and everything is ok, you will be provided by HTML code, what we need to integrate with Aspire theme is the code in the action element, like the highlighted code in the image blow.
+* Copy that code and paste it in the form element in the two places in the theme, one in the `partials/footer.hbs`, and the other in `partials/sidebar.hbs`, where you can find the newsletter form.
+* Save your files and upload your theme.
 
 ![mailchimp-code](/images/docs/ghost/aspire/mailchimp-code.png)
 
@@ -155,20 +155,20 @@ Steps to integrate MailChimp newsletter subscription form:
 
 If you don't want to use the MailChimp news-letter feature, you can hide the subscription forms from two files:
 
-- `partials/footer.hbs` (line 51 to 63)
-- `partials/sidebar.hbs` (line 9 to 18)
+* `partials/footer.hbs` (line 51 to 63)
+* `partials/sidebar.hbs` (line 9 to 18)
 
 You can delete or comment these lines, then upload the files to the server.
 
-* * *
+---
 
 ### Social Media Links
 
 Social media links are placed in different files:
 
-- `partials/footer.hbs`
-- `partials/header.hbs`
-- `partials/sidebar.hbs`
+* `partials/footer.hbs`
+* `partials/header.hbs`
+* `partials/sidebar.hbs`
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
@@ -226,7 +226,7 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 <span data-icon="ei-sc-youtube" data-size="s"></span>
 ```
 
-* * *
+---
 
 ### Update favicon
 
@@ -234,13 +234,13 @@ You can find the current favicon inside the theme **assets** directory, just rep
 
 ![Update favicon](/images/docs/ghost/aspire/update-favicon.png)
 
-* * *
+---
 
 ### Copyright Information
 
 You will find copyright information at the bottom of `partials/footer.hbs` file.
 
-* * *
+---
 
 ### Theme Development
 
@@ -260,7 +260,7 @@ gulp
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 
-* * *
+---
 
 ## Support
 
@@ -268,5 +268,3 @@ If you have any questions, I'd be happy to answer them. Please don't hesitate to
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
-
-* * *

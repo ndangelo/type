@@ -10,23 +10,23 @@ type: ghost
 * Current Version: 1.0.0
 * Released: 13 June 2016
 
-* * *
+---
 
 1. [Upload the Theme](#upload-the-theme)
-  - [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
-  - [Upload to Ghost.io](#upload-to-ghostio)
+  * [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
+  * [Upload to Ghost.io](#upload-to-ghostio)
 2. [Theme Features](#theme-features)
-  - [Static Pages](#static-pages)
-  - [Navigation](#navigation)
-  - [Disqus Comments](#disqus-comments)
-  - [Google Analytics](#google-analytics)
-  - [Social Media Links](#social-media-links)
-  - [Update favicon](#update-favicon)
-  - [Copyright Information](#copyright-information)
-  - [Theme Development](#theme-development)
+  * [Static Pages](#static-pages)
+  * [Navigation](#navigation)
+  * [Disqus Comments](#disqus-comments)
+  * [Google Analytics](#google-analytics)
+  * [Social Media Links](#social-media-links)
+  * [Update favicon](#update-favicon)
+  * [Copyright Information](#copyright-information)
+  * [Theme Development](#theme-development)
 3. [Support](#support)
 
-* * *
+---
 
 ## Upload the Theme
 
@@ -45,7 +45,7 @@ Here is another guide that you may find useful.
 
 * [How to Upload and Install a Ghost Theme](https://www.ghostforbeginners.com/how-to-upload-a-theme/)
 
-* * *
+---
 
 ### Upload to Ghost.io
 
@@ -54,7 +54,7 @@ Here is another guide that you may find useful.
 3. In your blog’s control panel, you can either "drag & drop" **midan** theme zip file into the **“Add a Theme”** drop zone, or click on the drag & drop zone to launch the traditional file upload prompt.
 4. Upload the theme, and once uploaded, click on the **Save All Blog Settings** button. Your blog will automatically update with the new theme.
 
-* * *
+---
 
 ## Theme Features
 
@@ -64,7 +64,7 @@ In order to create a static page you create a new post, just like you would any 
 
 ![static page](/images/docs/ghost/midan/staticpage.png)
 
-* * *
+---
 
 ### Navigation
 
@@ -78,7 +78,7 @@ To include a static page on your navigation menu, first type the name of the pag
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
 
-* * *
+---
 
 ### Disqus Comments
 
@@ -100,13 +100,13 @@ That's all what you need to setup Disqus from the theme side. If you get any iss
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
-* * *
+---
 
 ### Google Analytics
 
 To integrate Google Analytics, I would recommend reading [How do I add Google Analytics to my blog?](http://support.ghost.org/add-google-analytics-blog/) by Ghost.
 
-* * *
+---
 
 ### Social Media Links
 
@@ -170,7 +170,7 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 <span data-icon="ei-sc-youtube" data-size="s"></span>
 ```
 
-* * *
+---
 
 ### Update favicon
 
@@ -178,13 +178,13 @@ You can find the current favicon inside the theme **assets** directory, just rep
 
 ![Update favicon](/images/docs/ghost/midan/update-favicon.png)
 
-* * *
+---
 
 ### Copyright Information
 
 You will find copyright information at the bottom of `partials/footer.hbs` file.
 
-* * *
+---
 
 ### Theme Development
 
@@ -204,7 +204,7 @@ gulp
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 
-* * *
+---
 
 ## Support
 
@@ -212,5 +212,3 @@ If you have any questions, I'd be happy to answer them. Please don't hesitate to
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
-
-* * *

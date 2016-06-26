@@ -10,7 +10,7 @@ type: wordpress
 * Current Version: 1.1.1
 * Released: 13 June 2016
 
-* * *
+---
 
 1. [Theme Activation & Installation](#theme-activation--installation)
 2. [Theme Customizer](#theme-customizer)
@@ -20,7 +20,7 @@ type: wordpress
 6. [Theme Development](#theme-development)
 7. [Support](#support)
 
-* * *
+---
 
 ## Theme Activation & Installation
 
@@ -44,7 +44,7 @@ Then click **Activate** to activate the East theme.
 4. Once it’s uploaded, go to your WordPress Admin, browse to **Appearance > Themes.**
 5. Click the **Activate** link.
 
-* * *
+---
 
 ## Theme Customizer
 
@@ -66,7 +66,7 @@ From the customizer window, choose **Theme Options > Header** and then **Hide Se
 
 From the customizer window, choose **Theme Options > Footer** to easily update the copyright text
 
-* * *
+---
 
 ## Widgets
 
@@ -144,7 +144,7 @@ The following are the social media sites and services where you can find an icon
   </div>
 </div>
 
-* * *
+---
 
 ### Translation
 
@@ -160,7 +160,7 @@ The theme contains the main translation file `east.pot` inside the languages dir
 4. Once translation is done, save the file according to your language code. Find a list of language codes at [WordPress in your Language](https://make.wordpress.org/polyglots/teams/). As an example, the language code for English (UK) is en_GB, so you will end up with two new files: en_GB.po and then en_GB.mo
 5. When that’s done, simply upload the files to **east/language** folder using FTP
 
-* * *
+---
 
 ## Theme Development
 
@@ -180,7 +180,7 @@ gulp
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 
-* * *
+---
 
 ## Support
 
@@ -188,5 +188,3 @@ If you have any questions, I'd be happy to answer them.
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
-
-* * *

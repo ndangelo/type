@@ -10,7 +10,7 @@ type: jekyll
 * Current Version: 1.0.0
 * Released: 25 April 2016
 
-* * *
+---
 
 ## Table of Contents
 
@@ -67,7 +67,7 @@ authors:
     github: aspirethemes
 ```
 
-* * *
+---
 
 ## Deployment
 
@@ -77,7 +77,7 @@ I would recommend checking the [Deployment methods](https://jekyllrb.com/docs/de
 
 East is [configured](https://www.aerobatic.com/docs/automated-builds#jekyll) to work with [Aerobatic](http://aerobatic.com/)
 
-* * *
+---
 
 ### Posts
 
@@ -121,13 +121,13 @@ image: '/images/pages/about.jpeg'
 
 Things you can change are: `title`, `permalink`, and `image` path.
 
-* * *
+---
 
 ### Navigation
 
 The navigation on the side bar will include all the links to the pages you have created.
 
-* * *
+---
 
 ### Disqus Comments
 
@@ -149,21 +149,21 @@ That's all what you need to setup Disqus from the theme side. If you get any iss
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
-* * *
+---
 
 ### MailChimp
 
 Steps to integrate MailChimp newsletter subscription form:
 
-- Create a mailing list from your MailChimp account, fill all the fields required and save it.
-- From the list page, select **Signup forms**, then select **Embeded forms**.
-- You may want to change or edit the form fields, or customize the form in general, after you have done and everything is ok, you will be provided by HTML code, what we need to integrate with East theme is the code in the action element, like the highlighted code in the image blow.
-- Copy that code and paste it in the form element in `_includes/subscribe-form.html` where you can find the newsletter form.
-- Save your files and upload your theme.
+* Create a mailing list from your MailChimp account, fill all the fields required and save it.
+* From the list page, select **Signup forms**, then select **Embeded forms**.
+* You may want to change or edit the form fields, or customize the form in general, after you have done and everything is ok, you will be provided by HTML code, what we need to integrate with East theme is the code in the action element, like the highlighted code in the image blow.
+* Copy that code and paste it in the form element in `_includes/subscribe-form.html` where you can find the newsletter form.
+* Save your files and upload your theme.
 
 ![mailchimp-code](/images/docs/jekyll/east/mailchimp-code.png)
 
-* * *
+---
 
 ### Google Analytics
 
@@ -231,19 +231,19 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 <span data-icon="ei-sc-youtube" data-size="s"></span>
 ```
 
-* * *
+---
 
 ### Update favicon
 
 You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
 
-* * *
+---
 
 ### Copyright Information
 
 You will find copyright information at the bottom of `_includes/sidebar.html` file.
 
-* * *
+---
 
 ## Support
 
@@ -251,5 +251,3 @@ If you have any questions, I'd be happy to answer them. Please don't hesitate to
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
-
-* * *
