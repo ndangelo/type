@@ -17,7 +17,7 @@ Magaz is a modern, clean, minimal, content and image focus theme for WordPress. 
 
 #### Features
 
-<div class="feature-list" markdown='1'>
+<div class="check-list" markdown='1'>
   * Clean and minimal design
   * Mobile first &amp; 100% responsive design
   * Custom Image logo.

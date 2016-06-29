@@ -15,7 +15,7 @@ TypeWriter is a minimalism Ghost theme. TypeWriter focuses on typography, white 
 
 #### Features
 
-<div class="feature-list" markdown='1'>
+<div class="check-list" markdown='1'>
   * Minimal design
   * Beautiful Typography
   * Ready for Ghost latest version

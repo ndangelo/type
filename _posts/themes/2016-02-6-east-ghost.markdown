@@ -16,7 +16,7 @@ East is a clean, minimal, modern theme that focus on content for Ghost blogging 
 
 #### Features
 
-<div class="feature-list" markdown='1'>
+<div class="check-list" markdown='1'>
   * Clean and minimal design
   * Ready for Ghost latest version
   * Instant Search with GhostHunter

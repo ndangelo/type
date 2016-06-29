@@ -16,7 +16,7 @@ Aspire is a modern, clean, and content and image focus theme for Ghost blogging 
 
 #### Features
 
-<div class="feature-list" markdown='1'>
+<div class="check-list" markdown='1'>
   * Clean and minimal design
   * Ready for Ghost latest version
   * Instant Search with GhostHunter

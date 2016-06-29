@@ -107,40 +107,46 @@ The following are the social media sites and services where you can find an icon
 
 <div class="row">
   <div class="column small-4">
-    <ul>
-      <li>Twitter</li>
-      <li>CodePen</li>
-      <li>Digg</li>
-      <li>Dribbble</li>
-      <li>Dropbox</li>
-      <li>Email</li>
-      <li>Facebook</li>
-      <li>Foursquare</li>
-    </ul>
+    <div class="check-list">
+      <ul>
+        <li>Twitter</li>
+        <li>CodePen</li>
+        <li>Digg</li>
+        <li>Dribbble</li>
+        <li>Dropbox</li>
+        <li>Email</li>
+        <li>Facebook</li>
+        <li>Foursquare</li>
+      </ul>
+    </div>
   </div>
   <div class="column small-4">
-    <ul>
-      <li>GitHub</li>
-      <li>Google Plus</li>
-      <li>Instagram</li>
-      <li>LinkedIn</li>
-      <li>Path</li>
-      <li>Pinterest</li>
-      <li>Polldaddy</li>
-      <li>Reddit</li>
-    </ul>
+    <div class="check-list">
+      <ul>
+        <li>GitHub</li>
+        <li>Google Plus</li>
+        <li>Instagram</li>
+        <li>LinkedIn</li>
+        <li>Path</li>
+        <li>Pinterest</li>
+        <li>Polldaddy</li>
+        <li>Reddit</li>
+      </ul>
+    </div>
   </div>
   <div class="column small-4">
-    <ul>
-      <li>RSS</li>
-      <li>StumbleUpon</li>
-      <li>Tumblr</li>
-      <li>Twitch</li>
-      <li>Twitter</li>
-      <li>Vimeo</li>
-      <li>Vine</li>
-      <li>WordPress</li>
-    </ul>
+    <div class="check-list">
+      <ul>
+        <li>RSS</li>
+        <li>StumbleUpon</li>
+        <li>Tumblr</li>
+        <li>Twitch</li>
+        <li>Twitter</li>
+        <li>Vimeo</li>
+        <li>Vine</li>
+        <li>WordPress</li>
+      </ul>
+    </div>
   </div>
 </div>
 

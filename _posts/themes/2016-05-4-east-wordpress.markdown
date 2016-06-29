@@ -26,7 +26,7 @@ East is a modern, clean, and minimal WordPress theme for your next blog. East is
 
 #### Features
 
-<div class="feature-list" markdown='1'>
+<div class="check-list" markdown='1'>
   * Clean and minimal design
   * Ready for latest version of WordPress.
   * Custom Image logo.

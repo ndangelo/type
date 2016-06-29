@@ -16,7 +16,7 @@ Midan is a clean, minimal, modern theme that focuses on content for Ghost bloggi
 
 #### Features
 
-<div class="feature-list" markdown='1'>
+<div class="check-list" markdown='1'>
   * Clean and minimal design
   * Mobile first &amp; 100% Responsive layout
   * Custom CSS (Sass Source Files)
