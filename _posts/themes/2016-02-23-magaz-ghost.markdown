@@ -12,34 +12,36 @@ Magaz is a modern, clean, and content and image focus theme for Ghost blogging p
 
 ![aspire-ghost-full-preview](/images/themes/ghost/magaz/magaz-ghost-full-preview.png)
 
-* * *
+---
 
-**Features**
+#### Features
 
-- Clean and minimal design
-- Ready for Ghost latest version
-- Instant Search with GhostHunter
-- Related Posts
-- MailChimp newsletter subscription form
-- Custom CSS (Sass Source Files)
-- Clean well commented code, easy to customize
-- HTML5 / CSS3 valid code
-- <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fmagaz.aspirethemes.com%2F">Valid HTML5 code<a/>
-- Mobile first &amp; 100% Responsive layout
-- Multi author support
-- Author page (Cover image support)
-- Google fonts (Merriweather)
-- Evil Icons
-- Tag page (Cover image support)
-- Disqus comment system
-- Static page support
-- Post sharing
-- 404 custom page
-- SEO Friendly with <a href="http://Schema.org">Schema.org</a> Structured Data
-- Next &amp; Previous Post Navigation
-- Easy setup with easy to follow instructions
+<div class="feature-list" markdown='1'>
+  * Clean and minimal design
+  * Ready for Ghost latest version
+  * Instant Search with GhostHunter
+  * Related Posts
+  * MailChimp newsletter subscription form
+  * Custom CSS (Sass Source Files)
+  * Clean well commented code, easy to customize
+  * HTML5 / CSS3 valid code
+  * <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fmagaz.aspirethemes.com%2F">Valid HTML5 code<a/>
+  * Mobile first &amp; 100% Responsive layout
+  * Multi author support
+  * Author page (Cover image support)
+  * Google fonts (Merriweather)
+  * Evil Icons
+  * Tag page (Cover image support)
+  * Disqus comment system
+  * Static page support
+  * Post sharing
+  * 404 custom page
+  * SEO Friendly with <a href="http://Schema.org">Schema.org</a> Structured Data
+  * Next &amp; Previous Post Navigation
+  * Easy setup with easy to follow instructions
+</div>
 
-* * *
+---
 
 <div class="row">
   <div class="column medium-4 large-4">
@@ -53,4 +55,4 @@ Magaz is a modern, clean, and content and image focus theme for Ghost blogging p
   </div>
 </div>
 
-* * *
+---

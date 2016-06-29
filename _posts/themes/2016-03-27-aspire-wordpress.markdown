@@ -12,31 +12,33 @@ Aspire is a modern, clean, minimal, content and image focus theme for WordPress.
 
 ![aspire-wordpress-full-preview](/images/themes/wordpress/aspire/aspire-wordpress-full-preview.png)
 
-* * *
+---
 
-**Features**
+#### Features
 
-- Clean and minimal design
-- Mobile first &amp; 100% responsive design
-- Cross browser compatibility
-- Custom Image logo.
-- SEO optimized
-- Translation ready
-- Arabic Translation
-- Full RTL support (right-to-left languages like Arabic or Hebrew)
-- Comes with the child theme to allow you safe modifications
-- Custom CSS (Sass Source Files)
-- Clean well commented code, easy to customize
-- Valid HTML5 code
-- Twitter Feed Widget
-- Recent Posts Widget with images
-- Advertisement Widget
-- Customizable Footer with 4 widget areas
-- Social Media Share
-- <a href="http://aspire-wp.aspirethemes.com/404">404 custom page</a>
-- Easy setup with easy to follow instructions
+<div class="feature-list" markdown='1'>
+  * Clean and minimal design
+  * Mobile first &amp; 100% responsive design
+  * Cross browser compatibility
+  * Custom Image logo.
+  * SEO optimized
+  * Translation ready
+  * Arabic Translation
+  * Full RTL support (right-to-left languages like Arabic or Hebrew)
+  * Comes with the child theme to allow you safe modifications
+  * Custom CSS (Sass Source Files)
+  * Clean well commented code, easy to customize
+  * Valid HTML5 code
+  * Twitter Feed Widget
+  * Recent Posts Widget with images
+  * Advertisement Widget
+  * Customizable Footer with 4 widget areas
+  * Social Media Share
+  * <a href="http://aspire-wp.aspirethemes.com/404">404 custom page</a>
+  * Easy setup with easy to follow instructions
+</div>
 
-* * *
+---
 
 <div class="row">
   <div class="column medium-4 large-4">
@@ -50,4 +52,4 @@ Aspire is a modern, clean, minimal, content and image focus theme for WordPress.
   </div>
 </div>
 
-* * *
+---

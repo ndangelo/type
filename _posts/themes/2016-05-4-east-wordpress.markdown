@@ -22,28 +22,30 @@ East is a modern, clean, and minimal WordPress theme for your next blog. East is
 
 [![support-docs](http://aspirethemes.github.io/images/envato/wordpress/east/support-docs.png)](http://aspirethemes.com/docs/east-wordpress.html)
 
-* * *
+---
 
-**East Features**
+#### Features
 
-- Clean and minimal design
-- Ready for latest version of WordPress.
-- Custom Image logo.
-- SEO optimized
-- Translation Ready.
-- Full RTL support (right-to-left languages like Arabic or Hebrew)
-- Comes with the child theme to allow safe modifications
-- Custom CSS (Sass Source Files)
-- Clean and well commented code, easy to customize, automation with Gulp
-- Valid HTML5 code
-- Mobile first & 100% Responsive layout
-- Google fonts (Merriweather)
-- Customizable Footer with 4 widget areas
-- Social Media Share
-- [404 custom page](http://east-wordpress.aspirethemes.com/404)
-- [Online documentation](http://aspirethemes.com/docs/east-wordpress.html)
+<div class="feature-list" markdown='1'>
+  * Clean and minimal design
+  * Ready for latest version of WordPress.
+  * Custom Image logo.
+  * SEO optimized
+  * Translation Ready.
+  * Full RTL support (right-to-left languages like Arabic or Hebrew)
+  * Comes with the child theme to allow safe modifications
+  * Custom CSS (Sass Source Files)
+  * Clean and well commented code, easy to customize, automation with Gulp
+  * Valid HTML5 code
+  * Mobile first & 100% Responsive layout
+  * Google fonts (Merriweather)
+  * Customizable Footer with 4 widget areas
+  * Social Media Share
+  * [404 custom page](http://east-wordpress.aspirethemes.com/404)
+  * [Online documentation](http://aspirethemes.com/docs/east-wordpress.html)
+</div>
 
-* * *
+---
 
 <div class="row">
   <div class="column medium-4 large-4">
@@ -57,4 +59,4 @@ East is a modern, clean, and minimal WordPress theme for your next blog. East is
   </div>
 </div>
 
-* * *
+---

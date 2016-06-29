@@ -11,30 +11,32 @@ TypeWriter is a minimalism Ghost theme. TypeWriter focus on typography, white sp
 
 ![typewriter-ghost-full-preview](/images/themes/ghost/typewriter/typewriter-ghost-full-preview.png)
 
-* * *
+---
 
-**Typewriter Features**
+#### Features
 
-- Minimal design
-- Beautiful Typography
-- Ready for Ghost latest version
-- HTML5 / CSS3 valid code
-- 100% Responsive layout
-- Multi author support
-- Author page
-- Google font
-- Evil Icons
-- Tag page support
-- Disqus comments
-- Post sharing
-- 404 Page
-- Next & Previous Post Navigation
-- Social media icons
-- Easy setup with easy to follow instructions
-- Syntax Highlighting
-- Gulp & Uncompressed SASS Source Files
+<div class="feature-list" markdown='1'>
+  * Minimal design
+  * Beautiful Typography
+  * Ready for Ghost latest version
+  * HTML5 / CSS3 valid code
+  * 100% Responsive layout
+  * Multi author support
+  * Author page
+  * Google font
+  * Evil Icons
+  * Tag page support
+  * Disqus comments
+  * Post sharing
+  * 404 Page
+  * Next & Previous Post Navigation
+  * Social media icons
+  * Easy setup with easy to follow instructions
+  * Syntax Highlighting
+  * Gulp & Uncompressed SASS Source Files
+</div>
 
-* * *
+---
 
 <div class="row">
   <div class="column large-12">
@@ -42,4 +44,4 @@ TypeWriter is a minimalism Ghost theme. TypeWriter focus on typography, white sp
   </div>
 </div>
 
-* * *
+---

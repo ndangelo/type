@@ -12,28 +12,30 @@ Midan is a clean, minimal, modern theme that focus on content for Ghost blogging
 
 ![midan-ghost-full-preview](/images/themes/ghost/midan/midan-ghost-full-preview.png)
 
-* * *
+---
 
-**Midan Features**
+#### Features
 
-- Clean and minimal design
-- Mobile first &amp; 100% Responsive layout
-- Custom CSS (Sass Source Files)
-- Clean well commented code, easy to customize
-- HTML5 / CSS3 valid code
-- Custom Logo support
-- Author page
-- Google fonts
-- Evil Icons
-- Tag page
-- Disqus comment system
-- Static page support
-- Post sharing
-- SEO Friendly with Schema.org Structured Data
-- Next &amp; Previous Post Navigation
-- [Online documentation](http://aspirethemes.com/docs/midan-ghost.html)
+<div class="feature-list" markdown='1'>
+  * Clean and minimal design
+  * Mobile first &amp; 100% Responsive layout
+  * Custom CSS (Sass Source Files)
+  * Clean well commented code, easy to customize
+  * HTML5 / CSS3 valid code
+  * Custom Logo support
+  * Author page
+  * Google fonts
+  * Evil Icons
+  * Tag page
+  * Disqus comment system
+  * Static page support
+  * Post sharing
+  * SEO Friendly with Schema.org Structured Data
+  * Next &amp; Previous Post Navigation
+  * [Online documentation](http://aspirethemes.com/docs/midan-ghost.html)
+</div>
 
-* * *
+---
 
 <div class="row">
   <div class="column medium-4 large-4">
@@ -47,4 +49,4 @@ Midan is a clean, minimal, modern theme that focus on content for Ghost blogging
   </div>
 </div>
 
-* * *
+---
