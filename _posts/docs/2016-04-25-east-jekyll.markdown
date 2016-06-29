@@ -59,7 +59,7 @@ authors:
   john:
     name: John Adam
     display_name: John Adam
-    bio: Adam have over 5 years of experience as a web writer, and also a photographer.
+    bio: Adam has over 5 years of experience as a web writer, and also a photographer.
     gravatar: http://east.aspirethemes.com/content/images/2016/01/smiles-man.jpg
     email: john@aspirethemes.com
     web: http://aspirethemes.com
@@ -71,7 +71,7 @@ authors:
 
 ## Deployment
 
-To install locally, more to the theme root and run `bundle install` to install the dependencies, then run `jekyll serve` to start the jekyll server.
+To install locally, more to the theme root and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
 
 I would recommend checking the [Deployment methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
@@ -125,7 +125,7 @@ Things you can change are: `title`, `permalink`, and `image` path.
 
 ### Navigation
 
-The navigation on the side bar will include all the links to the pages you have created.
+The navigation on the sidebar will include all the links to the pages you have created.
 
 ---
 
@@ -133,7 +133,7 @@ The navigation on the side bar will include all the links to the pages you have 
 
 East Theme comes with Disqus comments enabled.
 
-Open `_includes/disqus.html` file, and change the `aspirethemes` value in line 15 with your Disqus account shortname.
+Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your Disqus account shortname.
 
 ```
 s.src = '//aspirethemes.disqus.com/embed.js';
@@ -145,7 +145,7 @@ So, if your Disqus shortname is `exampleone`, the final code above should be
 s.src = '//exampleone.disqus.com/embed.js';
 ```
 
-That's all what you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
+That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
@@ -156,7 +156,7 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 Steps to integrate MailChimp newsletter subscription form:
 
 * Create a mailing list from your MailChimp account, fill all the fields required and save it.
-* From the list page, select **Signup forms**, then select **Embeded forms**.
+* From the list page, select **Signup forms**, then select **Embedded forms**.
 * You may want to change or edit the form fields, or customize the form in general, after you have done and everything is ok, you will be provided by HTML code, what we need to integrate with East theme is the code in the action element, like the highlighted code in the image blow.
 * Copy that code and paste it in the form element in `_includes/subscribe-form.html` where you can find the newsletter form.
 * Save your files and upload your theme.

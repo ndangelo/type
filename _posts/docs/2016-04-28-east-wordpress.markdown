@@ -76,7 +76,7 @@ Widgets can be added to these areas by navigating to "Appearance > Widgets".
 
 ![Widgets](/images/docs/wordpress/east/widgets.png)
 
-The footer section have four registered widget sections you can drag widgets in.
+The footer section has four registered widget sections you can drag widgets in.
 
 ![footer-widgets](/images/docs/wordpress/east/footer-widgets.png)
 
@@ -99,7 +99,7 @@ To create the header main navigation, create a WordPress normal menu. The [WordP
 
 #### Social Menu
 
-You can create a normal menu with custom link to the social media site. Then you can assign the menu to the Social Menu location in the Menu Settings section.
+You can create a normal menu with a custom link to the social media site. Then you can assign the menu to the Social Menu location in the Menu Settings section.
 
 ![social-media-menu](/images/docs/wordpress/east/social-media-menu.png)
 
@@ -152,21 +152,21 @@ East theme is full ready to be translated into other languages and could be easi
 
 The theme contains the main translation file `east.pot` inside the languages directory which will be used by poedit application.
 
-**Here are a simple steps:**
+**Here are simple steps:**
 
 1. Install poedit and open it
 2. Once the app is opened click Create new translation
 3. Choose the **east.pot** file inside the theme **east/language** directory
-4. Once translation is done, save the file according to your language code. Find a list of language codes at [WordPress in your Language](https://make.wordpress.org/polyglots/teams/). As an example, the language code for English (UK) is en_GB, so you will end up with two new files: en_GB.po and then en_GB.mo
+4. Once the translation is done, save the file according to your language code. Find a list of language codes at [WordPress in your Language](https://make.wordpress.org/polyglots/teams/). As an example, the language code for English (UK) is en_GB, so you will end up with two new files: en_GB.po and then en_GB.mo
 5. When that’s done, simply upload the files to **east/language** folder using FTP
 
 ---
 
 ## Theme Development
 
-If you are a developer and need to do a customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improve the development flow, and making it much faster.
+If you are a developer and need to do a customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
 
-First make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the the following commands in the theme root directory to install npm dependencies.
+First, make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the-the following commands in the theme root directory to install *npm* dependencies.
 
 ```
 npm install

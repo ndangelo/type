@@ -9,9 +9,9 @@ It's nice to meet you!
 
 Aspire Themes is a place for clean and minimal themes for WordPress and Ghost platforms. I care so much about design, little details, and clean interfaces that are functional and easy to use.
 
-All the themes are responsive, hand coded and optimized for performance.
+All the themes are responsive, hand-coded and optimized for performance.
 
-If you have any questions, don't hesitate to contact at: [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
+If you have any questions, don't hesitate to contact at [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 
 **Who is behind Aspire Themes?**
 

@@ -12,7 +12,7 @@ I use Gulp as a JavaScript task runner to automate everything in theme developme
 
 I assume you have some experience with [Gulp](http://gulpjs.com/) and [nodejs](https://nodejs.org/en/) is installed in your system, and also have WordPress installed and configured.
 
-I will use the [underscore](http://underscores.me/) as the base theme. You can download it and activate from dashboard.
+I will use the [underscore](http://underscores.me/) as the base theme. You can download it and activate from the dashboard.
 
 Then, navigate to the theme directory using the command line, like:
 
@@ -22,7 +22,7 @@ cd ~/www/wordpress/wp-content/themes/wordpress-rtl-with-gulp
 
 While you are in the theme directory, run the `npm init` command and follow a few simple steps to create a `package.json` file which will include some information about the theme and the packages that will be installed.
 
-Exmple of `package.json` that you will get after finishing up the steps.
+Example of `package.json` that you will get after finishing up the steps.
 
 ```js
 {
@@ -46,7 +46,7 @@ Next,  create a Sass directory with a basic structure
 │   └── style.scss
 ```
 
-The `style.scss` is the main starting point file, which will be include all your components, modules, functions inside it based on your preference.  You can copy the content of `style.css` file into `style.scss`, or you can create your own styles, and in this case `style.css` will be overitten by your new styles.
+The `style.scss` is the main starting point file, which will include all your components, modules, functions inside it based on your preference.  You can copy the content of `style.css` file into `style.scss`, or you can create your own styles, and in this case, `style.css` will be overwritten by your new styles.
 
 ```css
 /*
@@ -63,13 +63,13 @@ The `style.scss` is the main starting point file, which will be include all your
 
 body {
   text-align: left;
-	direction: ltr;
+    direction: ltr;
 }
 
 .column { float: left; }
 ```
 
-The next step is create `gulpfile.js` file and include the newly installed plugins, and add the `sass` task.
+The next step is to create `gulpfile.js` file and include the newly installed plugins, and add the `sass` task.
 
 ```js
 var gulp    = require('gulp'),
@@ -146,6 +146,10 @@ Notice that, `left` becomes `right`, and direction `ltr` becomes `rtl` automatic
 
 I’ve created a GitHub repo for this article’s WordPress theme and [you can check out the code here](https://github.com/aspirethemes/wordpress-rtl-with-gulp).
 
+You can check the WordPress theme for this article on [Github](https://github.com/aspirethemes/wordpress-rtl-with-gulp).
+
 ## Conclusion
 
-Gulp makes the development process much more easier than before, not only compiling Sass to CSS, or generating the RTL file, but for many other tasks like CSS autoprefixing, JavaScript validation, watching files and much more, and I highly recommend to add it to your development arsenal.
+Gulp makes the development process much easier than before, not only compiling Sass to CSS, or generating the RTL file, but for many other tasks like CSS auto-prefixing, JavaScript validation, watching files and much more, and I highly recommend to add it to your development arsenal.
+
+Have you tried to work and generate WordPress `rtl.css` file before, what was your experience? If you use Gulp in your development workflow, which plugins do you use regularly and recommend?

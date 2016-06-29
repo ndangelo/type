@@ -49,7 +49,7 @@ Here is another guide that you may find useful.
 
 ### Upload to Ghost.io
 
-1. Visit [Ghost.org](https://ghost.org/) and log in enter your login credentials.
+1. Visit [Ghost.org](https://ghost.org/) and log in entering your login credentials.
 2. From your Ghost(Pro) dashboard, select the **Settings** (“gear”) icon to the _right_ of the “Write a Post” button.
 3. In your blog’s control panel, you can either "drag & drop" **midan** theme zip file into the **“Add a Theme”** drop zone, or click on the drag & drop zone to launch the traditional file upload prompt.
 4. Upload the theme, and once uploaded, click on the **Save All Blog Settings** button. Your blog will automatically update with the new theme.
@@ -72,7 +72,7 @@ You can add, edit, delete and reorder menu links on your Ghost blog, directly fr
 
 ![navigation menu](/images/docs/ghost/midan/navigation-edit.png)
 
-To include a static page on your navigation menu, first type the name of the page as you'd like it to appear on your menu in the label field.
+To include a static page on your navigation menu, first, type the name of the page as you'd like it to appear on your menu in the label field.
 
 ![label field](/images/docs/ghost/midan/label-field.png)
 
@@ -96,7 +96,7 @@ So, if your Disqus shortname is `exampleone`, the final code above should be
 var disqus_shortname = "exampleone";
 ```
 
-That's all what you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
+That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
@@ -188,9 +188,9 @@ You will find copyright information at the bottom of `partials/footer.hbs` file.
 
 ### Theme Development
 
-If you are a developer and need to do a customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improve the development flow, and making it much faster.
+If you are a developer and need to do a customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
 
-First make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the the following commands in the theme root directory to install npm dependencies.
+First, make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the-the following commands in the theme root directory to install *npm* dependencies.
 
 ```
 npm install
