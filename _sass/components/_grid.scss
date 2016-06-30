@@ -39,6 +39,21 @@ $row-max-width:         1100px !default;
   &--full {
     max-width: 100%;
   }
+
+  &--collapse {
+    margin-left: half($line-height__medium);
+    margin-right: half($line-height__medium);
+
+    @media #{$large-up} {
+      margin-right: half($line-height__base);
+      margin-left: half($line-height__base);
+    }
+
+    .column {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
 }
 
 .column {

@@ -2,6 +2,7 @@
 // Sidebar
 //---------------------------
 
+.button,
 a.button {
   display: inline-block;
   text-align: center;
@@ -41,6 +42,11 @@ a.button {
 
   &--expand {
     width: 100%;
+  }
+
+  &--prefix {
+    position: relative;
+    left: -1px;
   }
 
   &--twitter {

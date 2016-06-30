@@ -16,7 +16,7 @@ select {
   display: inline-block;
   border: 1px solid $input-border-color;
   box-sizing: border-box;
-  padding: quarter($line-height__small) half($line-height__small);
+  padding: quarter($line-height__base) half($line-height__base);
   font-family: $font__sans-serif;
   font-size: $font-size__small;
   line-height: $line-height__medium;
@@ -25,10 +25,6 @@ select {
   outline: none;
   background: transparent;
   transition: $base-transition-speed;
-
-  @media #{$large-up} {
-    padding: quarter($line-height__base) half($line-height__base);
-  }
 
   &:focus {
     border: 1px solid $color__type--hover;

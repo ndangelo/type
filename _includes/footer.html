@@ -2,7 +2,7 @@
   <div class="row">
 
     <div class='site-footer__top clearfix'>
-      <div class='site-footer__section column medium-3 large-4'>
+      <div class='site-footer__section column medium-6 large-3'>
         <h3 class="footer-nav-heading">Aspire</h3>
         <ul class="list-bare footer-nav">
           <li><a href="/about" class="footer-nav-link">About Aspire</a></li>
@@ -11,7 +11,7 @@
         </ul>
       </div>
 
-      <div class='site-footer__section column medium-3 large-4'>
+      <div class='site-footer__section column medium-6 large-3'>
         <h3 class="footer-nav-heading">Resources</h3>
         <ul class="list-bare footer-nav">
           <li><a href="/docs" class="footer-nav-link">Documentation</a></li>
@@ -20,7 +20,7 @@
         </ul>
       </div>
 
-      <div class='site-footer__section column medium-3 large-4'>
+      <div class='site-footer__section column medium-6 large-3'>
         <h3 class="footer-nav-heading">Follow</h3>
         <ul class="list-bare footer-nav">
           <li><a href="/blog" class="footer-nav-link">Blog</a></li>
@@ -28,11 +28,17 @@
           <li><a href="https://www.facebook.com/aspirethemes" target="_blank" class="footer-nav-link">Facebook</a></li>
         </ul>
       </div>
+
+      <div class='site-footer__section column medium-6 large-3'>
+        <h3 class="footer-nav-heading">Newsletter</h3>
+        <p class="font-tiny sans-serif">Get updates & awesome tips and resources delivered straight to your inbox.</p>
+        {% include newsletter-form.html %}
+      </div>
     </div>
 
     <div class="column large-12">
       <div class="site-footer__bottom text-center">
-        <div class="font-tiny">
+        <div class="font-tiny sans-serif">
           Copyright &copy; 2016 {{ site.title }}
         </div>
       </div>
