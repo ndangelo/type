@@ -13,6 +13,8 @@ All the themes are responsive, hand-coded and optimized for performance.
 
 If you have any questions, don't hesitate to contact at [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 
+---
+
 #### Who is behind Aspire Themes?
 
 <div class="row" markdown='1'>
