@@ -24,10 +24,17 @@ select {
 
   outline: none;
   background: transparent;
+  appearance: none;
+  border-radius: 0;
   transition: $base-transition-speed;
 
   &:focus {
     border: 1px solid $color__type--hover;
+  }
+
+  // Disable Auto Zoom in Input “Text” tag - Safari on iPhone
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    font-size: $font-size__medium;
   }
 }
 

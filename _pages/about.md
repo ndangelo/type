@@ -15,8 +15,13 @@ If you have any questions, don't hesitate to contact at [aspirethemes@gmail.com]
 
 #### Who is behind Aspire Themes?
 
-![Ahmad Ajmi Photo](/images/assets/ahmadajmi.jpg)
+<div class="row" markdown='1'>
+  <div class="column medium-3 large-3 border-less-image-wrap" markdown='1'>
+  ![Ahmad Ajmi Photo](/images/assets/ahmadajmi.jpg)
+  </div>
+  <div class="column medium-9 large-9" markdown='1'>
+  [Ahmad Ajmi](http://ahmadajmi.com/), web developer from Egypt. Creator of the Arabic blogging platform [oktob.io](https://oktob.io/). Minimalist. I love creating clean and minimal websites. I [read](https://www.goodreads.com/user/show/5387651-ahmad-ajmi) and [write](https://oktob.io/ahmadajmi). Technical writer at [SitePoint](http://www.sitepoint.com/author/aajmi/). Love [taking](https://instagram.com/ahmadajme) [photos](https://www.flickr.com/photos/127527579@N04/).
 
-[Ahmad Ajmi](http://ahmadajmi.com/): A web developer from Egypt. Creator of the Arabic blogging platform [oktob.io](https://oktob.io/). Minimalist. I love creating clean and minimal websites. I [read](https://www.goodreads.com/user/show/5387651-ahmad-ajmi) and [write](https://oktob.io/ahmadajmi). Technical writer at [SitePoint](http://www.sitepoint.com/author/aajmi/). Love [taking](https://instagram.com/ahmadajme) [photos](https://www.flickr.com/photos/127527579@N04/).
-
-Feel free to contact me on Twitter [@ahmadajmi](https://twitter.com/ahmadajmi)
+  Feel free to contact me on Twitter [@ahmadajmi](https://twitter.com/ahmadajmi)
+  </div>
+</div>

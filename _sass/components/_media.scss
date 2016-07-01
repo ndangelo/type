@@ -24,8 +24,20 @@ img {
   p img { margin-bottom: 0; }
 
   img {
-    padding: $line-height__base;
+    padding: half(half($line-height__base));
     background-color: $grey-bg;
+
+    @media #{$medium-up} {
+      padding: half($line-height__base);
+    }
+
+    @media #{$large-up} {
+      padding: $line-height__base;
+    }
+  }
+
+  .border-less-image-wrap img {
+    padding: half(half($line-height__base));
   }
 }
 
