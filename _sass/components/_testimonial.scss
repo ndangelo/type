@@ -1,0 +1,33 @@
+//---------------------------
+// Testimonial
+//---------------------------
+
+.testimonials {
+  margin-bottom: $line-height__medium;
+
+  @media #{$medium-up} { margin-bottom: double($line-height__medium); }
+}
+
+.testimonial {
+  padding: $line-height__medium;
+  margin-bottom: $line-height__medium;
+  background-color: $grey-bg;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    left: 0%;
+    bottom: - half($line-height__base);
+    display: block;
+    width: 0;
+    content: "";
+    border-width: half($line-height__base) half($line-height__base) 0 0;
+    border-style: solid;
+    border-color: $grey-bg transparent;
+  }
+
+  @media #{$medium-up} {
+    padding: $line-height__base;
+    margin-bottom: 0;
+  }
+}
