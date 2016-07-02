@@ -20,7 +20,7 @@ Aspire is a modern, clean, minimal, content and image focus theme for WordPress.
   * Clean and minimal design
   * Mobile first &amp; 100% responsive design
   * Cross browser compatibility
-  * Custom Image logo.
+  * Custom Image logo
   * SEO optimized
   * Translation ready
   * Arabic Translation

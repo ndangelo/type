@@ -10,12 +10,12 @@ You have purchased a theme and need to do some customization on it? I will be ha
 #### WordPress
 
 <div class="check-list" markdown='1'>
-  * Setting up WordPress server, setting up the domain name.
-  * Theme and child theme installation.
-  * General settings configuration.
-  * Website and content migration.
-  * Required plugins installation.
-  * Widgets set up.
+  * Setting up WordPress server
+  * Theme and Child Theme installation
+  * General settings configuration
+  * Website and content migration
+  * Required plugins installation
+  * Widgets set up
 </div>
 
 ---
@@ -23,10 +23,10 @@ You have purchased a theme and need to do some customization on it? I will be ha
 #### Ghost
 
 <div class="check-list" markdown='1'>
-  * Setting up Ghost server.
-  * Theme installation.
-  * General settings configuration.
-  * Website and content migration.
+  * Setting up Ghost server
+  * Theme installation
+  * General settings configuration
+  * Website and content migration
 </div>
 
 ---

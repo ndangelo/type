@@ -28,12 +28,12 @@ East is a modern, clean, and minimal WordPress theme for your next blog. East is
 
 <div class="check-list" markdown='1'>
   * Clean and minimal design
-  * Ready for latest version of WordPress.
-  * Custom Image logo.
+  * Ready for latest version of WordPress
+  * Custom Image logo
   * SEO optimized
-  * Translation Ready.
+  * Translation Ready
   * Full RTL support (right-to-left languages like Arabic or Hebrew)
-  * Comes with the child theme to allow safe modifications
+  * Comes with the child theme to allow safe customization
   * Custom CSS (Sass Source Files)
   * Clean and well commented code, easy to customize, automation with Gulp
   * Valid HTML5 code
