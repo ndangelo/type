@@ -3,9 +3,9 @@
 //---------------------------
 
 .testimonials {
-  margin-bottom: $line-height__medium;
+  margin: $line-height__medium 0 0;
 
-  @media #{$medium-up} { margin-bottom: double($line-height__medium); }
+  @media #{$medium-up} { margin: double($line-height__medium) 0 $line-height__medium 0; }
 }
 
 .testimonial {
