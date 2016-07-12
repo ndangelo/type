@@ -48,22 +48,15 @@
     a { color: $color__type--hover; text-decoration: none; }
   }
 
-  &__label {
+  &__price {
     position: absolute;
     bottom: $line-height__medium;
     right: $line-height__medium;
-
     line-height: $line-height__medium;
-    min-width: double($line-height__medium);
-    padding: 0 5px;
+    letter-spacing: .05em;
+    color: $success-color;
 
-    font-size: $font-size__tiny;
-    font-weight: $font-weight__light;
-    font-family: $font__monospace;
-
-    color: #fff;
-    background: #009DF4;
-    text-align: center;
+    sub { bottom: auto; }
 
     @media #{$medium-up} {
       bottom: $line-height__base;
