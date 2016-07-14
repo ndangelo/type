@@ -7,8 +7,8 @@ type: ghost
 
 * Name: Midan
 * Description: Clean & Fast [Ghost](https://ghost.org/) Theme
-* Current Version: 1.0.0
-* Released: 13 June 2016
+* Current Version: 1.1.0
+* Released: 14 July 2016
 
 ---
 
