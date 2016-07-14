@@ -89,7 +89,7 @@ Next, click inside the **URL field** of the menu item. The blog URL will auto-po
 
 Aspire Theme comes with Disqus comments enabled.
 
-Open `partials/disqus.hbs` file, and change the `aspirethemes` value for the disqus_shortname variable to match your Disqus account shortname.
+Open `partials/disqus.hbs` file, and change the `aspirethemes` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
 ```
 var disqus_shortname = "aspirethemes";
@@ -112,10 +112,14 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 To set up the Twitter feed:
 
 * Go to your [Twitter](https://twitter.com/) settings page.
-* Go to "Widgets" on the left side.
+* Go to **Widgets** on the left side.
 * Create a new widget and customize it to your requirements.
-* When you create a widget, Twitter will show you a box containing source code, from this code you will see a long number like: `678277339646664704`.
-* Just copy and paste it in `assets/js/script.js` file, in the "Twitter widget" section for `twitterWidgetID` variable with it.
+* When you create a widget, Twitter will show you a box containing source code, from this code you will see a long number like: `677398615455834112`.
+* Just copy and paste it as a value for the `twitterWidgetID` variable inside `assets/js/script.js` file (line 146).
+
+```js
+  var twitterWidgetID = '677398615455834112';
+```
 
 ---
 

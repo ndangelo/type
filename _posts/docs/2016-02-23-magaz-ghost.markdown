@@ -86,7 +86,7 @@ Next, click inside the **URL field** of the menu item. The blog URL will auto-po
 
 Magaz Theme comes with Disqus comments enabled.
 
-Open `partials/disqus.hbs` file, and change the `aspirethemes` value for the disqus_shortname variable to match your Disqus account shortname.
+Open `partials/disqus.hbs` file, and change the `aspirethemes` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
 ```
 var disqus_shortname = "aspirethemes";
