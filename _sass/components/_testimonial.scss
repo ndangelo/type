@@ -28,6 +28,6 @@
 
   @media #{$medium-up} {
     padding: $line-height__base;
-    margin-bottom: 0;
+    margin-bottom: $line-height__base;
   }
 }
