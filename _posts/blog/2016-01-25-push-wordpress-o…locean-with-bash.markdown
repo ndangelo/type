@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Push WordPress and Ghost themes to DigitalOcean with bash script
+title: Push WordPress and Ghost Themes to DigitalOcean with Bash Script
 categories: post
 comments: true
 thumbnail: '/images/posts/digitalocean.png'
