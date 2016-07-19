@@ -24,6 +24,7 @@ img {
   p img { margin-bottom: 0; }
 
   img {
+    margin: 0 auto;
     padding: half(half($line-height__base));
     background-color: $grey-bg;
 

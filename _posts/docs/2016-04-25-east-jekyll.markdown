@@ -16,7 +16,8 @@ type: jekyll
 
 1. [Configurations](#configurations)
 2. [Deployment](#deployment)
-3. [Static Pages](#static-pages)
+3. [Posts](#posts)
+3. [Pages](#pages)
 4. [Navigation](#navigation)
 5. [Disqus Comments](#disqus-comments)
 6. [MailChimp](#mailchimp)
@@ -30,7 +31,6 @@ type: jekyll
 East theme comes with different customizations in the `_config.yml` file:
 
 ```
-# Site settings
 title: East
 email: your-email@domain.com
 description: Minimal and Clean Blog Jekyll Theme
@@ -71,19 +71,19 @@ authors:
 
 ## Deployment
 
-To install locally, more to the theme root and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
 
-I would recommend checking the [Deployment methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-East is [configured](https://www.aerobatic.com/docs/automated-builds#jekyll) to work with [Aerobatic](http://aerobatic.com/)
+East is [configured](https://www.aerobatic.com/docs/automated-builds#jekyll) to work with [Aerobatic](http://aerobatic.com/).
 
 ---
 
 ### Posts
 
-To create a new post, you can create a new markdown file inside the `_posts` directory, following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files), these are the page configuration you can add.
+To create a new post, you can create a new markdown file inside the `_posts` directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
 
-The following is an example post file.
+The following is a post file with different configurations you can add as example:
 
 ```
 ---
@@ -96,19 +96,23 @@ image: '/images/posts/image.jpeg'
 ---
 ```
 
-You can set the author, featured or not, tags, and the post image
+You can set the author, featured or not, tags, and the post image.
 
-The `featured` key is to mark the post as a featured post, this will add a simple star icon (☆) to the post created.
+The `featured` key is to mark the post as a featured post, this will add a simple star icon (☆) to the post card.
 
-To keep things more organized, add post images to **/images/pages** directory, and add add page images to **/images/pages** directory.
+![featured-post](/images/docs/jekyll/east/featured-post.png)
 
-To create a draft post, create your draft file under the **_drafts** directory, and you can find more information at [Working with drafts](http://jekyllrb.com/docs/drafts/)
+To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
+
+To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
+
+---
 
 ### Pages
 
-To create a new page, just create a new markdown file inside the `_pages` directory, and these are the page configuration you can add.
+To create a new page, just create a new markdown file inside the `_pages` directory.
 
-The following is the `about.md` file that you can find as an example included in the theme.
+The following is the `about.md` file that you can find as an example included in the theme with the configurations you can set.
 
 ```
 ---
@@ -125,7 +129,7 @@ Things you can change are: `title`, `permalink`, and `image` path.
 
 ### Navigation
 
-The navigation on the sidebar will include all the links to the pages you have created.
+The navigation on the sidebar will automatically include all the links to the pages you have created.
 
 ---
 
@@ -133,15 +137,15 @@ The navigation on the sidebar will include all the links to the pages you have c
 
 East Theme comes with Disqus comments enabled.
 
-Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your Disqus account shortname.
+Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
-```
+```js
 s.src = '//aspirethemes.disqus.com/embed.js';
 ```
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
 
-```
+```js
 s.src = '//exampleone.disqus.com/embed.js';
 ```
 
@@ -153,13 +157,13 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 ### MailChimp
 
-Steps to integrate MailChimp newsletter subscription form:
+Steps to integrate [MailChimp](http://mailchimp.com/) newsletter subscription form:
 
 * Create a mailing list from your MailChimp account, fill all the fields required and save it.
 * From the list page, select **Signup forms**, then select **Embedded forms**.
-* You may want to change or edit the form fields, or customize the form in general, after you have done and everything is ok, you will be provided by HTML code, what we need to integrate with East theme is the code in the action element, like the highlighted code in the image blow.
-* Copy that code and paste it in the form element in `_includes/subscribe-form.html` where you can find the newsletter form.
-* Save your files and upload your theme.
+* You may want to change or edit the form fields, or customize the form in general, after you have done and everything is OK, you will be provided by HTML code, what we need to integrate with East theme is the code in the action element, like the highlighted code in the image blow.
+* Copy that code and paste it in the form HTML element in `_includes/subscribe-form.html` where you can find the newsletter form.
+* You are done.
 
 ![mailchimp-code](/images/docs/jekyll/east/mailchimp-code.png)
 
@@ -167,7 +171,7 @@ Steps to integrate MailChimp newsletter subscription form:
 
 ### Google Analytics
 
-To integrate Google Analytics, open `_includes/analytics.html` and add your Google Analytics code.
+To integrate Google Analytics, open `_includes/analytics.html`, and add your Google Analytics code.
 
 ### Social Media Links
 
@@ -175,57 +179,57 @@ Social media links are placed in:
 
 - `_includes/sidebar.html`
 
-The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
+The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. The following is a list of the social media icons to use:
 
-**Twitter:**
+**Twitter**
 
 ```html
 <span data-icon="ei-sc-twitter" data-size="s"></span>
 ```
 
-**Facebook:**
+**Facebook**
 
 ```html
 <span data-icon="ei-sc-facebook" data-size="s"></span>
 ```
 
-**Instagram:**
+**Instagram**
 
 ```html
 <span data-icon="ei-sc-instagram" data-size="s"></span>
 ```
 
-**Pinterest:**
+**Pinterest**
 
 ```html
 <span data-icon="ei-sc-pinterest" data-size="s"></span>
 ```
 
-**Vimeo:**
+**Vimeo**
 
 ```html
 <span data-icon="ei-sc-vimeo" data-size="s"></span>
 ```
 
-**Google-plus:**
+**Google-plus**
 
 ```html
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
 ```
 
-**Soundcloud:**
+**Soundcloud**
 
 ```html
 <span data-icon="ei-sc-soundcloud" data-size="s"></span>
 ```
 
-**Tumblr:**
+**Tumblr**
 
 ```html
 <span data-icon="ei-sc-tumblr" data-size="s"></span>
 ```
 
-**Youtube:**
+**Youtube**
 
 ```html
 <span data-icon="ei-sc-youtube" data-size="s"></span>
@@ -239,15 +243,9 @@ You can find the current favicon (favicon.ico) inside the theme root directory, 
 
 ---
 
-### Copyright Information
-
-You will find copyright information at the bottom of `_includes/sidebar.html` file.
-
----
-
 ## Support
 
-If you have any questions, I'd be happy to answer them. Please don't hesitate to contact at:
+If you have any questions, I’d be happy to answer them.
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
