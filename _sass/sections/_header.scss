@@ -31,7 +31,7 @@
   &__navigation {
     li {
       display: inline-block;
-      margin-right: 20px;
+      margin-right: half($line-height__base);
       margin-bottom: 0;
       font-family: $font__sans-serif;
       font-size: $font-size__small;
@@ -50,14 +50,14 @@
 
       @media #{$medium-down} {
         display: block;
-        padding-top: $line-height__base / 4;
-        padding-bottom: $line-height__base / 4;
+        padding-top: quarter($line-height__base);
+        padding-bottom: quarter($line-height__base);
         border-bottom: 1px solid $border-color;
       }
     }
 
     @media #{$medium-down} {
-      margin-bottom: $line-height__base / 4;
+      margin-bottom: quarter($line-height__base);
     }
   }
 
@@ -101,7 +101,7 @@
   }
 
   @media #{$large-up} {
-    padding: ($line-height__base / 2) 0;
+    padding: half($line-height__base) 0;
   }
 }
 

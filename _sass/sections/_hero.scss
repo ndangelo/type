@@ -6,8 +6,12 @@
   padding: double($line-height__base) 0;
   text-align: center;
 
+  @media #{$medium-up} {
+    padding: quadruple($line-height__tiny) 0;
+  }
+
   @media #{$large-up} {
-    padding: quadruple($line-height__base) 0;
+    padding: quadruple(double($line-height__tiny)) 0;
   }
 
   &__tagline {
