@@ -10,7 +10,9 @@ categories: themes
 
 Magaz is a modern, clean, and content and image focus theme for Ghost blogging platform. Magaz is created for those who want to create a beautiful online magazine, news, or multipurpose clean website. Magaz it is 100% responsive, that means it fits with all different kind of devices in different sizes. Magaz is compatible with Ghost version 0.7.x.
 
-![aspire-ghost-full-preview](/images/themes/ghost/magaz/magaz-ghost-full-preview.png)
+<div class="darker-bg-image-wrap" markdown='1'>
+  ![aspire-ghost-full-preview](/images/themes/ghost/magaz/magaz-ghost-full-preview.png)
+</div>
 
 ---
 

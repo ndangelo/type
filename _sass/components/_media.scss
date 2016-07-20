@@ -40,6 +40,10 @@ img {
   .border-less-image-wrap img {
     padding: half(half($line-height__base));
   }
+
+  .darker-bg-image-wrap img {
+    background-color: $grey--dark-bg;
+  }
 }
 
 .CoverImage {
