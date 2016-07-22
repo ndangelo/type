@@ -14,6 +14,20 @@ Aspire is a modern, clean, minimal, content and image focus theme for WordPress.
   ![aspire-wordpress-full-preview](/images/themes/wordpress/aspire/aspire-wordpress-full-preview.png)
 </div>
 
+![responsive](http://aspirethemes.github.io/images/envato/wordpress/aspire/responsive.png)
+
+![mobile-friendly](http://aspirethemes.com/images/envato/wordpress/aspire/mobile-friendly.png)
+
+![translation](http://aspirethemes.github.io/images/envato/wordpress/aspire/translation.png)
+
+![wpml](http://aspirethemes.github.io/images/envato/wordpress/aspire/wpml-ready.jpg)
+
+![rtl](http://aspirethemes.github.io/images/envato/wordpress/aspire/rtl.png)
+
+![rtl](http://aspirethemes.github.io/images/envato/wordpress/aspire/arabic-translation.png)
+
+[![support-docs](http://aspirethemes.github.io/images/envato/wordpress/east/support-docs.png)](http://aspirethemes.com/docs/east-wordpress.html)
+
 ---
 
 #### Features

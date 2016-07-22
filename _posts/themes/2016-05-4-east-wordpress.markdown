@@ -22,6 +22,8 @@ East is a modern, clean, and minimal WordPress theme for your next blog. East is
 
 ![rtl](http://aspirethemes.github.io/images/envato/wordpress/east/rtl.png)
 
+![rtl](http://aspirethemes.github.io/images/envato/wordpress/east/arabic-translation.png)
+
 [![support-docs](http://aspirethemes.github.io/images/envato/wordpress/east/support-docs.png)](http://aspirethemes.com/docs/east-wordpress.html)
 
 ---
