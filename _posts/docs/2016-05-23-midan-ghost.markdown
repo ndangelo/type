@@ -62,7 +62,7 @@ Here is another guide that you may find useful.
 
 In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
-![static page](/images/docs/ghost/midan/staticpage.png)
+![static page](/images/docs/ghost/shared/staticpage.png)
 
 ---
 
@@ -70,11 +70,11 @@ In order to create a static page you create a new post, just like you would any 
 
 You can add, edit, delete and reorder menu links on your Ghost blog, directly from the navigation tool within the blog admin area, located at **/ghost/settings/navigation/**.
 
-![navigation menu](/images/docs/ghost/midan/navigation-edit.png)
+![navigation menu](/images/docs/ghost/shared/navigation-edit.png)
 
 To include a static page on your navigation menu, first, type the name of the page as you'd like it to appear on your menu in the label field.
 
-![label field](/images/docs/ghost/midan/label-field.png)
+![label field](/images/docs/ghost/shared/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
 
@@ -176,7 +176,7 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
 
-![Update favicon](/images/docs/ghost/midan/update-favicon.png)
+![Update favicon](/images/docs/ghost/shared/update-favicon.png)
 
 ---
 

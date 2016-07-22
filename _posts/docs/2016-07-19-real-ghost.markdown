@@ -1,14 +1,14 @@
 ---
 layout: doc
-title: Magaz - Ghost
+title: Real - Ghost
 categories: docs
 type: ghost
 ---
 
-* Name: Magaz
-* Description: Magazine and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.5
-* Released: 1 August 16
+* Name: Real
+* Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
+* Current Version: 1.1.0
+* Released: 30 July 2016
 
 ---
 
@@ -19,9 +19,7 @@ type: ghost
   * [Static Pages](#static-pages)
   * [Navigation](#navigation)
   * [Disqus Comments](#disqus-comments)
-  * [MailChimp](#mailchimp)
   * [Google Analytics](#google-analytics)
-  * [Related Posts](#relatedposts)
   * [Social Media Links](#social-media-links)
   * [Update favicon](#update-favicon)
   * [Copyright Information](#copyright-information)
@@ -34,14 +32,14 @@ type: ghost
 
 ### Upload to Self Hosted Ghost
 
-1. Locate the theme directory within the download files. It can be found at **Theme/magaz**.
+1. Locate the **real** theme directory within the download files.
 2. Login to FTP/SFTP of your blog, or the file browser of your provided hosting service.
 3. Navigate to the **/content/themes** directory within your Ghost installation.
-4. Upload the **magaz** file found in step one into the remote **/content/themes** directory.
+4. Upload the **real** file found in step one into the remote **/content/themes** directory.
 5. Restart your Ghost server. The process for this will change dependent on your provider. If you are unaware how to restart the service please raise a support issue with your host.
 6. Login to your Ghost admin panel. This can be found at **yourdomain.com/ghost**.
 7. Navigate to the **Settings > General** tab.
-8. In the **Theme** drop down, select the newly installed Magaz Theme. Click **Save** to save the theme changes.
+8. In the **Theme** drop down, select the newly installed Real Theme. Click **Save** to save the theme changes.
 
 Here is another guide that you may find useful.
 
@@ -53,7 +51,7 @@ Here is another guide that you may find useful.
 
 1. Visit [Ghost.org](https://ghost.org/) and log in entering your login credentials.
 2. From your Ghost(Pro) dashboard, select the **Settings** (“gear”) icon to the _right_ of the “Write a Post” button.
-3. In your blog’s control panel, you can either "drag & drop" magaz theme zip file into the **“Add a Theme”** drop zone, or click on the drag & drop zone to launch the traditional file upload prompt.
+3. In your blog’s control panel, you can either "drag & drop" **real** theme zip file into the **“Add a Theme”** drop zone, or click on the drag & drop zone to launch the traditional file upload prompt.
 4. Upload the theme, and once uploaded, click on the **Save All Blog Settings** button. Your blog will automatically update with the new theme.
 
 ---
@@ -84,7 +82,7 @@ Next, click inside the **URL field** of the menu item. The blog URL will auto-po
 
 ### Disqus Comments
 
-Magaz Theme comes with Disqus comments enabled.
+The Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
@@ -104,47 +102,17 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 ---
 
-### MailChimp
-
-Steps to integrate MailChimp newsletter subscription form:
-
-* Create a mailing list from your MailChimp account, fill all the fields required and save it.
-* From the list page, select **Signup forms**, then select **Embedded forms**.
-* You may want to change or edit the form fields, or customize the form in general, after you have done and everything is ok, you will be provided by HTML code, what we need to integrate with Magaz theme is the code in the action element, like the highlighted code in the image blow.
-  * Copy that code and paste it in the form element in the two places in the theme, one in the `partials/footer.hbs`, and the other in `partials/subscribe-form.hbs`, where you can find the newsletter form.
-* Save your files and upload your theme.
-
-![mailchimp-code](/images/docs/ghost/shared/mailchimp-code.png)
-
-### Disable MailChimp
-
-If you don't want to use the MailChimp newsletter feature, you can hide the subscription forms from two files:
-
-* `post.hbs` (line 34)
-* `partials/footer.hbs` (line 51 to 69)
-
-You can delete or comment these lines, then upload the files to the server.
-
----
-
 ### Google Analytics
 
 To integrate Google Analytics, I would recommend reading [How do I add Google Analytics to my blog?](http://support.ghost.org/add-google-analytics-blog/) by Ghost.
 
 ---
 
-### RelatedPosts
-
-Related posts will be visible on the single post page when there are similar posts with similar tags, and will be hidden otherwise.
-
----
-
 ### Social Media Links
 
-Social media links are placed in different files:
+Social media links are placed in:
 
-* `partials/footer.hbs`
-* `partials/header.hbs`
+- `partials/footer.hbs`
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
@@ -208,13 +176,7 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
 
-![Update favicon](/images/docs/ghost/magaz/update-favicon.png)
-
----
-
-### Copyright Information
-
-You will find copyright information at the bottom of `partials/footer.hbs` file.
+![Update favicon](/images/docs/ghost/shared/update-favicon.png)
 
 ---
 
