@@ -7,8 +7,8 @@ type: jekyll
 
 * Name: East
 * Description: Minimal and Clean Blog Jekyll Theme
-* Current Version: 1.0.0
-* Released: 25 April 2016
+* Current Version: 1.1.0
+* Released: 1 August 2016
 
 ---
 
