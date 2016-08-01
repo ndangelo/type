@@ -7,7 +7,7 @@
   text-align: center;
 
   @media #{$medium-up} {
-    padding: quadruple($line-height__tiny) 0;
+    padding: quadruple($line-height__base) 0;
   }
 
   @media #{$large-up} {

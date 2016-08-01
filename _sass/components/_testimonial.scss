@@ -11,8 +11,9 @@
 .testimonial {
   padding: $line-height__medium;
   margin-bottom: $line-height__medium;
-  background-color: $grey-bg;
   position: relative;
+  width: 100%;
+  background-color: $grey-bg;
 
   &:after {
     position: absolute;
