@@ -2,12 +2,6 @@
 // Testimonial
 //---------------------------
 
-.testimonials {
-  margin: $line-height__medium 0 0;
-
-  @media #{$medium-up} { margin: double($line-height__medium) 0 $line-height__medium 0; }
-}
-
 .testimonial {
   padding: $line-height__medium;
   margin-bottom: $line-height__medium;
