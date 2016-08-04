@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Midan - Jekyll
+title: Midan
 categories: docs
 type: jekyll
 ---
@@ -14,16 +14,16 @@ type: jekyll
 
 ## Table of Contents
 
-1. [Configurations](#configurations)
-2. [Deployment](#deployment)
-3. [Posts](#posts)
-4. [Pages](#pages)
-5. [Navigation](#navigation)
-6. [Disqus Comments](#disqus-comments)
-7. [Google Analytics](#google-analytics)
-8. [Social Media Links](#social-media-links)
-1. [Update favicon](#update-favicon)
-10. [Support](#support)
+* [Configurations](#configurations)
+* [Deployment](#deployment)
+* [Posts](#posts)
+* [Pages](#pages)
+* [Navigation](#navigation)
+* [Disqus Comments](#disqus-comments)
+* [Google Analytics](#google-analytics)
+* [Social Media Links](#social-media-links)
+* [Update favicon](#update-favicon)
+* [Support](#support)
 
 ## Configurations
 

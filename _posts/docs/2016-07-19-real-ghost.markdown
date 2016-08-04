@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Real - Ghost
+title: Real
 categories: docs
 type: ghost
 ---
@@ -12,23 +12,20 @@ type: ghost
 
 ---
 
-1. [Upload the Theme](#upload-the-theme)
-  * [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
-  * [Upload to Ghost.io](#upload-to-ghostio)
-2. [Theme Features](#theme-features)
-  * [Static Pages](#static-pages)
-  * [Navigation](#navigation)
-  * [Disqus Comments](#disqus-comments)
-  * [Google Analytics](#google-analytics)
-  * [Social Media Links](#social-media-links)
-  * [Update favicon](#update-favicon)
-  * [Copyright Information](#copyright-information)
-  * [Theme Development](#theme-development)
-3. [Support](#support)
+* [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
+* [Upload to Ghost.io](#upload-to-ghostio)
+* [Static Pages](#static-pages)
+* [Navigation](#navigation)
+* [Disqus Comments](#disqus-comments)
+* [Subscribe Form](#subscribe-form)
+* [Google Analytics](#google-analytics)
+* [Social Media Links](#social-media-links)
+* [Update favicon](#update-favicon)
+* [Copyright Information](#copyright-information)
+* [Theme Development](#theme-development)
+* [Support](#support)
 
 ---
-
-## Upload the Theme
 
 ### Upload to Self Hosted Ghost
 
@@ -56,8 +53,6 @@ Here is another guide that you may find useful.
 
 ---
 
-## Theme Features
-
 ### Static Pages
 
 In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
@@ -84,10 +79,10 @@ Next, click inside the **URL field** of the menu item. The blog URL will auto-po
 
 The Theme comes with Disqus comments enabled.
 
-Open `partials/disqus.hbs` file, and change the `aspirethemes` value for the `disqus_shortname` variable to match your Disqus account shortname.
+Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
 ```
-var disqus_shortname = "aspirethemes";
+var disqus_shortname = "aspirethemes-demo";
 ```
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
@@ -102,6 +97,18 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 ---
 
+### Subscribe Form
+
+Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin panel:
+
+![enable subscribers](/images/docs/ghost/shared/subscribers-enable.png)
+
+Once you enabled this feature, the form will appear in the single post page.
+
+You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/)
+
+---
+
 ### Google Analytics
 
 To integrate Google Analytics, I would recommend reading [How do I add Google Analytics to my blog?](http://support.ghost.org/add-google-analytics-blog/) by Ghost.
@@ -112,7 +119,9 @@ To integrate Google Analytics, I would recommend reading [How do I add Google An
 
 Social media links are placed in:
 
-- `partials/footer.hbs`
+<div class="check-list" markdown='1'>
+  * `partials/footer.hbs`
+</div>
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
@@ -182,7 +191,7 @@ You can find the current favicon inside the theme **assets** directory, just rep
 
 ### Theme Development
 
-If you are a developer and need to do a customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
+If you are a developer and need to do customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
 
 First, make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the-the following commands in the theme root directory to install *npm* dependencies.
 

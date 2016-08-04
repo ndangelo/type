@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Magaz - WordPress
+title: Magaz
 categories: docs
 type: wordpress
 ---
@@ -12,14 +12,14 @@ type: wordpress
 
 ---
 
-1. [Theme Activation & Installation](#theme-activation--installation)
-2. [Theme Customizer](#theme-customizer)
-3. [Widgets](#widgets)
-4. [Menus](#menus)
-5. [Category page cover image](#category-page-cover-image)
-6. [Translation](#translation)
-7. [Theme Development](#theme-development)
-8. [Support](#Support)
+* [Theme Activation & Installation](#theme-activation--installation)
+* [Theme Customizer](#theme-customizer)
+* [Widgets](#widgets)
+* [Menus](#menus)
+* [Category page cover image](#category-page-cover-image)
+* [Translation](#translation)
+* [Theme Development](#theme-development)
+* [Support](#Support)
 
 ---
 
@@ -179,7 +179,7 @@ The theme contains the main translation file `magaz.pot` inside the languages di
 
 ## Theme Development
 
-If you are a developer and need to do a customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
+If you are a developer and need to do customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
 
 First, make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the-the following commands in the theme root directory to install *npm* dependencies.
 
