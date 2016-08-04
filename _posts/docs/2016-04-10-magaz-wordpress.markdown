@@ -7,8 +7,8 @@ type: wordpress
 
 * Name: Magaz
 * Description: Magazine/News Minimal WordPress theme
-* Current Version: 1.0.0
-* Released: 17 May 2016
+* Current Version: 1.1.0
+* Released: 2 August 2016
 
 ---
 
