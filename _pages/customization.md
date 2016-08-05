@@ -31,8 +31,6 @@ You have purchased a theme and need to do some customization on it? I will be ha
 
 ---
 
-#### Price: $50.00/hour
-
 <a href='mailto:aspirethemes@gmail.com' class='button button--large button--success'>CONTACT NOW</a>
 
 ---
