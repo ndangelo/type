@@ -2,7 +2,7 @@
 layout: theme
 name: East - Ghost
 title: East - Blog and Multipurpose Clean Ghost Theme
-thumbnail: 'images/themes/ghost/east/east-ghost-preview.jpg'
+thumbnail: 'images/themes/ghost/east/preview.jpg'
 free: false
 price: 19
 categories: themes
@@ -11,7 +11,7 @@ categories: themes
 East is a clean, minimal, modern theme that focus on content for Ghost blogging platform. East is created for those who want to create a simple and beautiful online blog, or multipurpose clean website. East it is 100% responsive, that means it fits with all different kind of devices in different sizes. Compatible with Ghost version 0.9.0
 
 <div class="darker-bg-image-wrap" markdown='1'>
-  ![east-ghost-full-preview](/images/themes/ghost/east/east-ghost-full-preview.png)
+  ![east-ghost-full-preview](/images/themes/ghost/east/full-preview.png)
 </div>
 
 ---

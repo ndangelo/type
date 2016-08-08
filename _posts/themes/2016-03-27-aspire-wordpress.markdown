@@ -2,7 +2,7 @@
 layout: theme
 name: Aspire - WordPress
 title: Aspire - News & Magazine Clean WordPress Theme
-thumbnail: 'images/themes/wordpress/aspire/aspire-wordpress-preview.jpg'
+thumbnail: 'images/themes/wordpress/aspire/preview.jpg'
 free: false
 price: 44
 categories: themes
@@ -13,7 +13,7 @@ Aspire is a modern, clean, minimal, content and image focus theme for WordPress.
 Aspire is designed to be minimal from the start and every element of the website is well-tailored to focus on simplicity and the content and to remove all kind of distractions. Aspire it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
 <div class="darker-bg-image-wrap" markdown='1'>
-  ![aspire-wordpress-full-preview](/images/themes/wordpress/aspire/aspire-wordpress-full-preview.png)
+  ![aspire-wordpress-full-preview](/images/themes/wordpress/aspire/full-preview.png)
 </div>
 
 ![responsive](http://aspirethemes.github.io/images/envato/wordpress/aspire/responsive.png)

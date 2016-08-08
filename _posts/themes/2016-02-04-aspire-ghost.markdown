@@ -2,7 +2,7 @@
 layout: theme
 name: Aspire – Ghost
 title: Aspire – Magazine Ghost Theme
-thumbnail: 'images/themes/ghost/aspire/aspire-ghost-preview.jpg'
+thumbnail: 'images/themes/ghost/aspire/preview.jpg'
 free: false
 price: 19
 categories: themes
@@ -11,7 +11,7 @@ categories: themes
 Aspire is a modern, clean, and content and image focus theme for Ghost blogging platform. Aspire is created for those who want to create a beautiful online magazine or news website. Aspire it is 100% responsive, that means it fits with all different kind of devices in different sizes. Compatible with Ghost version 0.9.0
 
 <div class="darker-bg-image-wrap" markdown='1'>
-  ![aspire-ghost-full-preview](/images/themes/ghost/aspire/aspire-ghost-full-preview.png)
+  ![aspire-ghost-full-preview](/images/themes/ghost/aspire/full-preview.png)
 </div>
 
 ---
