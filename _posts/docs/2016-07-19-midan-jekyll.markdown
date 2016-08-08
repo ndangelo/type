@@ -162,7 +162,7 @@ To integrate Google Analytics, open `_includes/analytics.html`, and add your Goo
 
 Social media links are placed in:
 
-- `_includes/footer.html`
+* `_includes/footer.html`
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. The following is a list of the social media icons to use:
 

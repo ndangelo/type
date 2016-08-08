@@ -81,13 +81,13 @@ The Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
-```
+```js
 var disqus_shortname = "aspirethemes-demo";
 ```
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
 
-```
+```js
 var disqus_shortname = "exampleone";
 ```
 
@@ -119,9 +119,7 @@ To integrate Google Analytics, I would recommend reading [How do I add Google An
 
 Social media links are placed in:
 
-<div class="check-list" markdown='1'>
-  * `partials/footer.hbs`
-</div>
+* `partials/footer.hbs`
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 

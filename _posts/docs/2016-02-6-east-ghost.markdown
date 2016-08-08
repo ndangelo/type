@@ -81,13 +81,13 @@ East Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
-```
+```js
 var disqus_shortname = "aspirethemes-demo";
 ```
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
 
-```
+```js
 var disqus_shortname = "exampleone";
 ```
 
