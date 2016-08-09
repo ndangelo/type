@@ -2,7 +2,7 @@
 layout: theme
 name: TypeWriter - Ghost
 title: TypeWriter - Free Simple Ghost Theme
-thumbnail: 'images/themes/ghost/typewriter/preview.jpg'
+thumbnail: 'images/themes/ghost/typewriter/preview.png'
 free: true
 categories: themes
 ---

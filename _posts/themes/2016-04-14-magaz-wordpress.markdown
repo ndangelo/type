@@ -2,7 +2,7 @@
 layout: theme
 name: Magaz - WordPress
 title: Magaz - Magazine/News Minimal WordPress Theme
-thumbnail: 'images/themes/wordpress/magaz/preview.jpg'
+thumbnail: 'images/themes/wordpress/magaz/preview.png'
 free: false
 price: 49
 draft: false

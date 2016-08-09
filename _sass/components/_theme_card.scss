@@ -14,7 +14,7 @@
   }
 
   &__image {
-    margin-bottom: $line-height__medium;
+    // margin-bottom: $line-height__medium;
     transition: $base-transition-speed;
 
     @media #{$medium-down} {
@@ -65,10 +65,6 @@
   }
 
   &:hover {
-    .theme-card__image {
-      opacity: 0.8;
-    }
-
     .theme-card__title a { color: $color__type--hover; }
   }
 }

@@ -2,7 +2,7 @@
 layout: theme
 name: Magaz - Ghost
 title: Magaz - Magazine and Multipurpose Clean Ghost Theme
-thumbnail: 'images/themes/ghost/magaz/preview.jpg'
+thumbnail: 'images/themes/ghost/magaz/preview.png'
 free: false
 price: 19
 categories: themes

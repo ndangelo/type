@@ -2,7 +2,7 @@
 layout: theme
 name: Aspire – Ghost
 title: Aspire – Magazine Ghost Theme
-thumbnail: 'images/themes/ghost/aspire/preview.jpg'
+thumbnail: 'images/themes/ghost/aspire/preview.png'
 free: false
 price: 19
 categories: themes

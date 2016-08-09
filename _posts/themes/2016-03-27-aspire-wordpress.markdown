@@ -2,7 +2,7 @@
 layout: theme
 name: Aspire - WordPress
 title: Aspire - News & Magazine Clean WordPress Theme
-thumbnail: 'images/themes/wordpress/aspire/preview.jpg'
+thumbnail: 'images/themes/wordpress/aspire/preview.png'
 free: false
 price: 44
 categories: themes

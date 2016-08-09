@@ -2,7 +2,7 @@
 layout: theme
 name: East - Ghost
 title: East - Blog and Multipurpose Clean Ghost Theme
-thumbnail: 'images/themes/ghost/east/preview.jpg'
+thumbnail: 'images/themes/ghost/east/preview.png'
 free: false
 price: 19
 categories: themes
