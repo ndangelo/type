@@ -44,7 +44,7 @@ Midan is a clean, minimal, modern theme that focuses on content for Ghost bloggi
     <a class="button button--large button--expand" href="http://midan.aspirethemes.com/" target="_blank">Live Preview</a>
   </div>
   <div class="column medium-4 large-4">
-    <a class="button button--expand button--large button--success" href="https://creativemarket.com/aspirethemes/737784-Midan-Clean-Fast-Ghost-Theme" target="_blank">Purchase</a>
+    <a class="button button--expand button--large button--success" href="https://gum.co/gNEIH" target="_blank">Purchase</a>
   </div>
   <div class="column medium-4 large-4">
     <a class="button button--large button--expand" href="http://aspirethemes.com/docs/midan-ghost.html" target="_blank">Documentation</a>
