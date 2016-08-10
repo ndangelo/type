@@ -14,11 +14,15 @@
   }
 
   &__image {
-    // margin-bottom: $line-height__medium;
-    transition: $base-transition-speed;
+    @media #{$medium-up} {
+      &.fadein {
+        opacity: 0;
+        transition: opacity $base-transition-speed ease-in-out;
 
-    @media #{$medium-down} {
-      margin-bottom: half($line-height__medium);
+        &.inview { opacity: 1; }
+
+        @media screen and ( -webkit-min-device-pixel-ratio: 0 ) { opacity: 1; }
+      }
     }
   }
 
