@@ -6,9 +6,9 @@ comments: true
 thumbnail: '/images/posts/digitalocean.png'
 ---
 
-While we develop themes as developers, we need to test them with a remote server, and this test happens a lot of times a day while working. This requires to move to the themes directory, zip the theme file, login to the server using *ssh*, then push the zip file to the remote server, then login to WordPress to activate the theme, or in the Ghost case, we need to restart the Ghost server for changes to reflect. All of these processes will take a lot of time and they are boring to do again and again.
+While we develop themes as developers, we need to test them with a remote server, and this test happens a lot of times a day while working. This requires to move to the themes directory, zip the theme file, login to the server using ssh, then push the zip file to the remote server, then login to WordPress to activate the theme, or in the Ghost case, we need to restart the Ghost server for changes to reflect. All of these processes will take a lot of time and they are boring to do again and again.
 
-I have searched on how I can automate compressing a theme, pushing a theme to a remote server, then I can do anything I want on the server, for example, I can restart the Ghost server so the new changes will take effect, and so on. All of this could be done using a simple bash script file.
+I have searched on how I can automate compressing a theme, pushing a theme to a remote server, then I can do anything I want on the server, for example, I can restart the Ghost server so the new changes will reflect, and so on. All of this could be done using a simple Bash script file.
 
 This is the script I did to push a WordPress theme from local machine to a remote server running on DigitalOcean.
 
@@ -61,7 +61,7 @@ From the above script, you have to change some variables:
 
 The script also does a zip file and ignore some folder and files, for example, it ignores the *git* *node_modules* directories, you may want to edit this line to your needs.
 
-Next, you need to give a permission to the file aspire.sh*, and then execute the file in the command line.
+Next, you need to give a permission to the file *aspire.sh*, and then execute the file in the command line.
 
 {% highlight bash %}
 chmod +x aspire.sh
@@ -109,7 +109,7 @@ exit 1
 EOT
 {% endhighlight %}
 
-This is very similar to the WordPress one, and you will notice that at the bottom we did a server restart. You can give permission to the file, change variables, ... as you need.
+This is very similar to the WordPress one, and you will notice that at the bottom we did a server restart. You can give permission to the file, change variables, … as you need.
 
 So, this saves me a lot of time doing repetitive tasks every time I need to update and test a theme. Another point is that this type of script will work with any server that you have access to with ssh, I have tried it with AWS and it worked fine too.
 

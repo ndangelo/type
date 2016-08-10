@@ -8,9 +8,9 @@ thumbnail: '/images/posts/wordpress-rtl-with-gulp/thumbnail.png'
 
 At Aspire Themes, I always care and provide RTl CSS support for all WordPress themes, this helps many customers and website owners to provide and support more languages like Arabic or Hebrew, or any language that you can read from right to left (RTL).
 
-I use Gulp as a JavaScript task runner to automate everything in theme development, things like Sass compilation, CSS auto-prefix, JavaScript validation, browser refresh, ... and In this post I will use [gulp-rtlcss](https://www.npmjs.com/package/gulp-rtlcss) and [gulp-rename](https://www.npmjs.com/package/gulp-rename) plugins to generate the RTL CSS file (rtl.css).
+I use Gulp as a JavaScript task runner to automate everything in theme development, things like Sass compilation, CSS auto-prefix, JavaScript validation, browser refresh, ... and In this post, I will use [gulp-rtlcss](https://www.npmjs.com/package/gulp-rtlcss) and [gulp-rename](https://www.npmjs.com/package/gulp-rename) plugins to generate the RTL CSS file (rtl.css).
 
-I assume you have some experience with [Gulp](http://gulpjs.com/), [nodejs](https://nodejs.org/en/) is installed in your system, and have WordPress installed and configured.
+I assume you have some experience with [Gulp](http://gulpjs.com/), [Node.js](https://nodejs.org/en/) is installed in your system and have WordPress installed and configured.
 
 I will use the [underscore](http://underscores.me/) as the base theme. You can download it and activate from the dashboard.
 
@@ -46,7 +46,7 @@ Next,  create a Sass directory with a basic structure
 │   └── style.scss
 ```
 
-The `style.scss` is the main starting point file, which will include all your components, modules, functions inside it based on your preference.  You can copy the content of `style.css` file into `style.scss`, or you can create your own styles, and in this case, `style.css` will be overwritten by your new styles.
+The `style.scss` is the main starting point file, which will include all your components, modules, functions inside it based on your preference.  You can copy the content of `style.css` file into `style.scss` or you can create your own styles, and in this case, `style.css` will be overwritten by your new styles.
 
 ```css
 /*
@@ -69,7 +69,7 @@ body {
 .column { float: left; }
 ```
 
-The next step is to create `gulpfile.js` file and include the newly installed plugins and add the `sass` task.
+The next step is to create a `gulpfile.js` file and include the newly installed plugins and add the `sass` task.
 
 ```js
 var gulp    = require('gulp'),
