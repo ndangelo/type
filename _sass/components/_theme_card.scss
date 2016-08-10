@@ -13,15 +13,6 @@
     margin-bottom: $line-height__base;
   }
 
-  &__image {
-    // margin-bottom: $line-height__medium;
-    transition: $base-transition-speed;
-
-    @media #{$medium-down} {
-      margin-bottom: half($line-height__medium);
-    }
-  }
-
   &__title {
     font-size: $font-size__medium;
     font-weight: $font-weight__light;
