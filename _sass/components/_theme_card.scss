@@ -13,6 +13,19 @@
     margin-bottom: $line-height__base;
   }
 
+  &__image {
+    @media #{$medium-up} {
+      &.fadein {
+        opacity: 0;
+        transition: opacity $base-transition-speed ease-in-out;
+
+        &.inview { opacity: 1; }
+
+        @media screen and ( -webkit-min-device-pixel-ratio: 0 ) { opacity: 1; }
+      }
+    }
+  }
+
   &__title {
     font-size: $font-size__medium;
     font-weight: $font-weight__light;
