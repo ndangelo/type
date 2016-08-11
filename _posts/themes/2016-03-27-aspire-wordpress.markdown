@@ -28,7 +28,7 @@ Aspire is designed to be minimal from the start and every element of the website
 
 ![rtl](http://aspirethemes.github.io/images/envato/wordpress/aspire/arabic-translation.png)
 
-[![support-docs](http://aspirethemes.github.io/images/envato/wordpress/east/support-docs.png)](http://aspirethemes.com/docs/east-wordpress.html)
+[![support-docs](http://aspirethemes.github.io/images/envato/wordpress/east/support-docs.png)](http://aspirethemes.com/docs/aspire-wordpress.html)
 
 ---
 
