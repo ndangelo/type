@@ -61,7 +61,7 @@ Every element is designed with simplicity and details in mind, and well-tailored
     <a class="button button--expand button--large button--success" href="http://themeforest.net/item/east-clean-minimal-wordpress-blog-theme/15349397" target="_blank">Purchase</a>
   </div>
   <div class="column medium-4 large-4">
-    <a class="button button--large button--expand" href="http://east-wordpress.aspirethemes.com/" target="_blank">Documentation</a>
+    <a class="button button--large button--expand" href="/docs/east-wordpress.html" target="_blank">Documentation</a>
   </div>
 </div>
 
