@@ -7,8 +7,8 @@ type: jekyll
 
 * Name: Midan
 * Description: Clean and Fast Jekyll Blog Theme
-* Current Version: 1.0.0
-* Released: 19 July 2016
+* Current Version: 1.1.0
+* Released: 14 August 16
 
 ---
 

@@ -21,6 +21,7 @@ img {
       margin-bottom: $line-height__small;
     }
   }
+
   p img { margin-bottom: 0; }
 
   img {
@@ -36,14 +37,14 @@ img {
       padding: $line-height__base;
     }
   }
+}
 
-  .border-less-image-wrap img {
-    padding: half(half($line-height__base));
-  }
+.border-less-image-wrap img {
+  padding: half(half($line-height__base));
+}
 
-  .darker-bg-image-wrap img {
-    background-color: $grey--dark-bg;
-  }
+.darker-bg-image-wrap img {
+  background-color: $grey--dark-bg;
 }
 
 .CoverImage {

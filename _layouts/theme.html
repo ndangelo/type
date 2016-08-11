@@ -2,29 +2,77 @@
 layout: default
 ---
 
-<div class="wrapper">
-  <div class="row">
-    <div class="column column--center medium-10 large-8" itemscope itemtype="http://schema.org/Product">
+<div class="grey-bg theme-hero">
+  <div class="row theme-hero__content">
 
-      <meta itemprop="image" content="{{ site.url }}/{{page.image}}">
+    <div class="column medium-7 large-5">
+      <div class="theme-hero__info">
 
-      <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-        <meta content="{{ page.price }}" itemprop="price" />
-        <meta content="USD" itemprop="priceCurrency" />
-        <meta content="instock" itemprop="availability" />
+        <h2 class="theme-hero__title">{{ page.title }}</h2>
+        <p class="theme-hero__description font-medium sans-serif">{{ page.description }}</p>
+
+        <div class="row">
+          <div class="column medium-6 large-6">
+            <a class="button button--expand button--large button--info" href="{{ page.purchase }}" target="_blank">
+              {% if page.price %}
+                Buy Theme ${{ page.price }}
+              {% else %}
+                Free Download
+              {% endif %}
+            </a>
+          </div>
+          <div class="column medium-6 large-6">
+            <a class="button button--large button--expand" href="{{ page.demo }}" target="_blank">Live Demo</a>
+          </div>
+        </div>
+
       </div>
+    </div>
 
-      <header class="post__header">
-        <h2 class="post__title" itemprop="name">
-          {{ page.title }}
-        </h2>
-        <hr>
-      </header>
+    <div class="column medium-5 large-7">
+      <div class="fadein CoverImage FlexEmbed FlexEmbed--4by3" style="background-image: url(/{{ page.thumbnail }})"></div>
+    </div>
 
-      <div class="post-content" itemprop="description">
+  </div> <!-- row -->
+</div> <!-- theme-hero -->
+
+<div class="wrapper wrapper--large">
+  <div class="row">
+    <div class="column medium-8 large-8">
+      <div class="post-content theme-content sans-serif">
         {{ content }}
       </div>
+    </div>
+
+    <div class="column medium-4 large-4">
+      <div class="check-list theme-meta">
+        <ul>
+          {% for feature in page.features %}
+            <li>{{feature}}</li>
+          {% endfor %}
+          {% if page.docs %}
+            <li>
+              <a href="{{ page.docs }}" target="_blank">Documentation <span data-icon="ei-external-link" data-size="s"></span></a>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <a class="button button--expand button--large" href="{{ site.mailto }}" target="_blank">Contact For Help</a>
+      <hr>
+      <a class="button button--large button--expand" href="/customization" target="_blank">Need Custom Services?</a>
 
     </div>
   </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="separator margin-top-none">
+        <span class="separator-title">My Happy Clients</span>
+      </div>
+    </div>
+  </div>
+
+  {% include testimonials.html %}
+
 </div>

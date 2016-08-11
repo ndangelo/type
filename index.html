@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aspire Themes
-bodyClass: home
+body-class: home
 excerpt: Aspire Themes is a place for clean and minimal themes for WordPress and Ghost platforms. I care so much about design, little details, and clean interfaces that are functional and easy to use.
 ---
 
@@ -26,9 +26,9 @@ excerpt: Aspire Themes is a place for clean and minimal themes for WordPress and
   <div class="row">
     <div class="themes-list">
 
-      {% for post in site.categories.themes limit:4 %}
+      {% for post in site.categories.theme limit:4 %}
         {% unless post.draft %}
-          {% include theme-card.html %}
+          {% include theme-card.liquid %}
         {% endunless %}
       {% endfor %}
 
@@ -37,7 +37,7 @@ excerpt: Aspire Themes is a place for clean and minimal themes for WordPress and
 
   <div class="row">
     <div class="column medium-6 large-6">
-      <a class="button button--success button--expand button--large" href="/themes">Browse Themes<div data-icon="ei-chevron-right" data-size="s"></div></a>
+      <a class="button button--info button--expand button--large" href="/themes">Browse Themes<div data-icon="ei-chevron-right" data-size="s"></div></a>
     </div>
 
     <div class="column medium-6 large-6">
@@ -47,6 +47,6 @@ excerpt: Aspire Themes is a place for clean and minimal themes for WordPress and
     <div class="column"><hr></div>
   </div>
 
-  {% include testimonial.html %}
+  {% include testimonials.html %}
 
 </div>

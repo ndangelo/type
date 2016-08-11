@@ -81,6 +81,12 @@ ol,
 dl {
   font-size: $font-size__base;
   margin: 0 0 $line-height__medium 0;
+
+  .theme-content & {
+    @extend .font-medium;
+    font-size: $font-size__medium;
+    line-height: $line-height__medium;
+  }
 }
 
 ul,

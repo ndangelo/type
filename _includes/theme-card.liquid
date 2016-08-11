@@ -1,12 +1,10 @@
 <div class="theme-card-wrap column medium-6 large-6">
   <div class="theme-card theme-card">
 
-    {% if post.free %}
-    <span class="theme-card__price font-medium">Free</span>
-    {% endif %}
-
     {% if post.price %}
-    <span class="theme-card__price"><sub>$</sub>{{ post.price }}</span>
+      <span class="theme-card__price"><sub>$</sub>{{ post.price }}</span>
+    {% else %}
+      <span class="theme-card__price font-medium">Free</span>
     {% endif %}
 
     <a href="{{ post.url | prepend: site.baseurl }}" class="block" title="{{ post.title }}">

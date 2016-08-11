@@ -5,52 +5,10 @@ title: Documentation
 
 <div class="wrapper">
 
-  <div class="row">
-    <div class="column large-12">
-      <h5 class="separator margin-top-none margin-bottom-none">
-        <span class="separator-title">WordPress</span>
-      </h5>
-    </div>
+  {% include docs-list.liquid type='wordpress' %}
 
-    {% for post in site.categories.docs %}
-      {% unless post.draft %}
-        {% if post.type == 'wordpress' %}
-          {% include docs-card.html %}
-        {% endif %}
-      {% endunless %}
-    {% endfor %}
-  </div>
+  {% include docs-list.liquid type='ghost' %}
 
-  <div class="row">
-    <div class="column large-12">
-      <h5 class="separator margin-top-none margin-bottom-none">
-        <span class="separator-title">Ghost</span>
-      </h5>
-    </div>
-
-    {% for post in site.categories.docs %}
-      {% unless post.draft %}
-        {% if post.type == 'ghost' %}
-          {% include docs-card.html %}
-        {% endif %}
-      {% endunless %}
-    {% endfor %}
-  </div>
-
-  <div class="row">
-    <div class="column large-12">
-      <h5 class="separator margin-top-none margin-bottom-none">
-        <span class="separator-title">Jekyll</span>
-      </h5>
-    </div>
-
-    {% for post in site.categories.docs %}
-      {% unless post.draft %}
-        {% if post.type == 'jekyll' %}
-          {% include docs-card.html %}
-        {% endif %}
-      {% endunless %}
-    {% endfor %}
-  </div>
+  {% include docs-list.liquid type='jekyll' %}
 
 </div>

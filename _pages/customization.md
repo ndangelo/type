@@ -7,6 +7,8 @@ excerpt: You have purchased a theme and need to do some customization on it? I w
 
 You have purchased a theme and need to do some customization on it? I will be happy to walk you through every step, from installation to configuration, to customize the code to best fit within your project requirements and more services, including, but not limited to:
 
+---
+
 #### WordPress
 
 <div class="check-list" markdown='1'>
@@ -31,8 +33,8 @@ You have purchased a theme and need to do some customization on it? I will be ha
 
 ---
 
-<a href='mailto:aspirethemes@gmail.com' class='button button--large button--success'>CONTACT NOW</a>
+<a href='mailto:aspirethemes@gmail.com' class='button button--large button--info'>CONTACT NOW</a>
 
 ---
 
-{% include testimonial.html %}
+{% include testimonials.html %}

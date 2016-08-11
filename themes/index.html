@@ -8,9 +8,9 @@ title: Themes
   <div class="row">
     <div class="themes-list">
 
-      {% for post in site.categories.themes %}
+      {% for post in site.categories.theme %}
         {% unless post.draft %}
-          {% include theme-card.html %}
+          {% include theme-card.liquid %}
         {% endunless %}
       {% endfor %}
 

@@ -16,8 +16,9 @@
   padding: half($line-height__medium) 0;
   background-color: $grey-bg;
   line-height: $line-height__medium;
+  z-index: 10;
 
-  .home & { border-bottom: 1px solid $border-color; }
+  .home &, .theme & { border-bottom: 1px solid $border-color; }
 
   &__logo {
     margin-bottom: 0;

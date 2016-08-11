@@ -26,3 +26,15 @@
     margin-bottom: $line-height__base;
   }
 }
+
+.testimonials {
+  .post-card-wrap {
+    &:last-child .testimonial { margin-bottom: 0; }
+
+    @media #{$medium-up} {
+      &:nth-last-child(2) .testimonial {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

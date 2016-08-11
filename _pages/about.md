@@ -15,7 +15,7 @@ If you have any questions, don't hesitate to contact at [aspirethemes@gmail.com]
 
 ---
 
-#### Who is behind Aspire Themes?
+#### Who is behind?
 
 <div class="row" markdown='1'>
   <div class="column medium-3 large-3 border-less-image-wrap" markdown='1'>
