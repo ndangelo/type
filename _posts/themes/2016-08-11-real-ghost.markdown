@@ -6,6 +6,7 @@ thumbnail: 'images/themes/ghost/real/preview.png'
 free: false
 price: 25
 categories: themes
+draft: true
 ---
 
 Real is a modern, clean, and content and image focus theme for Ghost blogging platform. Real is created for those who want to create a beautiful online magazine, news, or multipurpose clean blog. Real it is 100% responsive, that means it fits with all different kind of devices in different sizes. Real is compatible with Ghost version 0.9.0
