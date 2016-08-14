@@ -4,7 +4,7 @@ name:         Aspire – Ghost
 title:        Aspire
 thumbnail:    images/themes/ghost/aspire/preview.png
 price:        19
-categories:   theme
+categories:   themes
 type:         ghost
 body-class:   theme
 demo:         http://aspire.aspirethemes.com/

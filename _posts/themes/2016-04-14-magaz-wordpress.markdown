@@ -4,7 +4,7 @@ name:         Magaz - WordPress
 title:        Magaz
 thumbnail:    images/themes/wordpress/magaz/preview.png
 price:        49
-categories:   theme
+categories:   themes
 type:         wordpress
 body-class:   theme
 demo:         http://magaz-wordpress.aspirethemes.com/

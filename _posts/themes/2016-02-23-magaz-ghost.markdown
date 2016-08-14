@@ -4,7 +4,7 @@ name:         Magaz - Ghost
 title:        Magaz
 thumbnail:    images/themes/ghost/magaz/preview.png
 price:        19
-categories:   theme
+categories:   themes
 type:         ghost
 body-class:   theme
 demo:         http://magaz.aspirethemes.com/

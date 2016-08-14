@@ -4,7 +4,7 @@ name:         Midan – Ghost
 title:        Midan
 thumbnail:    images/themes/ghost/midan/preview.png
 price:        19
-categories:   theme
+categories:   themes
 type:         ghost
 body-class:   theme
 demo:         http://midan.aspirethemes.com/

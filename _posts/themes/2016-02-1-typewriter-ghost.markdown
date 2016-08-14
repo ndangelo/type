@@ -3,7 +3,7 @@ layout:       theme
 name:         TypeWriter - Ghost
 title:        TypeWriter
 thumbnail:    images/themes/ghost/typewriter/preview.png
-categories:   theme
+categories:   themes
 type:         ghost
 body-class:   theme
 demo:         http://typewriter.aspirethemes.com/

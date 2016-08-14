@@ -4,7 +4,7 @@ name:         East - WordPress
 title:        East
 thumbnail:    images/themes/wordpress/east/preview.png
 price:        49
-categories:   theme
+categories:   themes
 type:         wordpress
 body-class:   theme
 demo:         http://east-wordpress.aspirethemes.com/

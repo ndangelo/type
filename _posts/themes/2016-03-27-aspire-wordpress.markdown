@@ -4,7 +4,7 @@ name:         Aspire - WordPress
 title:        Aspire
 thumbnail:    images/themes/wordpress/aspire/preview.png
 price:        44
-categories:   theme
+categories:   themes
 type:         wordpress
 body-class:   theme
 demo:         http://aspire-wordpress.aspirethemes.com/
