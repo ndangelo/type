@@ -30,3 +30,17 @@ gems:
 
 permalink: none
 post_dirs: false
+
+# Testimonials
+testimonials:
+  - testimonial: I really liked the design! The designer answered my questions before purchase, and after the purchasing was superb. I am happy with the purchase!
+    author:      Juan Alejandro Oliva
+
+  - testimonial: A simple, clean theme. After sales support is excellent! Thanks Ahmad for your quick and helpful replies. Aspire Themes are a credit to the theme industry.
+    author:      Patrick Layley
+
+  - testimonial: A great Ghost theme! Simple, elegant, lots of post choices on the home page, just what I wanted. It was mostly easy to setup, but when I had a question, the support was fantastic. TY!!
+    author:      Glenn Zucman
+
+  - testimonial: Outstanding & quick support from Ahmad! & beautiful theme.
+    author:      Phalgun Raju - CEO of expertDB

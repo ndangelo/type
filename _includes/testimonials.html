@@ -1,41 +1,14 @@
 <div class="row">
   <div class="post-list testimonials">
 
-    <div class="column medium-6 large-6 post-card-wrap">
-      <div class="testimonial">
-        <p class="font-medium sans-serif">
-          I really liked the design! The designer answered my questions before purchase, and after the purchasing was superb. I am happy with the purchase!
-        </p>
-        <p class="margin-bottom-none sans-serif italic font-medium">Juan Alejandro Oliva</p>
+    {% for testimonial in site.testimonials %}
+      <div class="column medium-6 large-6 post-card-wrap">
+        <div class="testimonial">
+          <p class="font-medium sans-serif">{{testimonial.testimonial}}</p>
+          <p class="margin-bottom-none sans-serif italic font-medium">{{author}}</p>
+        </div>
       </div>
-    </div>
-
-    <div class="column medium-6 large-6 post-card-wrap">
-      <div class="testimonial">
-        <p class="font-medium sans-serif">
-          A simple, clean theme. After sales support is excellent! Thanks Ahmad for your quick and helpful replies. Aspire Themes are a credit to the theme industry.
-        </p>
-        <p class="margin-bottom-none sans-serif italic font-medium">Patrick Layley</p>
-      </div>
-    </div>
-
-    <div class="column medium-6 large-6 post-card-wrap">
-      <div class="testimonial">
-        <p class="font-medium sans-serif">
-          A great Ghost theme! Simple, elegant, lots of post choices on the home page, just what I wanted. It was mostly easy to setup, but when I had a question, the support was fantastic. TY!!
-        </p>
-        <p class="margin-bottom-none sans-serif italic font-medium">Glenn Zucman</p>
-      </div>
-    </div>
-
-    <div class="column medium-6 large-6 post-card-wrap">
-      <div class="testimonial">
-        <p class="font-medium sans-serif">
-          Outstanding & quick support from Ahmad! & beautiful theme.
-        </p>
-        <p class="margin-bottom-none sans-serif italic font-medium">Phalgun Raju - CEO of expertDB</p>
-      </div>
-    </div>
+    {% endfor %}
 
   </div>
 </div>
