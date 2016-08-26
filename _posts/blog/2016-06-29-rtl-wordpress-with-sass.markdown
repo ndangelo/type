@@ -16,39 +16,39 @@ I will use the [underscore](http://underscores.me/) as the base theme. You can d
 
 Then, navigate to the theme directory using the command line, like:
 
-```
+{% highlight shell %}
 cd ~/www/wordpress/wp-content/themes/wordpress-rtl-with-gulp
-```
+{% endhighlight %}
 
 While you are in the theme directory, run the `npm init` command and follow a few simple steps to create a `package.json` file which will include some information about the theme and the packages that will be installed.
 
 An example of `package.json` that you will get after finishing up the steps.
 
-```js
+{% highlight js %}
 {
   "name": "Wordpress RTL with Gulp",
   "version": "1.0.0",
   "description": "Add RTL Support to WordPress Theme with Sass and Gulp",
   "author": "Aspire Themes"
 }
-```
+{% endhighlight %}
 
 Install the required Gulp plugins:
 
-```
+{% highlight shell %}
 npm install gulp gulp-sass gulp-rtlcss gulp-rename --save-dev
-```
+{% endhighlight %}
 
 Next,  create a Sass directory with a basic structure
 
-```
+{% highlight shell %}
 ├── sass
 │   └── style.scss
-```
+{% endhighlight %}
 
 The `style.scss` is the main starting point file, which will include all your components, modules, functions inside it based on your preference.  You can copy the content of `style.css` file into `style.scss` or you can create your own styles, and in this case, `style.css` will be overwritten by your new styles.
 
-```css
+{% highlight css %}
 /*
   Theme Name: Aspire
   Theme URI: http://aspirethemes.com
@@ -63,15 +63,15 @@ The `style.scss` is the main starting point file, which will include all your co
 
 body {
   text-align: left;
-    direction: ltr;
+  direction: ltr;
 }
 
 .column { float: left; }
-```
+{% endhighlight %}
 
 The next step is to create a `gulpfile.js` file and include the newly installed plugins and add the `sass` task.
 
-```js
+{% highlight js %}
 var gulp    = require('gulp'),
     sass    = require('gulp-sass'),
     rtlcss  = require('gulp-rtlcss'),
@@ -80,13 +80,13 @@ var gulp    = require('gulp'),
 gulp.task('sass', function() {
   return gulp.src('./sass/*.scss')
   .pipe(sass())
-  .pipe(gulp.dest('./'))              // Output LTR stylesheets (style.css)
+  .pipe(gulp.dest('./'))  // Output LTR (style.css)
 
   .pipe(rtlcss())                     // Convert to RTL
   .pipe(rename({ basename: 'rtl' }))  // Rename to rtl.css
-  .pipe(gulp.dest('./'));             // Output RTL stylesheets (rtl.css)
+  .pipe(gulp.dest('./'));             // Output RTL (rtl.css)
 });
-```
+{% endhighlight %}
 
 The idea behind `gulp-rtlcss` is to convert all the CSS properties like floats, text-align, text direction, and other properties from left to right.
 
@@ -100,7 +100,7 @@ Now, run `gulp` from the command line.
 
 This will generate `style.css`
 
-```css
+{% highlight css %}
 /*
   Theme Name: Aspire
   Theme URI: http://aspirethemes.com
@@ -118,11 +118,11 @@ body {
 
 .column {
   float: left; }
-```
+{% endhighlight %}
 
 and `rtl.css` files.
 
-```css
+{% highlight css %}
 /*
   Theme Name: Aspire
   Theme URI: http://aspirethemes.com
@@ -140,7 +140,7 @@ body {
 
 .column {
   float: right; }
-```
+{% endhighlight %}
 
 Notice that, `left` becomes `right`, and direction `ltr` becomes `rtl` automatically.
 

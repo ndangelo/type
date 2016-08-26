@@ -12,7 +12,7 @@ I have searched on how I can automate compressing a theme, pushing a theme to a 
 
 This is the script I did to push a WordPress theme from local machine to a remote server running on DigitalOcean.
 
-{% highlight bash %}
+{% highlight shell %}
 #!/bin/bash
 
 IP_ADDRESS=107.170.4.132
@@ -63,7 +63,7 @@ The script also does a zip file and ignore some folder and files, for example, i
 
 Next, you need to give a permission to the file *aspire.sh*, and then execute the file in the command line.
 
-{% highlight bash %}
+{% highlight shell %}
 chmod +x aspire.sh
 
 ./aspire.sh
@@ -71,7 +71,7 @@ chmod +x aspire.sh
 
 **For Ghost**
 
-{% highlight bash %}
+{% highlight shell %}
 #!/bin/bash
 
 IP_ADDRESS=162.243.123.249

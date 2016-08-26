@@ -29,7 +29,7 @@ type: jekyll
 
 Midan theme comes with different customizations in the `_config.yml` file:
 
-```
+{% highlight shell %}
 title: Midan
 email: your-email@domain.com
 description: Minimal and Clean Blog Jekyll Theme
@@ -64,7 +64,7 @@ authors:
     web: http://aspirethemes.com
     twitter: aspirethemes
     github: aspirethemes
-```
+{% endhighlight %}
 
 ---
 
@@ -84,7 +84,7 @@ To create a new post, you can create a new markdown file inside the `_posts` dir
 
 The following is a post file with different configurations you can add as example:
 
-```
+{% highlight shell %}
 ---
 layout: post
 title: Welcome to Jekyll!
@@ -93,7 +93,7 @@ author: john
 tags: [python, ruby, java]
 image: '/images/posts/image.jpeg'
 ---
-```
+{% endhighlight %}
 
 You can set the author, featured or not, tags, and the post image.
 
@@ -113,14 +113,14 @@ To create a new page, just create a new markdown file inside the `_pages` direct
 
 The following is the `about.md` file that you can find as an example included in the theme with the configurations you can set.
 
-```
+{% highlight shell %}
 ---
 layout: page
 title: About
 permalink: /about
 image: '/images/pages/about.jpeg'
 ---
-```
+{% endhighlight %}
 
 Things you can change are: `title`, `permalink`, and `image` path.
 
@@ -138,15 +138,15 @@ Midan Theme comes with Disqus comments enabled.
 
 Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
-```js
+{% highlight js %}
 s.src = '//aspirethemes.disqus.com/embed.js';
-```
+{% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
 
-```js
+{% highlight js %}
 s.src = '//exampleone.disqus.com/embed.js';
-```
+{% endhighlight %}
 
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
@@ -168,57 +168,57 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 **Twitter**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-twitter" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Facebook**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-facebook" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Instagram**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-instagram" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Pinterest**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-pinterest" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Vimeo**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-vimeo" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Google-plus**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Soundcloud**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-soundcloud" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Tumblr**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-tumblr" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Youtube**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-youtube" data-size="s"></span>
-```
+{% endhighlight %}
 
 ---
 

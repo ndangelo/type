@@ -84,15 +84,15 @@ Aspire Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
-```js
+{% highlight js %}
 var disqus_shortname = "aspirethemes-demo";
-```
+{% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
 
-```js
+{% highlight js %}
 var disqus_shortname = "exampleone";
-```
+{% endhighlight %}
 
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
@@ -110,9 +110,9 @@ To set up the Twitter feed:
 * When you create a widget, Twitter will show you a box containing source code, from this code you will see a long number like: `677398615455834112`.
 * Just copy and paste it as a value for the `twitterWidgetID` variable inside `assets/js/script.js` file (line 146).
 
-```js
-  var twitterWidgetID = '677398615455834112';
-```
+{% highlight js %}
+var twitterWidgetID = '677398615455834112';
+{% endhighlight %}
 
 ---
 
@@ -144,10 +144,8 @@ Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin 
 
 Once you enabled this feature, the form will appear in two places:
 
-<div class="check-list" markdown='1'>
 * Footer
 * Single post page sidebar widget
-</div>
 
 You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/)
 
@@ -157,11 +155,9 @@ You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/
 
 Social media links are placed in different places (files):
 
-<div class="check-list" markdown='1'>
 * `partials/footer.hbs`
 * `partials/header.hbs`
 * `partials/sidebar/social-widget.hbs`
-</div>
 
 Ghost 0.8.0 supports adding Facebook and Twitter profile urls from the admin panel, go to **Settings > General** and add your URLs, and this will update the Facebook and Twitter URLs in the locations mentioned above, other social media URLs you can add it from the files.
 
@@ -169,57 +165,57 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 **Twitter**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-twitter" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Facebook**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-facebook" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Instagram**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-instagram" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Pinterest**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-pinterest" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Vimeo**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-vimeo" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Google-plus**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Soundcloud**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-soundcloud" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Tumblr**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-tumblr" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Youtube**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-youtube" data-size="s"></span>
-```
+{% endhighlight %}
 
 ---
 
@@ -243,15 +239,15 @@ If you are a developer and need to do customization work, the theme is using [Gu
 
 First, make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the following commands in the theme root directory to install *npm* dependencies.
 
-```
+{% highlight shell %}
 npm install
-```
+{% endhighlight %}
 
 To start Gulp, run:
 
-```
+{% highlight shell %}
 gulp
-```
+{% endhighlight %}
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 

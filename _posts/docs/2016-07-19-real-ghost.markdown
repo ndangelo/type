@@ -7,8 +7,8 @@ type: ghost
 
 * Name: Real
 * Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.0
-* Released: 30 July 2016
+* Current Version: 1.0.0
+* Released: 26 August 2016
 
 ---
 
@@ -81,15 +81,15 @@ The Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
-```js
+{% highlight js %}
 var disqus_shortname = "aspirethemes-demo";
-```
+{% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
 
-```js
+{% highlight js %}
 var disqus_shortname = "exampleone";
-```
+{% endhighlight %}
 
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
@@ -125,57 +125,57 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 **Twitter**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-twitter" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Facebook**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-facebook" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Instagram**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-instagram" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Pinterest**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-pinterest" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Vimeo**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-vimeo" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Google-plus**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Soundcloud**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-soundcloud" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Tumblr**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-tumblr" data-size="s"></span>
-```
+{% endhighlight %}
 
 **Youtube**
 
-```html
+{% highlight html %}
 <span data-icon="ei-sc-youtube" data-size="s"></span>
-```
+{% endhighlight %}
 
 ---
 
@@ -193,15 +193,15 @@ If you are a developer and need to do customization work, the theme is using [Gu
 
 First, make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the-the following commands in the theme root directory to install *npm* dependencies.
 
-```
+{% highlight shell %}
 npm install
-```
+{% endhighlight %}
 
 To start Gulp, run:
 
-```
+{% highlight shell %}
 gulp
-```
+{% endhighlight %}
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 

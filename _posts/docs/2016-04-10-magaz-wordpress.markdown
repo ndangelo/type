@@ -183,15 +183,15 @@ If you are a developer and need to do customization work, the theme is using [Gu
 
 First, make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed, then run the-the following commands in the theme root directory to install *npm* dependencies.
 
-```
+{% highlight shell %}
 npm install
-```
+{% endhighlight %}
 
 To start Gulp, run:
 
-```
+{% highlight shell %}
 gulp
-```
+{% endhighlight %}
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 
