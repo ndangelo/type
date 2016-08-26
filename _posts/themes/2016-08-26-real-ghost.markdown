@@ -3,13 +3,13 @@ layout:       theme
 name:         Real – Ghost
 title:        Real
 thumbnail:    images/themes/ghost/real/preview.png
-price:        25
-categories:   theme
+price:        19
+categories:   themes
+type:         ghost
 body-class:   theme
-draft:        true
 demo:         http://real.aspirethemes.com/
 docs:         /docs/real-ghost.html
-purchase:     https://gum.co/hXiWM
+purchase:     https://themeforest.net/item/real-blog-and-magazine-clean-ghost-theme/17375799
 description:  Real is a modern, clean, and content and image focus theme for Ghost blogging platform.
 features:
   - Clean Design

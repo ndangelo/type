@@ -3,6 +3,8 @@ layout: default
 title: Themes
 ---
 
+{% assign odd-even = site.categories.themes.size | modulo:2 %}
+
 <div class="wrapper">
 
   <div class="row">
@@ -14,10 +16,12 @@ title: Themes
         {% endunless %}
       {% endfor %}
 
-      <article class="theme-card-wrap column medium-6 large-6">
-        <div class="theme-card theme-card hide">
-        </div>
-      </article>
+      {% if odd-even == 1 %}
+        <article class="theme-card-wrap column medium-6 large-6">
+          <div class="theme-card theme-card">
+          </div>
+        </article>
+      {% endif %}
 
     </div>
   </div>
