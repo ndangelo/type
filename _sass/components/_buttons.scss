@@ -30,29 +30,29 @@ a.button {
 
   &--info {
     color: #fff;
-    background-color: #2791c6;
-    border: 1px solid #2791c6;
+    background-color: $info-color;
+    border: 1px solid $info-color;
 
     &:active,
     &:focus,
     &:hover {
       color: #fff;
-      background-color: #36a0d5;
-      border: 1px solid #36a0d5;
+      background-color: $info-color--hover;
+      border: 1px solid $info-color--hover;
     }
   }
 
   &--success {
     color: #fff;
-    background-color: #1abc9c;
-    border: 1px solid #1abc9c;
+    background-color: $success-color;
+    border: 1px solid $success-color;
 
     &:active,
     &:focus,
     &:hover {
       color: #fff;
-      background-color: #16a085;
-      border: 1px solid #16a085;
+      background-color: $success-color--hover;
+      border: 1px solid $success-color--hover;
     }
   }
 
@@ -63,22 +63,6 @@ a.button {
   &--prefix {
     position: relative;
     left: -1px;
-  }
-
-  &--twitter {
-    color: #fff;
-    background-color: $twitter-brand;
-
-    .icon {
-      margin-right: 5px;
-      vertical-align: middle;
-      fill: #fff;
-    }
-
-    &:hover {
-      color: #fff;
-      background-color: $twitter-brand--hover;
-    }
   }
 
   &--outline {
