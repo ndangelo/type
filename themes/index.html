@@ -6,10 +6,9 @@ title: Themes
 {% assign odd-even = site.categories.themes.size | modulo:2 %}
 
 <div class="wrapper">
-
   <div class="row">
-    <div class="themes-list">
 
+    <div class="themes-list">
       {% for post in site.categories.themes %}
         {% unless post.draft %}
           {% include theme-card.liquid %}
@@ -22,8 +21,7 @@ title: Themes
           </div>
         </article>
       {% endif %}
-
     </div>
-  </div>
 
+  </div>
 </div>
