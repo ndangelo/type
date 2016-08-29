@@ -7,8 +7,8 @@ type: wordpress
 
 * Name: Aspire
 * Description: Clean News & Magazine WordPress theme
-* Current Version: 1.2.4
-* Released: 2 August 2016
+* Current Version: 1.2.5
+* Released: 29 August 2016
 
 ---
 

@@ -59,7 +59,7 @@ authors:
     name: John Adam
     display_name: John Adam
     bio: Adam has over 5 years of experience as a web writer, and also a photographer.
-    gravatar: http://east.aspirethemes.com/content/images/2016/01/smiles-man.jpg
+    gravatar: http://midan.aspirethemes.com/content/images/2016/01/smiles-man.jpg
     email: john@aspirethemes.com
     web: http://aspirethemes.com
     twitter: aspirethemes
@@ -74,7 +74,7 @@ To run the theme locally, navigate to the theme directory and run `bundle instal
 
 I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-East is [configured](https://www.aerobatic.com/docs/automated-builds#jekyll) to work with [Aerobatic](http://aerobatic.com/).
+Midan is [configured](https://www.aerobatic.com/docs/automated-builds#jekyll) to work with [Aerobatic](http://aerobatic.com/).
 
 ---
 
@@ -99,7 +99,7 @@ You can set the author, featured or not, tags, and the post image.
 
 The `featured` key is to mark the post as a featured post, this will add a simple star icon (☆) to the post card.
 
-![featured-post](/images/docs/jekyll/east/featured-post.png)
+![featured-post](/images/docs/jekyll/midan/featured-post.png)
 
 To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
 
