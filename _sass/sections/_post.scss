@@ -3,9 +3,7 @@
 //---------------------------
 
 .post {
-  &__header {
-    margin-bottom: half($line-height__medium);
-  }
+  &__header { margin-bottom: half($line-height__medium); }
 
   &__title {
     margin-bottom: half($line-height__medium);
@@ -53,17 +51,14 @@
       content: '';
       display: block;
       position: absolute;
-
       top: 12px;
       left: 0;
-      -webkit-transform: rotate(45deg) translate(0, -50%);
-              transform: rotate(45deg) translate(0, -50%);
-
       width: 6px;
       height: 12px;
-
       border: solid #2791c6;
       border-width: 0 1px 1px 0;
+      -webkit-transform: rotate(45deg) translate(0, -50%);
+              transform: rotate(45deg) translate(0, -50%);
     }
   }
 }

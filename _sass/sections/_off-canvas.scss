@@ -20,10 +20,9 @@
 @media #{$medium-down} {
 
   // prevent horizontal scroll during off-canvas
+
   html,
-  body {
-    overflow-x: hidden;
-  }
+  body { overflow-x: hidden; }
 
   .off-canvas-content {
     position: fixed;
@@ -31,7 +30,6 @@
     right: 0;
     width: 200px;
     height: 100%;
-
     background-color: #fff;
     border-left: 1px solid $border-color;
     -webkit-transform: translate3d(0px, 0px, 0px) translateX($off-canvas-width);

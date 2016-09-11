@@ -18,7 +18,8 @@
   line-height: $line-height__medium;
   z-index: 10;
 
-  .home &, .theme & { border-bottom: 1px solid $border-color; }
+  .home &,
+  .theme & { border-bottom: 1px solid $border-color; }
 
   &__logo {
     margin-bottom: 0;
@@ -29,7 +30,5 @@
     }
   }
 
-  @media #{$large-up} {
-    padding: half($line-height__base) 0;
-  }
+  @media #{$large-up} { padding: half($line-height__base) 0; }
 }

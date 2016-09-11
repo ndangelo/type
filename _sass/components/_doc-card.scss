@@ -29,19 +29,11 @@
     }
   }
 
-  &.jekyll {
-    background-image: url('/images/assets/jekyll-logo.png');
-  }
+  &.jekyll { background-image: url('/images/assets/jekyll-logo.png'); }
 
-  &.ghost {
-    background-image: url('/images/assets/ghost-logo.png');
-  }
+  &.ghost { background-image: url('/images/assets/ghost-logo.png'); }
 
-  &.wordpress {
-    background-image: url('/images/assets/wordpress-logo.png');
-  }
+  &.wordpress { background-image: url('/images/assets/wordpress-logo.png'); }
 
-  &:last-child .post-card {
-    border-bottom: 0;
-  }
+  &:last-child .post-card { border-bottom: 0; }
 }

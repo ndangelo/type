@@ -24,7 +24,7 @@ what I need.
 This service is just awesome, I use the [Ghost
 Stack](https://bitnami.com/stack/ghost) to install Ghost locally. This saves a
 lot of time and headache installing Ghost, and by using it , we I avoid issues
-like *Node.js *versions conflicts and issues regarding *npm* installation and
+like *Node.js* versions conflicts and issues regarding *npm* installation and
 other infinite numbers of issues. The Bitnami stack provides a one-click install
 solution for Ghost, and with a few minutes you will have Ghost installed and
 ready for working.

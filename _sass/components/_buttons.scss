@@ -14,7 +14,6 @@ a.button {
   white-space: nowrap;
   border: 0;
   border-radius: 0;
-
   text-decoration: none;
   color: $color__type;
   background-color: #fff;
@@ -56,9 +55,7 @@ a.button {
     }
   }
 
-  &--expand {
-    width: 100%;
-  }
+  &--expand { width: 100%; }
 
   &--prefix {
     position: relative;

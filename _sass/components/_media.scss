@@ -3,9 +3,7 @@
 //---------------------------
 
 img,
-iframe {
-  display: block;
-}
+iframe { display: block; }
 
 img {
   height: auto;
@@ -17,9 +15,7 @@ img {
   .twitter-tweet {
     margin-bottom: $line-height__medium !important;
 
-    @media #{$medium-down} {
-      margin-bottom: $line-height__small;
-    }
+    @media #{$medium-down} { margin-bottom: $line-height__small; }
   }
 
   p img { margin-bottom: 0; }
@@ -29,28 +25,19 @@ img {
     padding: half(half($line-height__base));
     background-color: $grey-bg;
 
-    @media #{$medium-up} {
-      padding: half($line-height__base);
-    }
+    @media #{$medium-up} { padding: half($line-height__base); }
 
-    @media #{$large-up} {
-      padding: $line-height__base;
-    }
+    @media #{$large-up} { padding: $line-height__base; }
   }
 }
 
-.border-less-image-wrap img {
-  padding: half(half($line-height__base));
-}
+.border-less-image-wrap img { padding: half(half($line-height__base)); }
 
-.darker-bg-image-wrap img {
-  background-color: $grey--dark-bg;
-}
+.darker-bg-image-wrap img { background-color: $grey--dark-bg; }
 
 .CoverImage {
   max-height: 600px;
   max-width: 100%;
-
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

@@ -7,16 +7,14 @@
 // </h5>
 
 .separator {
+  position: relative;
   margin: $line-height__base auto;
   text-align: center;
   text-transform: uppercase;
-
   font-size: $font-size__small;
   font-family: $font__sans-serif;
   font-weight: $font-weight__light;
   letter-spacing: 1px;
-
-  position: relative;
 
   &:after {
     position: absolute;
@@ -27,9 +25,7 @@
     border-bottom: 1px solid $border-color;
   }
 
-  @media #{$medium-down} {
-    margin: $line-height__medium auto;
-  }
+  @media #{$medium-down} { margin: $line-height__medium auto; }
 }
 
 .separator-title {

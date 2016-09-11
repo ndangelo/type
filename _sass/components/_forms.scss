@@ -21,16 +21,13 @@ select {
   font-size: $font-size__small;
   line-height: $line-height__medium;
   letter-spacing: 1px;
-
   outline: none;
   background: transparent;
   appearance: none;
   border-radius: 0;
   transition: $base-transition-speed;
 
-  &:focus {
-    border: 1px solid $color__type--hover;
-  }
+  &:focus { border: 1px solid $color__type--hover; }
 
   // Disable Auto Zoom in input element - Safari iPhone
   @media screen and (-webkit-min-device-pixel-ratio:0) {

@@ -32,13 +32,9 @@
 .site-footer__top {
   padding: $line-height__base 0;
 
-  @media #{$medium-up} {
-    padding: double($line-height__base) 0;
-  }
+  @media #{$medium-up} { padding: double($line-height__base) 0; }
 
-  @media #{$large-up} {
-    padding: quadruple($line-height__small) 0;
-  }
+  @media #{$large-up} { padding: quadruple($line-height__small) 0; }
 }
 
 .site-footer__bottom {

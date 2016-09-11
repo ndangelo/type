@@ -29,13 +29,9 @@
     font-size: double($font-size__tiny);
     font-family: $font__serif;
 
-    @media #{$medium-up} {
-      font-size: double($font-size__small);
-    }
+    @media #{$medium-up} { font-size: double($font-size__small); }
 
-    @media #{$large-up} {
-      font-size: double($font-size__base);
-    }
+    @media #{$large-up} { font-size: double($font-size__base); }
   }
 
   &__description {

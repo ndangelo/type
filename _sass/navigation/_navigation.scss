@@ -13,9 +13,7 @@
       margin-right: quarter($line-height__base);
     }
 
-    @media #{$large-up} {
-      margin-right: half($line-height__base);
-    }
+    @media #{$large-up} { margin-right: half($line-height__base); }
   }
 
   a {
@@ -31,9 +29,7 @@
     }
   }
 
-  @media #{$medium-down} {
-    margin-bottom: quarter($line-height__base);
-  }
+  @media #{$medium-down} { margin-bottom: quarter($line-height__base); }
 }
 
 .social-nav {
@@ -51,8 +47,6 @@
     fill: $color__type;
     transition: $base-transition-speed;
 
-    &:hover {
-      fill: $color__type--hover;
-    }
+    &:hover { fill: $color__type--hover; }
   }
 }
