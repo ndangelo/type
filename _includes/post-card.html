@@ -1,18 +1,18 @@
-<article class="post-card-wrap column medium-4 large-4">
-  <div class="post-card">
+<article class='post-card-wrap column medium-4 large-4'>
+  <div class='post-card'>
 
-    <a href="{{ post.url | prepend: site.baseurl }}" class="block" title="{{ post.title }}">
-      <div class="grey-bg post-card__image CoverImage CoverImage--center FlexEmbed FlexEmbed--4by3" style="background-image: url({{ post.thumbnail }})">
+    <a href='{{ post.url | prepend: site.baseurl }}' class='block' title='{{ post.title }}'>
+      <div class='grey-bg post-card__image CoverImage CoverImage--center FlexEmbed FlexEmbed--4by3' style='background-image: url({{ post.thumbnail }})'>
       </div>
     </a>
 
-    <div class="post-card__info">
-      <div class="post-card__meta">
-        <time class="post-card__meta__date" datetime="{{ post.date | date: '%b %-d, %Y' }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <div class='post-card__info'>
+      <div class='post-card__meta'>
+        <time class='post-card__meta__date' datetime='{{ post.date | date: '%b %-d, %Y' }}'>{{ post.date | date: '%b %-d, %Y' }}</time>
       </div>
 
-      <h2 class="post-card__title">
-        <a title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <h2 class='post-card__title'>
+        <a title='{{ post.title }}' href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a>
       </h2>
     </div>
 

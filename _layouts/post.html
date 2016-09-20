@@ -2,28 +2,28 @@
 layout: default
 ---
 
-<div class="wrapper">
-  <div class="row">
-    <div class="column column--center medium-10 large-8">
+<div class='wrapper'>
+  <div class='row'>
+    <div class='column column--center medium-10 large-8'>
 
-      <header class="post__header">
-        <h2 class="post__title">
+      <header class='post__header'>
+        <h2 class='post__title'>
           {% if page.tagline %}
             {{ page.tagline }}
           {% else %}
             {{ page.title }}
           {% endif %}
         </h2>
-        <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        <time class='post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%b %-d, %Y' }}</time>
       </header>
 
-      <div class="post-content">
+      <div class='post-content'>
         {{ content }}
       </div>
 
       {% if page.comments %}
-        <h5 class="separator">
-          <span class="separator-title">Comments</span>
+        <h5 class='separator'>
+          <span class='separator-title'>Comments</span>
         </h5>
 
         {% include comments.html %}

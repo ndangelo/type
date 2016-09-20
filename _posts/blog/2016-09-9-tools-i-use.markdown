@@ -13,13 +13,13 @@ one man shop, and It might be helpful for someone else in a way or another
 starting their journey as a theme creator or a developer; so I’m so happy to
 share them with you.
 
-#### Mamp
+### Mamp
 
 I use [Mamp](https://www.mamp.info/) to run my development WordPress
 installation on Mac, it’s very easy to use and I use the free version and it did
 what I need.
 
-#### Bitnami
+### Bitnami
 
 This service is just awesome, I use the [Ghost
 Stack](https://bitnami.com/stack/ghost) to install Ghost locally. This saves a
@@ -29,7 +29,7 @@ other infinite numbers of issues. The Bitnami stack provides a one-click install
 solution for Ghost, and with a few minutes you will have Ghost installed and
 ready for working.
 
-#### Visual Studio Code
+### Visual Studio Code
 
 I used to use Sublime before, but after I discovered [Visual Studio
 Code](https://code.visualstudio.com/), I switched to it from the first usage,
@@ -37,7 +37,7 @@ it’s very fast, smooth, huge community with lots of
 [extensions](https://marketplace.visualstudio.com/VSCode) and gets updates
 regularly, and I totally recommend checking it out.
 
-#### iTerm + tmux
+### iTerm + tmux
 
 [iTerm](https://www.iterm2.com/) is a replacement to Mac terminal, and I think
 most of you are using it for Mac.
@@ -53,13 +53,13 @@ It saves a lot of time by letting you focus on one terminal, create more
 sessions and more windows as you need on that session, very flexible and will
 change the way you work with the terminal.
 
-#### BashScript
+### BashScript
 
 I wrote a post explaining how I use BashScript to automate theme deployment to
 remote servers, which is a time saver for me, especially on testing themes while
 doing development.
 
-#### Git
+### Git
 
 [Git](https://git-scm.com/) should be one of the first things to learn as a
 developer. Currently, I use the [git-flow
@@ -67,20 +67,20 @@ workflow](http://nvie.com/posts/a-successful-git-branching-model/) which is a
 great way to organize and manage the way I work with branches, adding new
 features, fixing bugs, .. etc
 
-#### BitBucket
+### BitBucket
 
 By using Git it’s very important to host all the themes and work on a remote
 server like [GitHub](https://github.com/) or [BitBucket](http://bitbucket.org/).
 I use BitBucket to host my work as it’s a free option with unlimited private
 repos.
 
-#### Pixelmator
+### Pixelmator
 
 [Pixelmator](http://www.pixelmator.com/mac/) is a great image editor for Mac, I
 use it all the time to create themes preview images, and any image customization
 I need. Pixelmator costs about $30.
 
-#### iOS Simulator
+### iOS Simulator
 
 A few weeks ago I received an email from a client who purchased the
 [Magaz](https://aspirethemes.com/themes/magaz-ghost.html) Ghost theme and found
@@ -96,7 +96,7 @@ using the iOS Simulator.
 
 ![Testing on iPhone 6 Plus/iOS 8.3 & Debugging with Safari Dev Tools](/images/posts/tools/tools.png)
 
-#### Gulp
+### Gulp
 
 [Gulp](http://gulpjs.com/) is a JavaScript task runner that could save a lot of
 time while developing themes, and it’s one of the most important tools I use,
@@ -109,7 +109,7 @@ sites, you can read more about this in a post I wrote before.
 You can check a real example of a *gulpfile.js* I use at
 [GitHub](https://gist.github.com/ahmadajmi/c8540178238a6e36601f690e818e7448).
 
-#### Sass
+### Sass
 
 [Sass](http://sass-lang.com/) is a powerful tool for writing modular and
 organized CSS, organizing the source code into components, sections, and
@@ -120,7 +120,7 @@ I have shared the Sass code example for the recent [Real Ghost
 theme](https://aspirethemes.com/themes/real-ghost.html), you can check it out at
 [GitHub](https://github.com/ahmadajmi/sass-example).
 
-#### WordPress Tools
+### WordPress Tools
 
 For better WordPress development and for getting great results and to make sure
 themes are coded with best practices and validated, there are some plugins and
@@ -153,14 +153,14 @@ all widgets styles are looking as you want in different places.
 websites from one dashboard, I use it mainly to update plugins for themes demos,
 which saves me lots of time opening every site to do the updates.
 
-### Hosting
+## Hosting
 
 An important thing about creating premium themes is to create a complete demo
 site for the theme, and of course, you need a hosting service for creating a
 demo for every single theme, I have tried several options and here are the ones
 I currently use.
 
-#### DigitalOcean
+### DigitalOcean
 
 I use [DigitalOcean](https://www.digitalocean.com/) to host WordPress and Ghost
 themes. For WordPress, I created a Droplet and connected it with the awesome
@@ -174,7 +174,7 @@ is a very cost effective.
 
 You can read about how to host multiple instances in the following article.
 
-#### Aerobatic
+### Aerobatic
 
 [Aerobatic](https://www.aerobatic.com/) used to host Jekyll themes and a great
 thing about [i](https://www.aerobatic.com/)t is the integration with
@@ -182,7 +182,7 @@ thing about [i](https://www.aerobatic.com/)t is the integration with
 very easy to setup with Jekyll. The free plan is limited to 5 deployments in a
 24 hour period, but this is working fine for me with no issue.
 
-#### Jekyll
+### Jekyll
 
 I use Jekyll for [Aspire Themes](http://aspirethemes.com/) website which
 includes several sections like the [blog](http://aspirethemes.com/blog/),
@@ -206,9 +206,9 @@ website.
 I will write a post about how I built the website and how the structure is
 going.
 
-#### [Namecheap](https://www.namecheap.com/)
+### Namecheap
 
-I started to use namecheap recently and I like their services and the web
+I started to use [Namecheap](https://www.namecheap.com/) recently and I like their services and the web
 dashboard interface is very understandable and easy to use. They also provides a
 great online customer support, and I recommend them if you are looking to buy a
 new domain.
