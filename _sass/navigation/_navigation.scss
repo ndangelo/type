@@ -2,8 +2,13 @@
 // Navigation
 //---------------------------
 
-.navigation {
-  li {
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+  &__item {
     font-family: $font__sans-serif;
     font-size: $font-size__small;
     line-height: $line-height__base;
@@ -11,15 +16,15 @@
     @media #{$medium-up} {
       display: inline-block;
       margin-right: quarter($line-height__base);
+
+      &:last-child { margin-right: 0; }
     }
 
     @media #{$large-up} { margin-right: half($line-height__base); }
   }
 
-  a {
-    font-weight: $font-weight__light;
+  &__link {
     transition: $base-transition-speed;
-    text-decoration: none;
 
     @media #{$medium-down} {
       display: block;
