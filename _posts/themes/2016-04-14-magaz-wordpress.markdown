@@ -3,13 +3,12 @@ layout:       theme
 name:         Magaz - WordPress
 title:        Magaz
 thumbnail:    images/themes/wordpress/magaz/preview.png
-price:        49
 categories:   themes
 type:         wordpress
 body-class:   theme
 demo:         http://magaz-wordpress.aspirethemes.com/
 docs:         /docs/magaz-wordpress.html
-purchase:     https://creativemarket.com/aspirethemes/692237-Minimal-Magazine-WordPress-Theme
+purchase:     https://github.com/aspirethemes/magaz
 description:  Magaz is a modern, clean, minimal, content and image focus theme for WordPress.
 features:
   - Minimal Design

@@ -3,7 +3,7 @@ layout:       theme
 name:         Aspire – Ghost
 title:        Aspire
 thumbnail:    images/themes/ghost/aspire/preview.png
-price:        19
+price:        29
 categories:   themes
 type:         ghost
 body-class:   theme

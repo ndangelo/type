@@ -3,7 +3,7 @@ layout:       theme
 name:         Aspire - WordPress
 title:        Aspire
 thumbnail:    images/themes/wordpress/aspire/preview.png
-price:        44
+price:        49
 categories:   themes
 type:         wordpress
 body-class:   theme

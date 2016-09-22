@@ -3,7 +3,7 @@ layout:       theme
 name:         East - Ghost
 title:        East
 thumbnail:    images/themes/ghost/east/preview.png
-price:        19
+price:        39
 categories:   themes
 type:         ghost
 body-class:   theme

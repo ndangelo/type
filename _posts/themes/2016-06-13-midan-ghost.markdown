@@ -3,7 +3,7 @@ layout:       theme
 name:         Midan – Ghost
 title:        Midan
 thumbnail:    images/themes/ghost/midan/preview.png
-price:        19
+price:        29
 categories:   themes
 type:         ghost
 body-class:   theme

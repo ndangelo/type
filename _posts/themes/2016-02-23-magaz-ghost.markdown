@@ -3,7 +3,7 @@ layout:       theme
 name:         Magaz - Ghost
 title:        Magaz
 thumbnail:    images/themes/ghost/magaz/preview.png
-price:        19
+price:        29
 categories:   themes
 type:         ghost
 body-class:   theme
