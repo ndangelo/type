@@ -38,16 +38,19 @@
 }
 
 .social-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   text-align: right;
 
   @media #{$medium-down} { text-align: center; }
 
-  li {
+  &__item {
     display: inline-block;
     line-height: $line-height__base;
   }
 
-  .icon {
+  &__icon {
     vertical-align: middle;
     fill: $color__type;
     transition: $base-transition-speed;
