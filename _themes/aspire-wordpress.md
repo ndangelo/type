@@ -2,6 +2,7 @@
 layout:       theme
 name:         Aspire - WordPress
 title:        Aspire
+date:         2016-3-23
 thumbnail:    images/themes/wordpress/aspire/preview.png
 price:        49
 categories:   themes

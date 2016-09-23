@@ -2,6 +2,7 @@
 layout:       theme
 name:         Aspire – Ghost
 title:        Aspire
+date:         2015-12-24
 thumbnail:    images/themes/ghost/aspire/preview.png
 price:        29
 categories:   themes

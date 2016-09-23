@@ -2,6 +2,7 @@
 layout:       theme
 name:         Magaz - WordPress
 title:        Magaz
+date:         2016-5-17
 thumbnail:    images/themes/wordpress/magaz/preview.png
 categories:   themes
 type:         wordpress

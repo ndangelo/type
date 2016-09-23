@@ -2,6 +2,7 @@
 layout:       theme
 name:         East - WordPress
 title:        East
+date:         2016-4-28
 thumbnail:    images/themes/wordpress/east/preview.png
 price:        49
 categories:   themes

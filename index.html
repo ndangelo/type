@@ -5,6 +5,8 @@ body-class: home
 excerpt: Aspire Themes is a place for clean and minimal themes for WordPress and Ghost platforms. I care so much about design, little details, and clean interfaces that are functional and easy to use.
 ---
 
+{% assign themes = (site.themes | sort: 'date') | reverse %}
+
 <div class='grey-bg hero'>
   <div class='row'>
     <div class='column large-12'>
@@ -26,8 +28,8 @@ excerpt: Aspire Themes is a place for clean and minimal themes for WordPress and
   <div class='row'>
     <div class='themes-list'>
 
-      {% for post in site.categories.themes limit:4 %}
-        {% unless post.draft %}
+      {% for theme in themes limit:4 %}
+        {% unless theme.draft %}
           {% include theme-card.liquid %}
         {% endunless %}
       {% endfor %}

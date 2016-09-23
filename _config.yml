@@ -31,3 +31,8 @@ gems:
 
 permalink: none
 post_dirs: false
+
+collections:
+  themes:
+    output: true
+    permalink: /themes/:path/

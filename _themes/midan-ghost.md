@@ -2,6 +2,7 @@
 layout:       theme
 name:         Midan – Ghost
 title:        Midan
+date:         2016-5-23
 thumbnail:    images/themes/ghost/midan/preview.png
 price:        29
 categories:   themes

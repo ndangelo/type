@@ -3,14 +3,15 @@ layout: default
 title: Themes
 ---
 
-{% assign odd-even = site.categories.themes.size | modulo:2 %}
+{% assign odd-even = site.themes.size | modulo:2 %}
+{% assign themes = (site.themes | sort: 'date') | reverse %}
 
 <div class='wrapper'>
   <div class='row'>
 
     <div class='themes-list'>
-      {% for post in site.categories.themes %}
-        {% unless post.draft %}
+      {% for theme in themes %}
+        {% unless theme.draft %}
           {% include theme-card.liquid %}
         {% endunless %}
       {% endfor %}
