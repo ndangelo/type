@@ -5,11 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
 title:            Aspire Themes
 description:      Elegant WordPress and Ghost Themes
-baseurl:          ''
-url:              http://aspirethemes.com
+url:              https://aspirethemes.com
 disqus:           aspirethemes
 email:            aspirethemes@gmail.com
 mailto:           mailto:aspirethemes@gmail.com
@@ -20,7 +18,8 @@ facebook:         https://www.facebook.com/aspirethemes
 themeforest:      http://themeforest.net/user/aspirethemes
 creative_market:  https://creativemarket.com/aspirethemes
 
-# Build settings
+permalink: none
+post_dirs: false
 markdown: kramdown
 
 include:
@@ -28,9 +27,6 @@ include:
 
 gems:
   - jekyll-sitemap
-
-permalink: none
-post_dirs: false
 
 collections:
   themes:
