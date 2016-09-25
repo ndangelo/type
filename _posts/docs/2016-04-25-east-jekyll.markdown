@@ -7,12 +7,10 @@ type: jekyll
 
 * Name: East
 * Description: Minimal and Clean Blog Jekyll Theme
-* Current Version: 1.1.0
-* Released: 1 August 2016
+* Current Version: 1.1.1
+* Released: 25 September 2016
 
 ---
-
-## Table of Contents
 
 * [Configurations](#configurations)
 * [Deployment](#deployment)
@@ -26,45 +24,59 @@ type: jekyll
 * [Update favicon](#update-favicon)
 * [Support](#support)
 
+---
+
 ## Configurations
 
 East theme comes with different customizations in the `_config.yml` file:
 
 {% highlight shell %}
-title: East
-email: your-email@domain.com
-description: Minimal and Clean Blog Jekyll Theme
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'http://aspirethemes.com' # the base hostname & protocol for your site
-twitter_username: aspirethemes
+title:            East
+email:            your-email@domain.com
+description:      Minimal and Clean Blog Jekyll Theme
+baseurl:          '' # The subpath of your site, e.g. /blog
+url:              'https://east-jekyll.aerobatic.io' # The base hostname & protocol for your site
 github_username:  aspirethemes
-instagram_username: aspirethemes
+twitter_username: aspirethemes
 
-# Build settings
-markdown: kramdown
-gems: [jekyll-paginate]
+markdown:  kramdown
 permalink: pretty
-include: [_pages]
-exclude: ['Gemfile', 'Gemfile.lock']
+paginate:  12
 
-# Pagination
-paginate: 12
+gems:
+  - jekyll-paginate
+  - jekyll/tagging
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 # Tags
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_permalink_style: pretty
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
 
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+# Authors
 authors:
-  john:
-    name: John Adam
-    display_name: John Adam
-    bio: Adam has over 5 years of experience as a web writer, and also a photographer.
-    gravatar: http://east.aspirethemes.com/content/images/2016/01/smiles-man.jpg
-    email: john@aspirethemes.com
-    web: http://aspirethemes.com
-    twitter: aspirethemes
-    github: aspirethemes
+  ahmad:
+    name:             Ahmad Ajmi
+    bio:              Author & developer of Aspire Themes.
+    gravatar:         https://s.gravatar.com/avatar/f83
+    email:            info@aspirethemes.com
+    website:          http://aspirethemes.com
+    github_username:  ahmadajmi
+    twitter_username: ahmadajmi
 {% endhighlight %}
 
 ---
@@ -90,8 +102,8 @@ The following is a post file with different configurations you can add as exampl
 layout: post
 title: Welcome to Jekyll!
 featured: true
-author: john
-tags: [python, ruby, java]
+author: ahmad
+tags: [python, ruby, java, ruby-on-rails]
 image: '/images/posts/image.jpeg'
 ---
 {% endhighlight %}
@@ -106,6 +118,8 @@ To keep things more organized, add post images to **/images/pages** directory, a
 
 To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
 
+For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
+
 ---
 
 ### Pages
@@ -118,12 +132,11 @@ The following is the `about.md` file that you can find as an example included in
 ---
 layout: page
 title: About
-permalink: /about
 image: '/images/pages/about.jpeg'
 ---
 {% endhighlight %}
 
-Things you can change are: `title`, `permalink`, and `image` path.
+Things you can change are: `title` and `image` path.
 
 ---
 
@@ -140,7 +153,7 @@ East Theme comes with Disqus comments enabled.
 Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
 {% highlight js %}
-s.src = '//aspirethemes.disqus.com/embed.js';
+s.src = '//aspirethemes-demo.disqus.com/embed.js';
 {% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
