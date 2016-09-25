@@ -46,19 +46,19 @@ select {
 
 // Newsletter Form
 .newsletter-form {
-  display: flex;
-  flex-wrap: wrap;
-
   display: -webkit-flex;
+          display: flex;
+
   -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 
   &__input {
-    flex: 7;
     -webkit-flex: 7;
+            flex: 7;
   }
 
   &__button {
-    flex: 3;
     -webkit-flex: 3;
+            flex: 3;
   }
 }

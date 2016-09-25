@@ -5,15 +5,14 @@
 .post-card {
   margin-bottom: $line-height__medium;
   padding-bottom: $line-height__medium;
-
   border-bottom: 1px solid $border-color;
 
   &__image {
-    margin-bottom: $line-height__base / 2;
+    margin-bottom: half($line-height__base);
     transition: $base-transition-speed;
 
     @media #{$medium-down} {
-      margin-bottom: $line-height__medium / 2;
+      margin-bottom: half($line-height__medium);
     }
   }
 
@@ -27,7 +26,7 @@
   }
 
   &__meta {
-    margin-bottom: $line-height__base / 4;
+    margin-bottom: quarter($line-height__base);
     font-size: $font-size__tiny;
     line-height: $line-height__small;
     color: $color__type--hover;
@@ -37,18 +36,15 @@
 // Make post cards the same height
 
 .post-list {
-  display: flex;
-  flex-wrap: wrap;
-
-  // Safari (iPad)
   display: -webkit-flex;
+          display: flex;
+
   -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 
   .post-card-wrap {
-    display: flex;
-
-    // Safari (iPad)
     display: -webkit-flex;
+            display: flex;
   }
 
   .post-card {

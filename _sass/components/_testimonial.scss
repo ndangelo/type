@@ -3,10 +3,10 @@
 //---------------------------
 
 .testimonial {
-  padding: $line-height__medium;
-  margin-bottom: $line-height__medium;
   position: relative;
   width: 100%;
+  padding: $line-height__medium;
+  margin-bottom: $line-height__medium;
   background-color: $grey-bg;
 
   &:after {
@@ -16,8 +16,8 @@
     display: block;
     width: 0;
     content: "";
-    border-width: half($line-height__base) half($line-height__base) 0 0;
     border-style: solid;
+    border-width: half($line-height__base) half($line-height__base) 0 0;
     border-color: $grey-bg transparent;
   }
 

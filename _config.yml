@@ -18,7 +18,7 @@ facebook:         https://www.facebook.com/aspirethemes
 themeforest:      http://themeforest.net/user/aspirethemes
 creative_market:  https://creativemarket.com/aspirethemes
 
-permalink: none
+permalink: /blog/:title
 post_dirs: false
 markdown: kramdown
 
@@ -32,3 +32,6 @@ collections:
   themes:
     output: true
     permalink: /themes/:path/
+  docs:
+    output: true
+    permalink: /docs/:path/

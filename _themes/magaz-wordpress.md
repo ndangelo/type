@@ -8,7 +8,7 @@ categories:   themes
 type:         wordpress
 body-class:   theme
 demo:         http://magaz-wordpress.aspirethemes.com/
-docs:         /docs/magaz-wordpress.html
+docs:         /docs/magaz-wordpress
 purchase:     https://github.com/aspirethemes/magaz
 description:  Magaz is a modern, clean, minimal, content and image focus theme for WordPress.
 features:

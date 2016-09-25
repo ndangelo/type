@@ -9,7 +9,7 @@ categories:   themes
 type:         ghost
 body-class:   theme
 demo:         http://aspire.aspirethemes.com/
-docs:         /docs/aspire-ghost.html
+docs:         /docs/aspire-ghost
 purchase:     http://themeforest.net/item/aspire-news-magazine-clean-ghost-theme/14230254
 description:  Aspire is a modern, clean, and content and image focus theme for Ghost.
 features:

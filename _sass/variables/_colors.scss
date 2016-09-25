@@ -2,19 +2,11 @@
 // Colors
 //---------------------------
 
-$color__type: #222222;
+$color__type: #222;
 $color__type--hover: #7E7E7E;
-$brand-color: #f2132d;
 
-$body-color: #333;
 $grey-bg: #FAFAFA;
 $grey--dark-bg: #bdc3c7;
-$border-color: #ECF0F1;
-
-$twitter-brand: #55acee;
-$twitter-brand--hover: #1E8BC3;
-$facebook-brand: #3b5998;
-$google-brand: #dc4e41;
 
 $info-color: #207cdf;
 $info-color--hover: #238cf6;
@@ -22,5 +14,6 @@ $info-color--hover: #238cf6;
 $success-color: #1abc9c;
 $success-color--hover: #16a085;
 
+$border-color: #ECF0F1;
 $input-border-color: #7B8994;
 $input-border-color--focus: $color__type--hover;

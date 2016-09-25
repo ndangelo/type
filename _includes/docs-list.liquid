@@ -5,9 +5,9 @@
     </h5>
   </div>
 
-  {% for post in site.categories.docs %}
-    {% unless post.draft %}
-      {% if post.type == include.type %}
+  {% for doc in site.docs %}
+    {% unless doc.draft %}
+      {% if doc.type == include.type %}
         {% include docs-card.html %}
       {% endif %}
     {% endunless %}

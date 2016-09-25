@@ -9,7 +9,6 @@
     float: right;
     display: block;
     margin-right: half($line-height__medium);
-
     font-size: $font-size__small;
     cursor: pointer;
 
@@ -42,7 +41,7 @@
     -webkit-transform: translate3d(0, 0, 0) translateX(0);
             transform: translate3d(0, 0, 0) translateX(0);
     -webkit-transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
-    transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
+            transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
 
     &.is-active {
       -webkit-transform: translate3d(0px, 0px, 0px) translateX(- $off-canvas-width);

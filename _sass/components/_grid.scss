@@ -2,9 +2,9 @@
 // Grid
 //---------------------------
 
-$total-columns:           12 !default;
-$base-space-unit:        1em !default;
-$row-max-width:         1100px !default;
+$total-columns:   12;
+$base-space-unit: 1em;
+$row-max-width:   1100px;
 
 // gridCalc(1, 12) => 8.33333%
 
@@ -36,9 +36,7 @@ $row-max-width:         1100px !default;
     padding-right: half($line-height__base);
   }
 
-  &--full {
-    max-width: 100%;
-  }
+  &--full { max-width: 100%; }
 
   &--collapse {
     margin-left: half($line-height__medium);
@@ -87,6 +85,7 @@ $row-max-width:         1100px !default;
 }
 
 // Medium screens :: Larger than 640px
+
 @media #{$medium-up} {
 
   @for $i from 1 through $total-columns {

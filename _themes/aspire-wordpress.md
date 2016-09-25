@@ -9,7 +9,7 @@ categories:   themes
 type:         wordpress
 body-class:   theme
 demo:         http://aspire-wordpress.aspirethemes.com/
-docs:         /docs/aspire-wordpress.html
+docs:         /docs/aspire-wordpress
 purchase:     http://themeforest.net/item/-aspire-news-magazine-clean-wordpress-theme/15086977
 description:  Aspire is a modern, clean, minimal, content and image focus theme for WordPress.
 features:

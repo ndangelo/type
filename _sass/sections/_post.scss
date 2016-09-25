@@ -22,7 +22,7 @@
     color: $color__type--hover;
   }
 
-  &-content {
+  &__content {
     a:not(.button) {
       background-image: linear-gradient(to bottom, $color__type, $color__type);
       text-shadow: -1px -1px 0 #FDFDFD, 1px -1px 0 #FDFDFD, -1px 1px 0 #FDFDFD, 1px 1px 0 #FDFDFD;

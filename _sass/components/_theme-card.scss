@@ -43,7 +43,7 @@
   }
 
   &__meta {
-    margin-bottom: $line-height__base / 4;
+    margin-bottom: quarter($line-height__base);
     font-size: $font-size__tiny;
     font-style: italic;
     line-height: $line-height__small;
@@ -74,21 +74,16 @@
 }
 
 .themes-list {
-  display: flex;
-  flex-wrap: wrap;
-
-  // Safari (iPad)
   display: -webkit-flex;
+          display: flex;
+
   -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 
   .theme-card-wrap {
-    display: flex;
-
-    // Safari (iPad)
     display: -webkit-flex;
+            display: flex;
   }
 
-  .theme-card {
-    width: 100%;
-  }
+  .theme-card { width: 100%; }
 }

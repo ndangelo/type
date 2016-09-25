@@ -9,7 +9,7 @@ categories:   themes
 type:         ghost
 body-class:   theme
 demo:         http://magaz.aspirethemes.com/
-docs:         /docs/magaz-ghost.html
+docs:         /docs/magaz-ghost
 purchase:     http://themeforest.net/item/magaz-magazine-and-multipurpose-clean-ghost-theme/14907507
 description:  Magaz is a modern, clean, and content and image focus theme for Ghost.
 features:
