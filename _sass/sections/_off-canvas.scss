@@ -6,13 +6,11 @@
   display: none;
 
   @media #{$medium-down} {
-    float: right;
     display: block;
-    margin-right: half($line-height__medium);
+    position: absolute;
+    right: $line-height__small;
     font-size: $font-size__small;
     cursor: pointer;
-
-    .genericon { vertical-align: middle; }
   }
 }
 
