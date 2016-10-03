@@ -13,20 +13,22 @@
     font-size: $font-size__small;
     line-height: $line-height__base;
 
-    @media #{$medium-up} {
+    @include mq($from: tablet) {
       display: inline-block;
       margin-right: quarter($line-height__base);
 
       &:last-child { margin-right: 0; }
     }
 
-    @media #{$large-up} { margin-right: half($line-height__base); }
+    @include mq($from: desktop) {
+      margin-right: half($line-height__base);
+    }
   }
 
   &__link {
     transition: $base-transition-speed;
 
-    @media #{$medium-down} {
+    @include mq($until: tablet) {
       display: block;
       padding-top: quarter($line-height__base);
       padding-bottom: quarter($line-height__base);
@@ -34,7 +36,9 @@
     }
   }
 
-  @media #{$medium-down} { margin-bottom: quarter($line-height__base); }
+  @include mq($until: tablet) {
+    margin-bottom: quarter($line-height__base);
+  }
 }
 
 .social-nav {
@@ -43,7 +47,9 @@
   list-style: none;
   text-align: right;
 
-  @media #{$medium-down} { text-align: center; }
+  @include mq($until: tablet) {
+    text-align: center;
+  }
 
   &__item {
     display: inline-block;

@@ -2,10 +2,10 @@
 // Break Points
 //---------------------------
 
-// @media #{$medium-down} {  }
+$mq-breakpoints: (
+    mobile:  320px,
+    tablet:  640px,
+    desktop: 1024px
+);
 
-$screen: "only screen" !default;
-$medium-up: "#{$screen} and (min-width: 40.063em)";
-$medium-down: "#{$screen} and (max-width: 40em)";
-$large-up: "#{$screen} and (min-width: 64em)";
-$large-down: "#{$screen} and (max-width: 64em)";
+// $mq-show-breakpoints: (mobile, tablet, desktop, wide);

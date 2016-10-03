@@ -25,13 +25,13 @@ $row-max-width:   1100px;
     margin-right: - half($line-height__medium);
     margin-left:  - half($line-height__medium);
 
-    @media #{$large-up} {
+    @include mq($from: desktop) {
       margin-right: - half($line-height__base);
       margin-left:  - half($line-height__base);
     }
   }
 
-  @media #{$large-up} {
+  @include mq($from: desktop) {
     padding-left: half($line-height__base);
     padding-right: half($line-height__base);
   }
@@ -42,7 +42,7 @@ $row-max-width:   1100px;
     margin-left: half($line-height__medium);
     margin-right: half($line-height__medium);
 
-    @media #{$large-up} {
+    @include mq($from: desktop) {
       margin-right: half($line-height__base);
       margin-left: half($line-height__base);
     }
@@ -61,7 +61,7 @@ $row-max-width:   1100px;
   padding-left: half($line-height__medium);
   width: 100%;
 
-  @media #{$large-up} {
+  @include mq($from: desktop) {
     padding-right: half($line-height__base);
     padding-left: half($line-height__base);
   }
@@ -72,38 +72,26 @@ $row-max-width:   1100px;
   margin: 0 auto;
 }
 
-// Small screens
-
 @media only screen {
-
   @for $i from 1 through $total-columns {
     .small#{-$i} {
       width: gridCalc($i, $total-columns);
     }
   }
-
 }
 
-// Medium screens :: Larger than 640px
-
-@media #{$medium-up} {
-
+@include mq($from: tablet) {
   @for $i from 1 through $total-columns {
     .medium#{-$i} {
       width: gridCalc($i, $total-columns);
     }
   }
-
 }
 
-// Large screens :: Larger than 1024px
-
-@media #{$large-up} {
-
+@include mq($from: desktop) {
   @for $i from 1 through $total-columns {
     .large#{-$i} {
       width: gridCalc($i, $total-columns);
     }
   }
-
 }

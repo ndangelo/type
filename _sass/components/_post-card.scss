@@ -11,7 +11,7 @@
     margin-bottom: half($line-height__base);
     transition: $base-transition-speed;
 
-    @media #{$medium-down} {
+    @include mq($until: tablet) {
       margin-bottom: half($line-height__medium);
     }
   }

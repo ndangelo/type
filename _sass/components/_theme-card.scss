@@ -8,13 +8,13 @@
   margin-bottom: $line-height__medium;
   background-color: $grey-bg;
 
-  @media #{$medium-up} {
+  @include mq($from: tablet) {
     padding: $line-height__base;
     margin-bottom: $line-height__base;
   }
 
   &__image {
-    @media #{$medium-up} {
+    @include mq($from: tablet) {
       &.fadein {
         opacity: 0;
         transition: opacity $base-transition-speed ease-in-out;
@@ -62,7 +62,7 @@
 
     sub { bottom: auto; }
 
-    @media #{$medium-up} {
+    @include mq($from: tablet) {
       bottom: $line-height__base;
       right: $line-height__base;
     }

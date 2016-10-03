@@ -15,7 +15,9 @@ img {
   .twitter-tweet {
     margin-bottom: $line-height__medium !important;
 
-    @media #{$medium-down} { margin-bottom: $line-height__small; }
+    @include mq($until: tablet) {
+      margin-bottom: $line-height__small;
+    }
   }
 
   p img { margin-bottom: 0; }
@@ -25,9 +27,13 @@ img {
     padding: half(half($line-height__base));
     background-color: $grey-bg;
 
-    @media #{$medium-up} { padding: half($line-height__base); }
+    @include mq($from: tablet) {
+      padding: half($line-height__base);
+    }
 
-    @media #{$large-up} { padding: $line-height__base; }
+    @include mq($from: desktop) {
+      padding: $line-height__base;
+    }
   }
 }
 

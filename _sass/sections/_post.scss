@@ -10,7 +10,7 @@
     font-size: double($font-size__medium);
     line-height: double($line-height__medium);
 
-    @media #{$medium-down} {
+    @include mq($until: tablet) {
       font-size: double($font-size__tiny);
       line-height: $line-height__base;
     }

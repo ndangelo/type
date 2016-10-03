@@ -25,7 +25,9 @@ h6 {
   font-weight: $font-weight__light;
   margin: 0 0 $line-height__medium;
 
-  @media #{$medium-down} { font-size: $font-size__medium; }
+  @include mq($until: tablet) {
+    font-size: $font-size__medium;
+  }
 
   a { text-decoration: none; }
 }
@@ -51,7 +53,9 @@ blockquote {
   padding: 0 (2 * $line-height__base) 0 (2 * $line-height__base);
   font-style: italic;
 
-  @media #{$medium-down} { padding: 0 double($line-height__small) 0 double($line-height__small); }
+  @include mq($until: tablet) {
+    padding: 0 double($line-height__small) 0 double($line-height__small);
+  }
 }
 
 hr {
@@ -60,7 +64,9 @@ hr {
   background-color: $border-color;
   margin: $line-height__base 0 $line-height__base;
 
-  @media #{$medium-down} { margin: $line-height__medium 0 $line-height__medium; }
+  @include mq($until: tablet) {
+    margin: $line-height__medium 0 $line-height__medium;
+  }
 }
 
 p,

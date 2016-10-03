@@ -25,7 +25,9 @@
     border-bottom: 1px solid $border-color;
   }
 
-  @media #{$medium-down} { margin: $line-height__medium auto; }
+  @include mq($until: tablet) {
+    margin: $line-height__medium auto;
+  }
 }
 
 .separator-title {

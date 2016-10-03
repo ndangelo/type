@@ -9,12 +9,16 @@
 .wrapper {
   padding: $line-height__medium 0;
 
-  @media #{$large-up} { padding: $line-height__base 0; }
+  @include mq($from: desktop) {
+    padding: $line-height__base 0;
+  }
 
   &--large {
    padding: double($line-height__small) 0;
 
-    @media #{$large-up} { padding: double($line-height__medium) 0; }
+    @include mq($from: desktop) {
+      padding: double($line-height__medium) 0;
+    }
   }
 }
 

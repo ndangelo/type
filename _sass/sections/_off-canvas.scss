@@ -5,7 +5,7 @@
 .off-canvas-toggle {
   display: none;
 
-  @media #{$medium-down} {
+  @include mq($until: tablet) {
     display: block;
     position: absolute;
     right: $line-height__small;
@@ -14,7 +14,7 @@
   }
 }
 
-@media #{$medium-down} {
+@include mq($until: tablet) {
 
   // prevent horizontal scroll during off-canvas
 

@@ -21,7 +21,7 @@
     border-color: $grey-bg transparent;
   }
 
-  @media #{$medium-up} {
+  @include mq($from: tablet) {
     padding: $line-height__base;
     margin-bottom: $line-height__base;
   }
@@ -31,7 +31,7 @@
   .post-card-wrap {
     &:last-child .testimonial { margin-bottom: 0; }
 
-    @media #{$medium-up} {
+    @include mq($from: tablet) {
       &:nth-last-child(2) .testimonial {
         margin-bottom: 0;
       }

@@ -5,7 +5,7 @@
 .site-footer {
   background-color: $grey-bg;
 
-  @media #{$large-down} {
+  @include mq($until: desktop) {
     .site-footer__section {
       margin-bottom: half($line-height__base);
 
@@ -32,9 +32,13 @@
 .site-footer__top {
   padding: $line-height__base 0;
 
-  @media #{$medium-up} { padding: double($line-height__base) 0; }
+  @include mq($from: tablet) {
+    padding: double($line-height__base) 0;
+  }
 
-  @media #{$large-up} { padding: quadruple($line-height__small) 0; }
+  @include mq($from: desktop) {
+    padding: quadruple($line-height__small) 0;
+  }
 }
 
 .site-footer__bottom {
