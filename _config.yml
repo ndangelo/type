@@ -28,6 +28,9 @@ include:
 gems:
   - jekyll-sitemap
 
+sass:
+  style: compressed
+
 collections:
   themes:
     output: true
