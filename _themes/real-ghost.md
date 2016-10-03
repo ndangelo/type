@@ -20,8 +20,7 @@ features:
   - Post Sharing
   - HTML5 Markup
   - Custom Logo
-  - Author page
-  - Tag page
+  - Author & Tag Pages
   - SEO Structured Data
   - Developer Friendly
   - Sass & Gulp

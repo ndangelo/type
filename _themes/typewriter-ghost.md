@@ -16,8 +16,7 @@ features:
   - Disqus Comments
   - Post Sharing
   - HTML5 Markup
-  - Author page
-  - Tag page
+  - Author & Tag Pages
   - SEO Structured Data
   - Developer Friendly
   - Sass & Gulp

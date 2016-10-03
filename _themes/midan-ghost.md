@@ -10,7 +10,7 @@ type:         ghost
 body-class:   theme
 demo:         http://midan.aspirethemes.com/
 docs:         /docs/midan-ghost
-purchase:     https://creativemarket.com/aspirethemes/737784-Midan-Clean-Fast-Ghost-Theme
+purchase:     https://gum.co/gNEIH
 description:  Midan is a clean, minimal, modern theme that focuses on content for Ghost.
 features:
   - Clean Design
@@ -20,8 +20,8 @@ features:
   - Post Sharing
   - HTML5 Markup
   - Custom Logo
-  - Author page
-  - Tag page
+  - Author & Tag Pages
+  - (AMP) Support
   - SEO Structured Data
   - Developer Friendly
   - Sass & Gulp
