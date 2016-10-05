@@ -68,7 +68,7 @@ chmod +x aspire.sh
 ./aspire.sh
 {% endhighlight %}
 
-**For Ghost**
+### For Ghost Theme
 
 {% highlight shell %}
 #!/bin/bash
