@@ -4,10 +4,10 @@ name:         Magaz - Ghost
 title:        Magaz
 date:         2016-2-23
 thumbnail:    images/themes/ghost/magaz/preview.png
-price:        29
+price:        34
 categories:   themes
 type:         ghost
-body-class:   theme
+body-class:   is-theme
 demo:         http://magaz.aspirethemes.com/
 docs:         /docs/magaz-ghost
 purchase:     http://themeforest.net/item/magaz-magazine-and-multipurpose-clean-ghost-theme/14907507
@@ -23,7 +23,7 @@ features:
   - HTML5 Markup
   - Custom Logo
   - Author & Tag Pages
-  - SEO Structured Data
+  - SEO Optimized
   - Developer Friendly
   - Sass & Gulp
   - Free Customer Support

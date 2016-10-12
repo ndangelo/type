@@ -4,10 +4,10 @@ name:         Aspire – Ghost
 title:        Aspire
 date:         2015-12-24
 thumbnail:    images/themes/ghost/aspire/preview.png
-price:        29
+price:        34
 categories:   themes
 type:         ghost
-body-class:   theme
+body-class:   is-theme
 demo:         http://aspire.aspirethemes.com/
 docs:         /docs/aspire-ghost
 purchase:     http://themeforest.net/item/aspire-news-magazine-clean-ghost-theme/14230254
@@ -27,7 +27,7 @@ features:
   - HTML5 Markup
   - Custom Logo
   - Author & Tag Pages
-  - SEO Structured Data
+  - SEO Optimized
   - Developer Friendly
   - Sass & Gulp Automation
   - Free Customer Support

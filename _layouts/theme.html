@@ -2,18 +2,18 @@
 layout: default
 ---
 
-<div class='grey-bg theme-hero'>
-  <div class='row theme-hero__content'>
+<div class='c-theme-hero'>
+  <div class='o-grid c-theme-hero__content'>
 
-    <div class='column medium-7 large-5'>
-      <div class='theme-hero__info'>
+    <div class='o-grid__col o-grid__col--2-4'>
+      <div class='c-theme-hero__info'>
 
-        <h2 class='theme-hero__title'>{{ page.title }}</h2>
-        <p class='theme-hero__description font-medium sans-serif'>{{ page.description }}</p>
+        <h2 class='c-theme-hero__title'>{{ page.title }}</h2>
+        <p class='c-theme-hero__description font-medium'>{{ page.description }}</p>
 
-        <div class='row'>
-          <div class='column medium-6 large-6'>
-            <a class='button button--expand button--large button--info' href='{{ page.purchase }}' target='_blank'>
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--2-4'>
+            <a class='c-btn c-btn--primary c-btn--full' href='{{ page.purchase }}' target='_blank'>
               {% if page.price %}
                 Buy Theme ${{ page.price }}
               {% else %}
@@ -21,58 +21,49 @@ layout: default
               {% endif %}
             </a>
           </div>
-          <div class='column medium-6 large-6'>
-            <a class='button button--large button--expand' href='{{ page.demo }}' target='_blank'>Live Demo</a>
+          <div class='o-grid__col o-grid__col--2-4'>
+            <a class='c-btn c-btn--secondary c-btn--full' href='{{ page.demo }}' target='_blank'>Live Demo</a>
           </div>
         </div>
 
       </div>
     </div>
 
-    <div class='column medium-5 large-7'>
-      <div class='fadein CoverImage FlexEmbed FlexEmbed--4by3' style='background-image: url(/{{ page.thumbnail }})'></div>
+    <div class='o-grid__col o-grid__col--2-4'>
+      <div class='js-fadein c-theme-hero__image' style='background-image: url(/{{ page.thumbnail }})'></div>
     </div>
 
-  </div> <!-- row -->
-</div> <!-- theme-hero -->
+  </div> <!-- o-grid -->
+</div> <!-- c-theme-hero -->
 
-<div class='wrapper wrapper--large'>
-  <div class='row'>
-    <div class='column medium-8 large-8'>
-      <div class='post__content theme-content sans-serif'>
-        {{ content }}
-      </div>
-    </div>
-
-    <div class='column medium-4 large-4'>
-      <div class='check-list theme-meta'>
-        <ul>
-          {% for feature in page.features %}
-            <li>{{feature}}</li>
-          {% endfor %}
-          {% if page.docs %}
-            <li>
-              <a href='{{ page.docs }}' target='_blank'>Documentation <span data-icon='ei-external-link' data-size='s'></span></a>
-            </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <a class='button button--expand button--large' href='{{ site.mailto }}' target='_blank'>Contact For Help</a>
-      <hr>
-      <a class='button button--large button--expand' href='/customization' target='_blank'>Need Custom Services?</a>
-
+<div class='o-grid'>
+  <div class='o-grid__col o-grid__col--3-4'>
+    <div class='c-content'>
+      {{ content }}
     </div>
   </div>
 
-  <div class='row'>
-    <div class='column'>
-      <div class='separator margin-top-none'>
-        <span class='separator-title'>My Happy Clients</span>
-      </div>
-    </div>
+  <div class='o-grid__col o-grid__col--1-4'>
+    <ul class="o-plain-list c-theme-features">
+      {% for feature in page.features %}
+        <li class="c-theme-features__item">{{feature}}</li>
+      {% endfor %}
+      {% if page.docs %}
+        <li class="c-theme-features__item">
+          <a href='{{ page.docs }}' target='_blank'>Documentation <span data-icon='ei-external-link' data-size='s' class="c-theme-features__icon"></span></a>
+        </li>
+      {% endif %}
+    </ul>
+
+    <hr>
+
+    <a class='c-btn c-btn--secondary c-btn--full' href='{{ site.mailto }}' target='_blank'>Contact For Help</a>
+
+    <hr>
+
+    <a class='c-btn c-btn--secondary c-btn--full' href='/customization' target='_blank'>Need Custom Services?</a>
+
   </div>
-
-  {% include testimonials.html %}
-
 </div>
+
+{% include testimonials.html %}

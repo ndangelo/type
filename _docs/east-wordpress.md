@@ -2,7 +2,7 @@
 layout: doc
 title: East
 categories: docs
-type: wordpress
+platform: WordPress
 ---
 
 * Name: East
@@ -105,48 +105,42 @@ You can create a normal menu with a custom link to the social media site. Then y
 
 The following are the social media sites and services where you can find an icon support. The theme is using [genericons](http://genericons.com/) icons.
 
-<div class="row">
-  <div class="column small-4">
-    <div class="check-list">
-      <ul>
-        <li>Twitter</li>
-        <li>CodePen</li>
-        <li>Digg</li>
-        <li>Dribbble</li>
-        <li>Dropbox</li>
-        <li>Email</li>
-        <li>Facebook</li>
-        <li>Foursquare</li>
-      </ul>
-    </div>
+<div class="o-grid">
+  <div class="o-grid__col o-grid__col--1-3">
+    <ul>
+      <li>Twitter</li>
+      <li>CodePen</li>
+      <li>Digg</li>
+      <li>Dribbble</li>
+      <li>Dropbox</li>
+      <li>Email</li>
+      <li>Facebook</li>
+      <li>Foursquare</li>
+    </ul>
   </div>
-  <div class="column small-4">
-    <div class="check-list">
-      <ul>
-        <li>GitHub</li>
-        <li>Google Plus</li>
-        <li>Instagram</li>
-        <li>LinkedIn</li>
-        <li>Path</li>
-        <li>Pinterest</li>
-        <li>Polldaddy</li>
-        <li>Reddit</li>
-      </ul>
-    </div>
+  <div class="o-grid__col o-grid__col--1-3">
+    <ul>
+      <li>GitHub</li>
+      <li>Google Plus</li>
+      <li>Instagram</li>
+      <li>LinkedIn</li>
+      <li>Path</li>
+      <li>Pinterest</li>
+      <li>Polldaddy</li>
+      <li>Reddit</li>
+    </ul>
   </div>
-  <div class="column small-4">
-    <div class="check-list">
-      <ul>
-        <li>RSS</li>
-        <li>StumbleUpon</li>
-        <li>Tumblr</li>
-        <li>Twitch</li>
-        <li>Twitter</li>
-        <li>Vimeo</li>
-        <li>Vine</li>
-        <li>WordPress</li>
-      </ul>
-    </div>
+  <div class="o-grid__col o-grid__col--1-3">
+    <ul>
+      <li>RSS</li>
+      <li>StumbleUpon</li>
+      <li>Tumblr</li>
+      <li>Twitch</li>
+      <li>Twitter</li>
+      <li>Vimeo</li>
+      <li>Vine</li>
+      <li>WordPress</li>
+    </ul>
   </div>
 </div>
 

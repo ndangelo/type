@@ -4,10 +4,10 @@ name:         East - Ghost
 title:        East
 date:         2016-2-6
 thumbnail:    images/themes/ghost/east/preview.png
-price:        29
+price:        34
 categories:   themes
 type:         ghost
-body-class:   theme
+body-class:   is-theme
 demo:         http://east.aspirethemes.com/
 docs:         /docs/east-ghost
 purchase:     http://themeforest.net/item/east-blog-and-multipurpose-clean-ghost-theme/14714255
@@ -22,7 +22,7 @@ features:
   - HTML5 Markup
   - Custom Logo
   - Author & Tag Pages
-  - SEO Structured Data
+  - SEO Optimized
   - Developer Friendly
   - Sass & Gulp
   - Free Customer Support

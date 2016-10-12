@@ -2,7 +2,7 @@
 layout: doc
 title: Magaz
 categories: docs
-type: ghost
+platform: Ghost
 ---
 
 * Name: Magaz

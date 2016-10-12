@@ -1,89 +1,60 @@
-//---------------------------
-// Theme Card
-//---------------------------
+/*------------------------------------*\
+  Components > Theme Card
+\*------------------------------------*/
 
-.theme-card {
+.c-theme-card {
   position: relative;
-  padding: $line-height__medium;
-  margin-bottom: $line-height__medium;
-  background-color: $grey-bg;
 
-  @include mq($from: tablet) {
-    padding: $line-height__base;
-    margin-bottom: $line-height__base;
-  }
+  height: calc(100% - #{double($base-spacing-unit)});
+  margin-bottom: double($base-spacing-unit);
+  padding: double($base-spacing-unit);
+
+  border: 1px solid $color-border;
+  background-color: $bg-color-gray;
 
   &__image {
+    margin-bottom: $base-spacing-unit;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     @include mq($from: tablet) {
-      &.fadein {
-        opacity: 0;
-        transition: opacity $base-transition-speed ease-in-out;
+      transition: opacity $global-transition ease-in-out;
 
-        &.inview { opacity: 1; }
+      opacity: 0;
 
-        @media screen and ( -webkit-min-device-pixel-ratio: 0 ) { opacity: 1; }
-      }
+      &.is-inview { opacity: 1; }
+
+      @media screen and ( -webkit-min-device-pixel-ratio: 0 ) { opacity: 1; }
+    }
+
+    &:after {
+      display: block;
+
+      width: 100%;
+      padding-bottom: 56.25%;
+
+      content: '';
     }
   }
 
   &__title {
-    font-size: $font-size__medium;
-    font-weight: $font-weight__light;
-    line-height: $line-height__medium;
-    margin-top: 0;
     margin-bottom: 0;
 
-    a {
-      display: block;
-      border-bottom: none;
-      transition: $base-transition-speed;
-
-      &:hover { color: $color__type--hover; }
-    }
-  }
-
-  &__meta {
-    margin-bottom: quarter($line-height__base);
-    font-size: $font-size__tiny;
-    font-style: italic;
-    line-height: $line-height__small;
-    color: $color__type--hover;
-
-    a { color: $color__type--hover; text-decoration: none; }
+    font-size: $font-size-base;
+    font-weight: $font-weight-light;
   }
 
   &__price {
     position: absolute;
-    bottom: $line-height__medium;
-    right: $line-height__medium;
-    line-height: $line-height__medium;
+    right: double($base-spacing-unit);
+    bottom: double($base-spacing-unit);
+
     letter-spacing: .05em;
-    color: $info-color;
+
+    color: $color-brand;
 
     sub { bottom: auto; }
-
-    @include mq($from: tablet) {
-      bottom: $line-height__base;
-      right: $line-height__base;
-    }
   }
-
-  &:hover {
-    .theme-card__title a { color: $color__type--hover; }
-  }
-}
-
-.themes-list {
-  display: -webkit-flex;
-          display: flex;
-
-  -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
-
-  .theme-card-wrap {
-    display: -webkit-flex;
-            display: flex;
-  }
-
-  .theme-card { width: 100%; }
 }

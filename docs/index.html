@@ -3,12 +3,8 @@ layout: default
 title: Documentation
 ---
 
-<div class='wrapper'>
+{% include docs-list.liquid platform='WordPress' %}
 
-  {% include docs-list.liquid type='wordpress' %}
+{% include docs-list.liquid platform='Ghost' %}
 
-  {% include docs-list.liquid type='ghost' %}
-
-  {% include docs-list.liquid type='jekyll' %}
-
-</div>
+{% include docs-list.liquid platform='Jekyll' %}

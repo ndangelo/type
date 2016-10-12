@@ -4,10 +4,10 @@ name:         Real – Ghost
 title:        Real
 date:         2016-5-23
 thumbnail:    images/themes/ghost/real/preview.png
-price:        29
+price:        34
 categories:   themes
 type:         ghost
-body-class:   theme
+body-class:   is-theme
 demo:         http://real.aspirethemes.com/
 docs:         /docs/real-ghost
 purchase:     https://themeforest.net/item/real-blog-and-magazine-clean-ghost-theme/17375799
@@ -21,7 +21,7 @@ features:
   - HTML5 Markup
   - Custom Logo
   - Author & Tag Pages
-  - SEO Structured Data
+  - SEO Optimized
   - Developer Friendly
   - Sass & Gulp
   - Free Customer Support

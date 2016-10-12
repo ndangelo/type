@@ -2,7 +2,7 @@
 layout: doc
 title: Real
 categories: docs
-type: ghost
+platform: Ghost
 ---
 
 * Name: Real

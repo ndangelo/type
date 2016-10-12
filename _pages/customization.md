@@ -11,29 +11,24 @@ You have purchased a theme and need to do some customization on it? I will be ha
 
 #### WordPress
 
-<div class="check-list" markdown='1'>
-  * Setting up WordPress server
-  * Theme and Child Theme installation
-  * General settings configuration
-  * Website and content migration
-  * Required plugins installation
-  * Widgets set up
-</div>
+* Setting up WordPress server
+* Theme and Child Theme installation
+* General settings configuration
+* Website and content migration
+* Required plugins installation
 
 ---
 
 #### Ghost
 
-<div class="check-list" markdown='1'>
-  * Setting up Ghost server
-  * Theme installation
-  * General settings configuration
-  * Website and content migration
-</div>
+* Setting up Ghost server
+* Theme installation
+* General settings configuration
+* Website and content migration
 
 ---
 
-<a href='mailto:aspirethemes@gmail.com' class='button button--large button--info'>CONTACT NOW</a>
+<a href='mailto:aspirethemes@gmail.com' class='c-btn c-btn--primary'>CONTACT NOW</a>
 
 ---
 

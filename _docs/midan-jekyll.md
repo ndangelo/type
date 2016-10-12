@@ -2,7 +2,7 @@
 layout: doc
 title: Midan
 categories: docs
-type: jekyll
+platform: Jekyll
 ---
 
 * Name: Midan

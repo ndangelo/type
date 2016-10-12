@@ -2,18 +2,16 @@
 layout: default
 ---
 
-<div class='wrapper'>
-	<div class='row'>
-		<div class='column column--center medium-10 large-8'>
+<div class='o-grid'>
+  <div class='o-grid__col o-grid__col--3-4 o-grid__col--center'>
 
-      <header class='post__header'>
-        <h2 class='post__title'>{{ page.title }}</h2>
+    <div class='c-content'>
+      <header>
+        <h2>{{ page.title }}</h2>
       </header>
 
-      <div class='post__content'>
-        {{ content }}
-      </div>
+      {{ content }}
+    </div>
 
-		</div>
-	</div>
+  </div>
 </div>

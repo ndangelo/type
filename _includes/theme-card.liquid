@@ -1,18 +1,18 @@
-<div class='theme-card-wrap column medium-6 large-6'>
-  <div class='theme-card theme-card'>
+<div class='o-grid__col o-grid__col--2-4'>
+  <div class='c-theme-card'>
 
     {% if theme.price %}
-      <span class='theme-card__price'><sub>$</sub>{{ theme.price }}</span>
+      <span class='c-theme-card__price'><sub>$</sub>{{ theme.price }}</span>
     {% else %}
-      <span class='theme-card__price font-medium'>Free</span>
+      <span class='c-theme-card__price'>Free</span>
     {% endif %}
 
-    <a href='{{ theme.url }}' class='block' title='{{ theme.title }}'>
-      <div class='fadein theme-card__image CoverImage FlexEmbed FlexEmbed--4by3' style='background-image: url(/{{ theme.thumbnail }})'>
+    <a href='{{ theme.url }}' title='{{ theme.title }}'>
+      <div class='js-fadein c-theme-card__image' style='background-image: url(/{{ theme.thumbnail }})'>
       </div>
     </a>
 
-    <h2 class='theme-card__title'>
+    <h2 class='c-theme-card__title'>
       <a title='{{ theme.title }}' href='{{ theme.url }}'>{{ theme.name }}</a>
     </h2>
 

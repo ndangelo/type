@@ -1,81 +1,50 @@
-//---------------------------
-// Sidebar
-//---------------------------
+/*------------------------------------*\
+  Components > Buttons
+\*------------------------------------*/
 
-.button,
-a.button {
+$btn-primary-bg: $color-brand;
+$btn-primary-bg-hover: #238cf6;
+
+$btn-secondary-bg: $color-white;
+$btn-secondary-bg-hover: $bg-color-gray;
+
+.c-btn {
   display: inline-block;
+
+  padding: half($base-spacing-unit) double($base-spacing-unit);
+
+  cursor: pointer;
+  transition: $global-transition;
   text-align: center;
-  padding: quarter($line-height__base) half($line-height__base);
-  font-family: $font__sans-serif;
-  font-size: $font-size__tiny;
-  line-height: $line-height__medium;
-  letter-spacing: 1px;
+  vertical-align: middle;
   white-space: nowrap;
+
   border: 0;
   border-radius: 0;
-  text-decoration: none;
-  color: $color__type;
-  background-color: #fff;
-  border: 1px solid $border-color;
-  transition: $base-transition-speed;
 
-  &:active,
-  &:focus,
-  &:hover {
-    color: $color__type;
-    background-color: $grey-bg;
+  font-size: $font-size-medium;
+
+  @include attention() {
+    text-decoration: none;
   }
 
-  &--info {
-    color: #fff;
-    background-color: $info-color;
-    border: 1px solid $info-color;
+  &--primary {
+    color: $color-white;
+    background-color: $btn-primary-bg;
 
-    &:active,
-    &:focus,
-    &:hover {
-      color: #fff;
-      background-color: $info-color--hover;
-      border: 1px solid $info-color--hover;
+    @include attention() {
+      background-color: $btn-primary-bg-hover;
     }
   }
 
-  &--success {
-    color: #fff;
-    background-color: $success-color;
-    border: 1px solid $success-color;
+  &--secondary {
+    border: 1px solid $color-border;
+    background-color: $btn-secondary-bg;
 
-    &:active,
-    &:focus,
-    &:hover {
-      color: #fff;
-      background-color: $success-color--hover;
-      border: 1px solid $success-color--hover;
+    @include attention() {
+      background-color: $btn-secondary-bg-hover;
     }
   }
 
-  &--expand { width: 100%; }
-
-  &--prefix {
-    position: relative;
-    left: -1px;
-  }
-
-  &--outline {
-    border: 1px solid $color__type;
-    background-color: #fff;
-    color: $color__type;
-  }
-
-  &--small {
-    padding: quarter($line-height__small) half($line-height__small);
-    line-height: $line-height__small;
-  }
-
-  &--large {
-    padding: half($line-height__base) ($line-height__base);
-    font-size: $font-size__small;
-    line-height: $line-height__medium;
-  }
+  &--full { width: 100%; }
 }

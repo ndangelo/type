@@ -1,54 +1,42 @@
 ---
 layout: default
 title: Aspire Themes
-body-class: home
+body-class: is-home
 excerpt: Aspire Themes is a place for clean and minimal themes for WordPress and Ghost platforms. I care so much about design, little details, and clean interfaces that are functional and easy to use.
 ---
 
 {% assign themes = (site.themes | sort: 'date') | reverse %}
 
-<div class='grey-bg hero'>
-  <div class='row'>
-    <div class='column large-12'>
-      <h3 class='hero__tagline'>{{ site.description }}</h3>
+<div class='c-home-hero'>
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <h3 class='c-home-hero__tagline'>{{ site.description }}</h3>
     </div>
   </div>
 </div>
 
-<div class='wrapper'>
-
-  <div class='row'>
-    <div class='column large-12'>
-      <h5 class='separator margin-top-none'>
-        <span class='separator-title'>Recent Themes</span>
-      </h5>
-    </div>
+<div class='o-grid'>
+  <div class='o-grid__col'>
+    <h5 class='c-heading'>
+      <span class='c-heading__title'>Recent Themes</span>
+    </h5>
   </div>
-
-  <div class='row'>
-    <div class='themes-list'>
-
-      {% for theme in themes limit:4 %}
-        {% unless theme.draft %}
-          {% include theme-card.liquid %}
-        {% endunless %}
-      {% endfor %}
-
-    </div>
-  </div>
-
-  <div class='row'>
-    <div class='column medium-6 large-6'>
-      <a class='button button--info button--expand button--large' href='/themes'>Browse Themes<div data-icon='ei-chevron-right' data-size='s'></div></a>
-    </div>
-
-    <div class='column medium-6 large-6'>
-      <a class='button button--expand button--large' href='/customization'>Need Custom Services?</a>
-    </div>
-
-    <div class='column'><hr></div>
-  </div>
-
-  {% include testimonials.html %}
-
 </div>
+
+<div class='o-grid'>
+  {% for theme in themes limit:4 %}
+    {% include theme-card.liquid %}
+  {% endfor %}
+</div>
+
+<div class='o-grid'>
+  <div class='o-grid__col o-grid__col--2-4'>
+    <a class='c-btn c-btn--primary c-btn--full' href='/themes'>Browse Themes</a>
+  </div>
+
+  <div class='o-grid__col o-grid__col--2-4'>
+    <a class='c-btn c-btn--secondary c-btn--full' href='/customization'>Need Custom Services?</a>
+  </div>
+</div>
+
+{% include testimonials.html %}

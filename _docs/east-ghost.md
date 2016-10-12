@@ -2,7 +2,7 @@
 layout: doc
 title: East
 categories: docs
-type: ghost
+platform: Ghost
 ---
 
 * Name: East

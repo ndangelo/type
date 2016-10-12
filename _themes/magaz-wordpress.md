@@ -6,7 +6,7 @@ date:         2016-5-17
 thumbnail:    images/themes/wordpress/magaz/preview.png
 categories:   themes
 type:         wordpress
-body-class:   theme
+body-class:   is-theme
 demo:         http://magaz-wordpress.aspirethemes.com/
 docs:         /docs/magaz-wordpress
 purchase:     https://github.com/aspirethemes/magaz

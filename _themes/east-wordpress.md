@@ -4,10 +4,10 @@ name:         East - WordPress
 title:        East
 date:         2016-4-28
 thumbnail:    images/themes/wordpress/east/preview.png
-price:        49
+price:        59
 categories:   themes
 type:         wordpress
-body-class:   theme
+body-class:   is-theme
 demo:         http://east-wordpress.aspirethemes.com/
 docs:         /docs/east-wordpress
 purchase:     http://themeforest.net/item/east-clean-minimal-wordpress-blog-theme/15349397
@@ -19,7 +19,7 @@ features:
   - RTL Support
   - Arabic Translation
   - Theme Customizer
-  - Search Engine Optimization
+  - SEO Optimized
   - Child Theme
   - HTML5 Markup
   - Footer 4 Widgets

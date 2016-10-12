@@ -4,10 +4,10 @@ name:         Aspire - WordPress
 title:        Aspire
 date:         2016-3-23
 thumbnail:    images/themes/wordpress/aspire/preview.png
-price:        49
+price:        59
 categories:   themes
 type:         wordpress
-body-class:   theme
+body-class:   is-theme
 demo:         http://aspire-wordpress.aspirethemes.com/
 docs:         /docs/aspire-wordpress
 purchase:     http://themeforest.net/item/-aspire-news-magazine-clean-wordpress-theme/15086977
@@ -19,7 +19,7 @@ features:
   - RTL Support
   - Arabic Translation
   - Theme Customizer
-  - Search Engine Optimization
+  - SEO Optimized
   - Child Theme
   - HTML5 Markup
   - Footer 4 Widgets

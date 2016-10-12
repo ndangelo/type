@@ -2,7 +2,7 @@
 layout: doc
 title: Aspire
 categories: docs
-type: ghost
+platform: Ghost
 ---
 
 * Name: Aspire

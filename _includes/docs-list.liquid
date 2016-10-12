@@ -1,15 +1,11 @@
-<div class='row'>
-  <div class='column large-12'>
-    <h5 class='separator margin-top-none margin-bottom-none'>
-      <span class='separator-title'>{{ include.type }}</span>
-    </h5>
-  </div>
-
+<div class='o-grid'>
   {% for doc in site.docs %}
-    {% unless doc.draft %}
-      {% if doc.type == include.type %}
-        {% include docs-card.html %}
-      {% endif %}
-    {% endunless %}
+    {% if doc.platform == include.platform %}
+      <div class="o-grid__col">
+        <a class='c-doc-card c-doc-card--{{ doc.platform | downcase }}' title='{{ doc.title }} {{ doc.platform }}' href='{{ doc.url }}'>
+          {{ doc.title }}
+        </a>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>

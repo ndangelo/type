@@ -4,10 +4,10 @@ name:         Midan – Ghost
 title:        Midan
 date:         2016-5-23
 thumbnail:    images/themes/ghost/midan/preview.png
-price:        29
+price:        34
 categories:   themes
 type:         ghost
-body-class:   theme
+body-class:   is-theme
 demo:         http://midan.aspirethemes.com/
 docs:         /docs/midan-ghost
 purchase:     https://gum.co/gNEIH
@@ -22,7 +22,7 @@ features:
   - Custom Logo
   - Author & Tag Pages
   - (AMP) Support
-  - SEO Structured Data
+  - SEO Optimized
   - Developer Friendly
   - Sass & Gulp
   - Free Customer Support

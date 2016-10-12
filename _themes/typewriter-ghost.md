@@ -6,7 +6,7 @@ date:         2015-12-20
 thumbnail:    images/themes/ghost/typewriter/preview.png
 categories:   themes
 type:         ghost
-body-class:   theme
+body-class:   is-theme
 demo:         http://typewriter.aspirethemes.com/
 purchase:     https://github.com/aspirethemes/typewriter
 description:  TypeWriter focuses on typography, white space, and gives your readers a better reading experience.
@@ -17,7 +17,7 @@ features:
   - Post Sharing
   - HTML5 Markup
   - Author & Tag Pages
-  - SEO Structured Data
+  - SEO Optimized
   - Developer Friendly
   - Sass & Gulp
 ---

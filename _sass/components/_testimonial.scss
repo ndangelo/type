@@ -1,40 +1,39 @@
-//---------------------------
-// Testimonial
-//---------------------------
+/*------------------------------------*\
+  Components > Testimonial
+\*------------------------------------*/
 
-.testimonial {
+.c-testimonial {
   position: relative;
-  width: 100%;
-  padding: $line-height__medium;
-  margin-bottom: $line-height__medium;
-  background-color: $grey-bg;
+  height: -webkit-calc(100% - #{double($base-spacing-unit)});
+  height:         calc(100% - #{double($base-spacing-unit)});
+  padding: double($base-spacing-unit);
+  margin-bottom: double($base-spacing-unit);
 
+  border: 1px solid $color-border;
+  background-color: $bg-color-gray;
+
+  &:before,
   &:after {
     position: absolute;
-    left: 0%;
-    bottom: - half($line-height__base);
-    display: block;
-    width: 0;
-    content: "";
-    border-style: solid;
-    border-width: half($line-height__base) half($line-height__base) 0 0;
-    border-color: $grey-bg transparent;
+    left: 0;
+    bottom: - $base-spacing-unit;
+    content: '';
+    border: solid transparent;
   }
 
-  @include mq($from: tablet) {
-    padding: $line-height__base;
-    margin-bottom: $line-height__base;
+  &:before {
+    left: -1px;
+    border-top-color: $color-border;
+    border-width: $base-spacing-unit $base-spacing-unit 0 0;
   }
-}
 
-.testimonials {
-  .post-card-wrap {
-    &:last-child .testimonial { margin-bottom: 0; }
+  &:after {
+    border-top-color: $bg-color-gray;
+    border-width: $base-spacing-unit 14px 0 0;
+  }
 
-    @include mq($from: tablet) {
-      &:nth-last-child(2) .testimonial {
-        margin-bottom: 0;
-      }
-    }
+  &__author {
+    margin-bottom: 0;
+    font-style: italic;
   }
 }

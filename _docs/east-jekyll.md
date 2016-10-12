@@ -2,7 +2,7 @@
 layout: doc
 title: East
 categories: docs
-type: jekyll
+platform: Jekyll
 ---
 
 * Name: East
