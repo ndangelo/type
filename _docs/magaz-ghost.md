@@ -7,8 +7,8 @@ type: ghost
 
 * Name: Magaz
 * Description: Magazine and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.6
-* Released: 4 August 2016
+* Current Version: 1.1.7
+* Released: 12 September 2016
 
 ---
 
@@ -122,6 +122,10 @@ To integrate Google Analytics, I would recommend reading [How do I add Google An
 ### RelatedPosts
 
 Related posts will be visible on the single post page when there are similar posts with similar tags, and will be hidden otherwise.
+
+You will need to enable the Public Api from Ghost admin. Go to `Settings > Labs` and check the *Public Api* mark to enable it.
+
+![enable-public-api](/images/docs/ghost/shared/enable-public-api.png)
 
 ---
 
