@@ -8,7 +8,7 @@ type: ghost
 * Name: Magaz
 * Description: Magazine and Multipurpose Clean [Ghost](https://ghost.org/) Theme
 * Current Version: 1.1.7
-* Released: 12 September 2016
+* Released: 12 October 2016
 
 ---
 

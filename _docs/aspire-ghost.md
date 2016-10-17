@@ -7,8 +7,8 @@ type: ghost
 
 * Name: Aspire
 * Description: Clean News & Magazine Ghost Theme [Ghost](https://ghost.org/) theme
-* Current Version: 1.2.8
-* Released: 4 August 2016
+* Current Version: 1.2.9
+* Released: 17 October 2016
 
 ---
 
@@ -127,6 +127,10 @@ Customize the widget based on a username or hashtag, then you will get a code fo
 ### RelatedPosts
 
 Related posts will be visible on the single post page when there are similar posts with similar tags, and will be hidden otherwise.
+
+You will need to enable the Public Api from Ghost admin. Go to `Settings > Labs` and check the *Public Api* mark to enable it.
+
+![enable-public-api](/images/docs/ghost/shared/enable-public-api.png)
 
 ---
 
