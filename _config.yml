@@ -28,6 +28,11 @@ include:
 
 gems:
   - jekyll-sitemap
+  - jekyll/tagging
+
+tag_page_dir:        tag
+tag_page_layout:     tag_page
+tag_permalink_style: pretty
 
 sass:
   style: compressed
