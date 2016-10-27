@@ -5,8 +5,6 @@ title: Blog
 
 <div class='o-grid'>
   {% for post in site.posts %}
-    {% unless post.draft %}
-      {% include post-card.html %}
-    {% endunless %}
+    {% include post-card.html %}
   {% endfor %}
 </div>

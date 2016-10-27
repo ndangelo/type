@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Tools I Use to Create Premium WordPress and Ghost Themes
-comments: true
 thumbnail: '/images/posts/tools/tools.png'
 ---
 

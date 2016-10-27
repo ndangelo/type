@@ -6,19 +6,16 @@ title: Themes
 {% assign odd-even = site.themes.size | modulo:2 %}
 {% assign themes = (site.themes | sort: 'date') | reverse %}
 
-<div class='wrapper'>
-  <div class='ref o-grid'>
+<div class='o-grid'>
 
-    {% for theme in themes %}
-      {% include theme-card.liquid %}
-    {% endfor %}
+  {% for theme in themes %}
+    {% include theme-card.liquid %}
+  {% endfor %}
 
-    {% if odd-even == 1 %}
-      <article class='o-grid__col o-grid__col--2-4'>
-        <div class='c-theme-card'>
-        </div>
-      </article>
-    {% endif %}
+  {% if odd-even == 1 %}
+    <div class='o-grid__col o-grid__col--2-4'>
+      <div class='c-theme-card'></div>
+    </div>
+  {% endif %}
 
-  </div>
 </div>

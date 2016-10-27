@@ -6,12 +6,11 @@ layout: default
   <div class='o-grid__col o-grid__col--3-4 o-grid__col--center'>
 
     <div class='c-content'>
-      <header>
-        <h2>{{ page.title }}</h2>
+      <h2>{{ page.title }}</h2>
 
-        <time datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'><small>{{ page.date | date: '%b %-d, %Y' }}</small></time>
-        <hr>
-      </header>
+      <time datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'><small>{{ page.date | date: '%b %-d, %Y' }}</small></time>
+
+      <hr>
 
       {{ content }}
 
@@ -20,13 +19,11 @@ layout: default
       {% endfor %}
     </div>
 
-    {% if page.comments %}
-      <h5 class='c-heading'>
-        <span class='c-heading__title'>Comments</span>
-      </h5>
+    <h5 class='c-heading'>
+      <span class='c-heading__title'>Comments</span>
+    </h5>
 
-      {% include comments.html %}
-    {% endif %}
+    {% include comments.html %}
 
   </div>
 </div>
