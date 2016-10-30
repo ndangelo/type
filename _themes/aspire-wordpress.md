@@ -43,16 +43,16 @@ Aspire is designed to be minimal from the start and every element of the website
 
 ---
 
-![responsive](/images/envato/wordpress/aspire/responsive.png)
+![responsive](/images/themes/wordpress/shared/responsive.png)
 
-![mobile-friendly](/images/envato/wordpress/aspire/mobile-friendly.png)
+![mobile-friendly](/images/themes/wordpress/shared/mobile-friendly.png)
 
-![translation](/images/envato/wordpress/aspire/translation.png)
+![translation](/images/themes/wordpress/shared/translation.png)
 
-![wpml-ready](/images/envato/wordpress/aspire/wpml-ready.jpg)
+![wpml-ready](/images/themes/wordpress/shared/wpml-ready.jpg)
 
-![rtl](/images/envato/wordpress/aspire/rtl.png)
+![rtl](/images/themes/wordpress/shared/rtl.png)
 
-![arabic-translation](/images/envato/wordpress/aspire/arabic-translation.png)
+![arabic-translation](/images/themes/wordpress/shared/arabic-translation.png)
 
-[![support-docs](/images/envato/wordpress/east/support-docs.png)](docs/aspire-wordpress.html)
+[![support-docs](/images/themes/wordpress/shared/support-docs.png)]({{ page.docs }})

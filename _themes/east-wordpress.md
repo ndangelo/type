@@ -40,14 +40,14 @@ Every element is designed with simplicity and details in mind, and well-tailored
 
 ---
 
-![responsive](/images/envato/wordpress/east/responsive.png)
+![responsive](/images/themes/wordpress/shared/responsive.png)
 
-![mobile-friendly](/images/envato/wordpress/east/mobile-friendly.png)
+![mobile-friendly](//images/themes/wordpress/shared/mobile-friendly.png)
 
-![translation](/images/envato/wordpress/east/translation.png)
+![translation](/images/themes/wordpress/shared/translation.png)
 
-![rtl](/images/envato/wordpress/east/rtl.png)
+![rtl](/images/themes/wordpress/shared/rtl.png)
 
-![arabic-translation](/images/envato/wordpress/east/arabic-translation.png)
+![arabic-translation](/images/themes/wordpress/shared/arabic-translation.png)
 
-[![support-docs](/images/envato/wordpress/east/support-docs.png)](/docs/east-wordpress.html)
+[![support-docs](/images/themes/wordpress/shared/support-docs.png)]({{ page.docs }})
