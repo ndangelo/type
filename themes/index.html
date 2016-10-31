@@ -7,6 +7,19 @@ title: Themes
 {% assign themes = (site.themes | sort: 'date') | reverse %}
 
 <div class='o-grid'>
+  <div class='o-grid__col'>
+    <div class='c-filter'>
+      <label class='c-filter__btn c-btn c-btn--secondary c-btn--small' for='all'>All</label>
+      <label class='c-filter__btn c-btn c-btn--secondary c-btn--small' for='ghost'>Ghost</label>
+      <label class='c-filter__btn c-btn c-btn--secondary c-btn--small' for='wordpress'>WordPress</label>
+    </div>
+  </div>
+</div>
+
+<div class='o-grid'>
+  <input type='radio' class='c-filter__input c-filter__input--all' id='all' name='theme'>
+  <input type='radio' class='c-filter__input c-filter__input--ghost' id='ghost' name='theme'>
+  <input type='radio' class='c-filter__input c-filter__input--wordpress' id='wordpress' name='theme'>
 
   {% for theme in themes %}
     {% include theme-card.liquid %}
@@ -17,5 +30,4 @@ title: Themes
       <div class='c-theme-card'></div>
     </div>
   {% endif %}
-
 </div>

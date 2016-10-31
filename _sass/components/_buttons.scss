@@ -46,5 +46,11 @@ $btn-secondary-bg-hover: $bg-color-gray;
     }
   }
 
-  &--full { width: 100%; }
+  &--full {
+    width: 100%;
+  }
+
+  &--small {
+    padding: quarter($base-spacing-unit) $base-spacing-unit;
+  }
 }
