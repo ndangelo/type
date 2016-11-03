@@ -87,8 +87,8 @@ The footer section has four registered widget sections you can drag widgets in.
 
 Real theme supports two custom menus:
 
-* Primary Menu
-* Social Menu
+* [Primary Menu](#primary-menu)
+* [Social Menu](#social-menu)
 
 ![menus](/images/docs/wordpress/real/menus.png)
 
@@ -96,7 +96,7 @@ You can create and manage these menus by navigating to Appearance > Menus.
 
 #### Primary Menu
 
-To create the header main navigation, create a WordPress normal menu. The [WordPress Menu User Guide](https://codex.wordpress.org/WordPress_Menu_User_Guide) will describe how to create a menu, add menu items, create multi-level menu items, and more. Then you can assign the menus you just created to the Primary Menu location in the Menu Settings
+To create the header main navigation, create a WordPress normal menu. The [WordPress Menu User Guide](https://codex.wordpress.org/WordPress_Menu_User_Guide) will describe how to create a menu, add menu items, create multi-level menu items, and more. Then you can assign the menus you just created to the Primary Menu location in the Menu Settings.
 
 ![menu-settings](/images/docs/wordpress/real/menu-settings.png)
 
