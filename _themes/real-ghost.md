@@ -4,7 +4,7 @@ name:         Real – Ghost
 title:        Real
 date:         2016-5-23
 thumbnail:    images/themes/ghost/real/preview.png
-price:        34
+price:        39
 categories:   themes
 type:         ghost
 body-class:   is-theme

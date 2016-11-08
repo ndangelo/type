@@ -4,7 +4,7 @@ name:         Aspire - WordPress
 title:        Aspire
 date:         2016-3-23
 thumbnail:    images/themes/wordpress/aspire/preview.png
-price:        59
+price:        60
 categories:   themes
 type:         wordpress
 body-class:   is-theme
