@@ -11,7 +11,7 @@ body-class:   is-theme
 demo:         http://aspire.aspirethemes.com/
 docs:         /docs/aspire-ghost
 purchase:     http://themeforest.net/item/aspire-news-magazine-clean-ghost-theme/14230254
-description:  Aspire is a modern, clean, and content and image focus theme for Ghost.
+description:  Incredibly Fast and Powerful Ghost Theme
 features:
   - Clean Design
   - Responsive Layout
@@ -33,8 +33,10 @@ features:
   - Free Customer Support
 ---
 
-Aspire is created for those who want to create a beautiful online magazine or news website. Aspire it is 100% responsive, that means it fits with all different kind of devices in different sizes. Compatible with Ghost version 0.9.0
+Aspire is created for those who want to create a beautiful online magazine or news website.
 
-<div class="darker-bg-image-wrap" markdown='1'>
-  ![aspire-ghost-full-preview](/images/themes/ghost/aspire/full-preview.png)
-</div>
+Aspire it is 100% responsive, that means it fits with all different kind of devices in different sizes.
+
+[![aspire-ghost-performance](/images/themes/shared/google-performance-test.png)](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Faspire.aspirethemes.com%2F&tab=desktop)
+
+![aspire-ghost-full-preview](/images/themes/ghost/aspire/full-preview.png)

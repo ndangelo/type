@@ -24,6 +24,4 @@ features:
 
 TypeWriter is a minimalism Ghost theme. TypeWriter focuses on typography, white space, and gives your readers a better reading experience.
 
-<div class="darker-bg-image-wrap" markdown='1'>
-  ![typewriter-ghost-full-preview](/images/themes/ghost/typewriter/full-preview.png)
-</div>
+![typewriter-ghost-full-preview](/images/themes/ghost/typewriter/full-preview.png)

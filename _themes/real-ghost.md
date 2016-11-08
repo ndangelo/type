@@ -29,7 +29,7 @@ features:
 
 Real is created for those who want to create a beautiful online magazine, news, or multipurpose clean blog.
 
-Real it is 100% responsive, that means it fits with all different kind of devices in different sizes. Real is compatible with Ghost version 0.9.0
+Real it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
 <div class="darker-bg-image-wrap" markdown='1'>
   ![real-ghost-full-preview](/images/themes/ghost/real/full-preview.png)
