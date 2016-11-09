@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: East
 * Description: Blog and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.5
-* Released: 4 August 2016
+* Current Version: 1.1.6
+* Released: 9 November 2016
 
 ---
 
@@ -113,6 +113,7 @@ You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/
 
 To integrate Google Analytics, I would recommend reading [How do I add Google Analytics to my blog?](http://support.ghost.org/add-google-analytics-blog/) by Ghost.
 
+---
 
 ### Social Media Links
 
