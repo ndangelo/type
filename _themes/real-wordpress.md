@@ -34,9 +34,7 @@ Real is a modern, clean, and minimal WordPress theme for your next blog. Real is
 
 Every element is designed with simplicity and details in mind, and well-tailored to match your own taste elegance. Real it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
-<div class="darker-bg-image-wrap" markdown='1'>
-  ![real-wordpress-full-preview](/images/themes/wordpress/real/full-preview.png)
-</div>
+![real-wordpress-full-preview](/images/themes/wordpress/real/full-preview.png)
 
 ---
 

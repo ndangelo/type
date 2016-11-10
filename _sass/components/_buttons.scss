@@ -10,7 +10,6 @@ $btn-secondary-bg-hover: $bg-color-gray;
 
 .c-btn {
   display: inline-block;
-
   padding: half($base-spacing-unit) double($base-spacing-unit);
 
   cursor: pointer;
@@ -23,6 +22,7 @@ $btn-secondary-bg-hover: $bg-color-gray;
   border-radius: 0;
 
   font-size: $font-size-medium;
+  font-family: $font-sans-serif;
 
   @include attention() {
     text-decoration: none;

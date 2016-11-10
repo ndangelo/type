@@ -34,9 +34,7 @@ East is created for those who want to create a minimal and beautiful online cont
 
 Every element is designed with simplicity and details in mind, and well-tailored to match your own taste elegance. East it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
-<div class="darker-bg-image-wrap" markdown='1'>
-  ![east-wordpress-full-preview](/images/themes/wordpress/east/full-preview.png)
-</div>
+![east-wordpress-full-preview](/images/themes/wordpress/east/full-preview.png)
 
 ---
 

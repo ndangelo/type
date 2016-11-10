@@ -118,6 +118,6 @@ I will write a post about how I built the website and how the structure is going
 
 I started to use [Namecheap](https://www.namecheap.com/) recently and I like their services and the web dashboard interface is very understandable and easy to use. They also provides a great online customer support, and I recommend them if you are looking to buy a new domain.
 
-*****
+---
 
 I hope you find the post useful exploring a new tools and tips that I use on day to day work, that will help you start your next theme shop or even use them in your daily development workflow. Let me know if there any tools you can recommend if you are a theme author or a developer, also if you have any questions, I would be happy to discuss them with you.

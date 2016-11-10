@@ -32,6 +32,4 @@ Magaz is created for those who want to create a minimal and beautiful online mag
 
 Magaz is designed to be minimal from the start and every element of the website is well-tailored to focus on simplicity and the content and to remove all kind of distractions. Magaz it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
-<div class="darker-bg-image-wrap" markdown='1'>
-  ![aspire-wordpress-full-preview](/images/themes/wordpress/magaz/full-preview.png)
-</div>
+![aspire-wordpress-full-preview](/images/themes/wordpress/magaz/full-preview.png)

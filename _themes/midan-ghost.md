@@ -32,6 +32,4 @@ Midan is created for those who want to create a simple and beautiful online blog
 
 Midan it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
-<div class="darker-bg-image-wrap" markdown='1'>
-  ![midan-ghost-full-preview](/images/themes/ghost/midan/full-preview.png)
-</div>
+![midan-ghost-full-preview](/images/themes/ghost/midan/full-preview.png)

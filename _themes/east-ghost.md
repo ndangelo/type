@@ -32,6 +32,6 @@ East is a clean, minimal, modern theme that focus on content for Ghost blogging 
 
 East it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
-<div class="darker-bg-image-wrap" markdown='1'>
-  ![east-ghost-full-preview](/images/themes/ghost/east/full-preview.png)
-</div>
+[![east-ghost-performance](/images/themes/shared/google-performance-test.png)](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Feast.aspirethemes.com%2F&tab=desktop)
+
+![east-ghost-full-preview](/images/themes/ghost/east/full-preview.png)

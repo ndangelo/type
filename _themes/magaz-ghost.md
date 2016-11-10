@@ -33,6 +33,4 @@ Magaz is created for those who want to create a beautiful online magazine, news,
 
 Magaz it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
-<div class="darker-bg-image-wrap" markdown='1'>
-  ![magaz-ghost-full-preview](/images/themes/ghost/magaz/full-preview.png)
-</div>
+![magaz-ghost-full-preview](/images/themes/ghost/magaz/full-preview.png)
