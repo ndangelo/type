@@ -22,15 +22,23 @@
     display: none;
 
     &--all:checked ~ .ghost,
+    &--all:checked ~ .jekyll,
     &--all:checked ~ .wordpress {
       display: block;
     }
 
+    &--ghost:checked ~ .jekyll,
     &--ghost:checked ~ .wordpress {
       display: none;
     }
 
-    &--wordpress:checked ~ .ghost {
+    &--jekyll:checked ~ .ghost,
+    &--jekyll:checked ~ .wordpress {
+      display: none;
+    }
+
+    &--wordpress:checked ~ .ghost,
+    &--wordpress:checked ~ .jekyll {
       display: none;
     }
   }

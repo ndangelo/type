@@ -11,6 +11,7 @@ title: Themes
     <div class='c-filter'>
       <label class='c-filter__btn c-btn c-btn--secondary c-btn--small' for='all'>All</label>
       <label class='c-filter__btn c-btn c-btn--secondary c-btn--small' for='ghost'>Ghost</label>
+      <label class='c-filter__btn c-btn c-btn--secondary c-btn--small' for='jekyll'>Jekyll</label>
       <label class='c-filter__btn c-btn c-btn--secondary c-btn--small' for='wordpress'>WordPress</label>
     </div>
   </div>
@@ -19,6 +20,7 @@ title: Themes
 <div class='o-grid'>
   <input type='radio' class='c-filter__input c-filter__input--all' id='all' name='theme'>
   <input type='radio' class='c-filter__input c-filter__input--ghost' id='ghost' name='theme'>
+  <input type='radio' class='c-filter__input c-filter__input--jekyll' id='jekyll' name='theme'>
   <input type='radio' class='c-filter__input c-filter__input--wordpress' id='wordpress' name='theme'>
 
   {% for theme in themes %}
