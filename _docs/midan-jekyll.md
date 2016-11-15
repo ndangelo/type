@@ -7,8 +7,8 @@ platform: Jekyll
 
 * Name: Midan
 * Description: Clean and Fast Jekyll Blog Theme
-* Current Version: 1.1.1
-* Released: 25 September 2016
+* Current Version: 1.1.2
+* Released: 15 Nov 2016
 
 ---
 
@@ -41,6 +41,8 @@ twitter_username: aspirethemes
 markdown:  kramdown
 permalink: pretty
 paginate:  12
+sass:
+  style: compressed
 
 gems:
   - jekyll-paginate
@@ -70,8 +72,8 @@ defaults:
 authors:
   ahmad:
     name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes.
-    gravatar:         https://s.gravatar.com/avatar/f83
+    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
+    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
     email:            info@aspirethemes.com
     website:          http://aspirethemes.com
     github_username:  ahmadajmi
