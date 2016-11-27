@@ -10,7 +10,7 @@ type:         wordpress
 body-class:   is-theme
 demo:         http://real-wordpress.aspirethemes.com/
 docs:         /docs/real-wordpress
-purchase:     https://themeforest.net/item/real-blog-and-magazine-clean-wordpress-theme/18125810
+purchase:     https://themeforest.net/item/real-blog-and-magazine-clean-wordpress-theme/18125810?ref=aspirethemes
 description:  Real is a modern, clean, and minimal WordPress theme for your next blog.
 features:
   - Minimal Design

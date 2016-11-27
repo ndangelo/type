@@ -10,7 +10,7 @@ type:         ghost
 body-class:   is-theme
 demo:         http://aspire.aspirethemes.com/
 docs:         /docs/aspire-ghost
-purchase:     http://themeforest.net/item/aspire-news-magazine-clean-ghost-theme/14230254
+purchase:     http://themeforest.net/item/aspire-news-magazine-clean-ghost-theme/14230254?ref=aspirethemes
 description:  Incredibly Fast and Powerful Ghost Theme
 features:
   - Clean Design

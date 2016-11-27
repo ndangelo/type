@@ -10,7 +10,7 @@ type:         jekyll
 body-class:   is-theme
 demo:         https://east-jekyll.aerobatic.io/
 docs:         /docs/east-jekyll
-purchase:     https://themeforest.net/item/east-minimal-and-clean-jekyll-blog-theme/16252756
+purchase:     https://themeforest.net/item/east-minimal-and-clean-jekyll-blog-theme/16252756?ref=aspirethemes
 description:  East is a clean, minimal, modern theme that focus on content for Jekyll.
 features:
   - Clean Design
