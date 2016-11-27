@@ -28,7 +28,14 @@ You have purchased a theme and need to do some customization on it? I will be ha
 
 ---
 
-<a href='mailto:aspirethemes@gmail.com' class='c-btn c-btn--primary'>CONTACT NOW</a>
+<div class='o-grid'>
+  <div class='o-grid__col o-grid__col--2-4'>
+    <a href='{{ site.mailto }}' class='c-btn c-btn--primary c-btn--full'>Contact Me</a>
+  </div>
+  <div class='o-grid__col o-grid__col--2-4'>
+    <a href='{{ site.upwork }}' class='c-btn c-btn--secondary c-btn--full'>Hire Me on Upwork</a>
+  </div>
+</div>
 
 ---
 
