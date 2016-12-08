@@ -225,4 +225,4 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 If you have any questions, I'd be happy to answer them.
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
-* _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)es)
+* _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
