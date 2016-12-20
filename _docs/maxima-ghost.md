@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: Maxima
 * Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.0.0
-* Released: 5 December 2016
+* Current Version: 1.0.1
+* Released: 20 December 2016
 
 ---
 
