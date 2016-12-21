@@ -7,8 +7,8 @@ platform: Jekyll
 
 * Name: Maxima
 * Description: Minimal Blog & Magazine Jekyll Theme
-* Current Version: 1.0.0
-* Released: 15 Dec 2016
+* Current Version: 1.0.1
+* Released: 21 Dec 2016
 
 ---
 
@@ -116,7 +116,7 @@ The `featured` key is to mark the post as a featured post, this will add a simpl
 
 ![featured-post](/images/docs/jekyll/maxima/featured-post.png)
 
-You can add your images under **/images/** directory.
+To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
 
 To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
 
@@ -134,8 +134,11 @@ The following is the `about.md` file that you can find as an example included in
 ---
 layout: page
 title: About
+image: '/images/pages/about.jpeg'
 ---
 {% endhighlight %}
+
+Things you can change are: `title` and `image` path.
 
 ---
 
