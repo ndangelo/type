@@ -12,9 +12,7 @@
 
 .c-heading {
   position: relative;
-
   margin: double($base-spacing-unit) 0;
-
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -28,18 +26,14 @@
     top: 50%;
     right: 0;
     left: 0;
-
     content: '';
-
     border-bottom: 1px solid $color-border;
   }
 
   &__title {
     position: relative;
     z-index: 1;
-
     padding: 0 half($base-spacing-unit);
-
     background-color: $color-white;
   }
 }

@@ -18,4 +18,5 @@ pre {
   word-wrap: break-word;
 }
 
-p code { padding: half(quarter($line-height-medium)) quarter($line-height-medium); }
+li code,
+p code { padding: quarter($base-spacing-unit) half($base-spacing-unit); }

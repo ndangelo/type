@@ -16,7 +16,6 @@ platform: WordPress
 * [Theme Customizer](#theme-customizer)
 * [Widgets](#widgets)
 * [Menus](#menus)
-* [Category page cover image](#category-page-cover-image)
 * [Translation](#translation)
 * [Theme Development](#theme-development)
 * [Support](#Support)

@@ -8,16 +8,14 @@
   background-color: $bg-color-gray;
 
   @include mq($from: desktop) {
-    padding: quadruple($base-spacing-unit) 0;
+    padding: quadruple($base-spacing-unit) 0 $base-spacing-unit 0;
   }
 
   &__heading {
     margin-bottom: half($base-spacing-unit);
 
     text-transform: uppercase;
-
     font-size: $font-size-medium;
-    font-weight: $font-weight-light;
   }
 
   &__copy {

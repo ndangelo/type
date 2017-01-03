@@ -6,7 +6,7 @@ layout: default
   <div class='o-grid__col o-grid__col--3-4 o-grid__col--center'>
 
     <div class='c-content'>
-      <h2>{{ page.title }}</h2>
+      <h2 class='c-content__title'>{{ page.title }}</h2>
 
       <time datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'><small>{{ page.date | date: '%b %-d, %Y' }}</small></time>
 
@@ -17,13 +17,13 @@ layout: default
       {% for tag in page.tags %}
         <a href="/tag/{{ tag }}">{{ tag }}</a>
       {% endfor %}
+
+      <h5 class='c-heading'>
+        <span class='c-heading__title'>Comments</span>
+      </h5>
+
+      {% include comments.html %}
+
     </div>
-
-    <h5 class='c-heading'>
-      <span class='c-heading__title'>Comments</span>
-    </h5>
-
-    {% include comments.html %}
-
   </div>
 </div>

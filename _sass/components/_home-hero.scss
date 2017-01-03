@@ -20,7 +20,7 @@
     margin-bottom: 0;
 
     font-family: $font-serif;
-    font-size: $font-size-large;
+    font-size: $font-size-base;
     font-weight: $font-weight-light;
 
     @include mq($from: tablet) {
