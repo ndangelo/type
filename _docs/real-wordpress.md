@@ -29,7 +29,7 @@ Login to your WordPress website, go to **Appearance/Themes**, click **Add New**,
 
 ![Upload Theme](/images/docs/wordpress/real/upload-theme.png)
 
-Upload **aspire.zip** file (it’s in the zip file you downloaded), then click **Install Now**
+Upload **real.zip** file (it’s in the zip file you downloaded), then click **Install Now**
 
 ![Choose Theme](/images/docs/wordpress/real/choose-theme-file.png)
 
