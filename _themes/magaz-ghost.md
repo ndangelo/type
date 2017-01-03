@@ -4,7 +4,7 @@ name:         Magaz - Ghost
 title:        Magaz
 date:         2016-2-23
 thumbnail:    images/themes/ghost/magaz/preview.png
-price:        44
+price:        49
 categories:   themes
 type:         ghost
 body-class:   is-theme
