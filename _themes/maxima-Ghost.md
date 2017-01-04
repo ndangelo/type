@@ -4,7 +4,7 @@ name:         Maxima – Ghost
 title:        Maxima
 date:         2016-12-5
 thumbnail:    images/themes/ghost/maxima/preview.png
-price:        49
+price:        44
 categories:   themes
 type:         ghost
 body-class:   is-theme
