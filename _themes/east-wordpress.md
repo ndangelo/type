@@ -4,7 +4,7 @@ name:         East - WordPress
 title:        East
 date:         2016-4-28
 thumbnail:    images/themes/wordpress/east/preview.png
-price:        60
+price:        29
 categories:   themes
 type:         wordpress
 body-class:   is-theme

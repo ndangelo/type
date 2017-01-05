@@ -4,7 +4,7 @@ name:         Real - WordPress
 title:        Real
 date:         2016-10-28
 thumbnail:    images/themes/wordpress/real/preview.png
-price:        60
+price:        29
 categories:   themes
 type:         wordpress
 body-class:   is-theme

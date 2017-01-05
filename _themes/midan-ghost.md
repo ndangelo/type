@@ -4,7 +4,7 @@ name:         Midan – Ghost
 title:        Midan
 date:         2016-5-23
 thumbnail:    images/themes/ghost/midan/preview.png
-price:        44
+price:        19
 categories:   themes
 type:         ghost
 body-class:   is-theme

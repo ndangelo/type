@@ -4,7 +4,7 @@ name:         East - Ghost
 title:        East
 date:         2016-2-6
 thumbnail:    images/themes/ghost/east/preview.png
-price:        49
+price:        19
 categories:   themes
 type:         ghost
 body-class:   is-theme
