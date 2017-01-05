@@ -7,8 +7,8 @@ platform: Jekyll
 
 * Name: East
 * Description: Minimal and Clean Blog Jekyll Theme
-* Current Version: 1.1.1
-* Released: 25 September 2016
+* Current Version: 1.1.2
+* Released: 5 Jan 2017
 
 ---
 
@@ -26,7 +26,7 @@ platform: Jekyll
 
 ---
 
-## Configurations
+### Configurations
 
 East theme comes with different customizations in the `_config.yml` file:
 
@@ -81,7 +81,7 @@ authors:
 
 ---
 
-## Deployment
+### Deployment
 
 To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
 
@@ -256,7 +256,7 @@ You can find the current favicon (favicon.ico) inside the theme root directory, 
 
 ---
 
-## Support
+### Support
 
 If you have any questions, I’d be happy to answer them.
 

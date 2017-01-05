@@ -25,7 +25,7 @@ platform: WordPress
 
 ---
 
-## Theme Activation & Import Demo Data (Video)
+### Theme Activation & Import Demo Data (Video)
 
 This is a queck video showing how to install the theme and import the demo content. For installation steps, you can check the process below.
 
@@ -61,7 +61,7 @@ Log into your WordPress Dashboard → Appearance → Themes
 
 ---
 
-## Import Demo Data
+### Import Demo Data
 
 The theme comes with the demo content that you can import with one click button.
 
@@ -73,7 +73,7 @@ Second, go to `Appearance > Import Demo Data` and only click the `Import Demo Da
 
 ---
 
-## Theme Customizer
+### Theme Customizer
 
 WordPress customizer is a tool which allows you to edit all the style options from a theme and visualize changes live, as you edit them. To open it go to Appearance > Customize.
 
@@ -85,7 +85,7 @@ Maxima has an option to edit the footer copy right options, from the customizer 
 
 ---
 
-## Widgets
+### Widgets
 
 Maxima theme includes multiple widgets areas.
 
@@ -97,7 +97,7 @@ The footer section has four registered widget sections and the Sidebar (Off canv
 
 ---
 
-## Menus
+### Menus
 
 Maxima theme comes with a custom social media icons menu, you can create and manage by navigating to `Appearance > Menus`.
 
@@ -164,7 +164,7 @@ Here are simple steps:
 
 ---
 
-## Theme Development
+### Theme Development
 
 If you are a developer and need to do customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
 
@@ -184,7 +184,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ---
 
-## Support
+### Support
 
 If you have any questions, I'd be happy to answer them.
 

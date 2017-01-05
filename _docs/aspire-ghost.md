@@ -257,7 +257,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ---
 
-## Support
+### Support
 
 If you have any questions, I'd be happy to answer them. Please don't hesitate to contact at:
 

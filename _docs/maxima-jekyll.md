@@ -7,8 +7,8 @@ platform: Jekyll
 
 * Name: Maxima
 * Description: Minimal Blog & Magazine Jekyll Theme
-* Current Version: 1.0.1
-* Released: 21 Dec 2016
+* Current Version: 1.0.2
+* Released: 5 Jan 2017
 
 ---
 
@@ -25,9 +25,9 @@ platform: Jekyll
 
 ---
 
-## Configurations
+### Configurations
 
-Midan theme comes with different customizations in the `_config.yml` file:
+Maxima theme comes with different customizations in the `_config.yml` file:
 
 {% highlight shell %}
 title:              Maxima
@@ -83,7 +83,7 @@ authors:
 
 ---
 
-## Deployment
+### Deployment
 
 To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
 
@@ -244,7 +244,7 @@ You can find the current favicon (favicon.ico) inside the theme root directory, 
 
 ---
 
-## Support
+### Support
 
 If you have any questions, I’d be happy to answer them.
 

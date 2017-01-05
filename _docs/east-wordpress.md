@@ -22,7 +22,7 @@ platform: WordPress
 
 ---
 
-## Theme Activation & Installation
+### Theme Activation & Installation
 
 Login to your WordPress website, go to **Appearance/Themes**, click **Add New**, then click **Upload Theme**.
 
@@ -68,7 +68,7 @@ From the customizer window, choose **Theme Options > Footer** to easily update t
 
 ---
 
-## Widgets
+### Widgets
 
 East theme includes multiple widgets areas.
 
@@ -80,7 +80,7 @@ The footer section has four registered widget sections you can drag widgets in.
 
 ![footer-widgets](/images/docs/wordpress/east/footer-widgets.png)
 
-## Menus
+### Menus
 
 East theme supports two custom menus:
 
@@ -162,7 +162,7 @@ The theme contains the main translation file `east.pot` inside the languages dir
 
 ---
 
-## Theme Development
+### Theme Development
 
 If you are a developer and need to do customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
 
@@ -182,7 +182,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ---
 
-## Support
+### Support
 
 If you have any questions, I'd be happy to answer them.
 

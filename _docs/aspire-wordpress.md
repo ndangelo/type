@@ -22,7 +22,7 @@ platform: WordPress
 
 ---
 
-## Theme Activation & Installation
+### Theme Activation & Installation
 
 Login to your WordPress website, go to **Appearance/Themes**, click **Add New**, then click **Upload Theme**.
 
@@ -46,7 +46,7 @@ Then click **Activate** to activate the Aspire theme.
 
 ---
 
-## Theme Customizer
+### Theme Customizer
 
 WordPress customizer is a tool which allows you to edit all the style options from a theme and visualize changes live, as you edit them. To open it go to Appearance > Customize.
 
@@ -68,7 +68,7 @@ From the customizer window, choose **Theme Options > Footer** to easily update t
 
 ---
 
-## Widgets
+### Widgets
 
 Aspire theme includes multiple widgets areas.
 
@@ -118,7 +118,7 @@ The advertise widget enables you to add a sidebar add widget, simply provide the
 
 ---
 
-## Menus
+### Menus
 
 Aspire theme supports two custom menus:
 
@@ -200,7 +200,7 @@ The theme contains the main translation file `aspire.pot` inside the languages d
 
 ---
 
-## Theme Development
+### Theme Development
 
 If you are a developer and need to do customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
 
@@ -220,7 +220,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ---
 
-## Support
+### Support
 
 If you have any questions, I'd be happy to answer them.
 
