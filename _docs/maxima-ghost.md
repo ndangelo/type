@@ -7,14 +7,15 @@ platform: Ghost
 
 * Name: Maxima
 * Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.0.1
-* Released: 20 December 2016
+* Current Version: 1.0.2
+* Released: 9 Jan 2016
 
 ---
 
 * [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
 * [Upload to Ghost.io](#upload-to-ghostio)
 * [Static Pages](#static-pages)
+* [Tags Page](#tags-page)
 * [Navigation](#navigation)
 * [Disqus Comments](#disqus-comments)
 * [Subscribe Form](#subscribe-form)
@@ -72,6 +73,20 @@ To include a static page on your navigation menu, first, type the name of the pa
 ![label field](/images/docs/ghost/shared/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
+
+---
+
+### Tags Page
+
+To enable the tags page:
+
+- Enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
+- Create a new post and call it `Tags` for example, and make sure that the POST URl is `tags`.
+- Click the `Turn this post into a static page` checkbox.
+- Publish the page.
+- To add the page to the navigation, please check the [Navigation](#navigation) section above.
+
+![static page](/images/docs/ghost/maxima/tags-page.png)
 
 ---
 
