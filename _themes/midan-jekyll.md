@@ -4,7 +4,7 @@ name:         Midan - Jekyll
 title:        Midan
 date:         2016-9-25
 thumbnail:    images/themes/jekyll/midan/preview.png
-price:        19
+price:        29
 categories:   themes
 type:         jekyll
 body-class:   is-theme
