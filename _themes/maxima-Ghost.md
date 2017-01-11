@@ -11,7 +11,7 @@ body-class:   is-theme
 demo:         http://maxima.aspirethemes.com/
 docs:         /docs/maxima-ghost
 purchase:     https://themeforest.net/item/maxima-minimal-blog-magazine-ghost-theme/19143684
-description:  Maxima is a modern, clean, and minimal Ghost theme for a news or a magazine website
+description:  The Simplest, Fastest Ghost Theme Ever
 features:
   - Clean Design
   - Responsive Layout
@@ -27,8 +27,6 @@ features:
   - Free Customer Support
 ---
 
-Maxima is created for those who want to create a beautiful online magazine, news, or multipurpose clean blog.
-
-Maxima it is 100% responsive, that means it fits with all different kind of devices in different sizes.
+You choose Ghost for its simplicity, that's why Maxima is created to complete the writing experience with a responsive,  minimal design, and unusual layout to maximize the beauty of Ghost and take it the next level, and you will truly love it.
 
 ![maxima-ghost-full-preview](/images/themes/ghost/maxima/full-preview.png)
