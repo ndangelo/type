@@ -8,7 +8,7 @@ platform: WordPress
 * Name: **Maxima**
 * Description: Minimal Blog & Magazine WordPress Theme
 * Current Version: 1.0.0
-* Released: 2 jan 2016
+* Released: 13 Jan 2016
 
 ---
 
