@@ -15,8 +15,8 @@ platform: Ghost
 * [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
 * [Upload to Ghost.io](#upload-to-ghostio)
 * [Static Pages](#static-pages)
-* [Tags Page](#tags-page)
 * [Navigation](#navigation)
+* [Tags Page](#tags-page)
 * [Disqus Comments](#disqus-comments)
 * [Subscribe Form](#subscribe-form)
 * [Google Analytics](#google-analytics)
@@ -86,7 +86,7 @@ To enable the tags page:
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
 
-![static page](/images/docs/ghost/maxima/tags-page.png)
+![static page](/images/docs/ghost/shared/tags-page.png)
 
 ---
 
