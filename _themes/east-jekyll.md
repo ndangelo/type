@@ -4,7 +4,7 @@ name:         East - Jekyll
 title:        East
 date:         2016-8-25
 thumbnail:    images/themes/jekyll/east/preview.png
-price:        19
+price:        29
 categories:   themes
 type:         jekyll
 body-class:   is-theme
